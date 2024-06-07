@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "Cute_Plants",
+    "name": "C.P.A",
+    "authors": [ "njyana"],
+    "description": "植物の種を使用して下僕を生成します。",
+    "category": "SUPPLEMENTAL",
+    "dependencies": [ "dda" ]
+  }
+]

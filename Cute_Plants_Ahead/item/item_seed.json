@@ -1,0 +1,126 @@
+[
+	{
+		"id":"Cute_P_seed_base",
+		"type":"GENERIC",
+		"name":{"str":"きらめく種"},
+		"description":"きらめく種、今にも発芽しそうです",
+		"weight":"1 g",
+		"volume":"1 ml",
+		"material":[ "veggy" ],
+		"symbol":"s",
+		"color":"white",
+		"flags":[ "TRADER_AVOID" ],
+		"to_hit":-1
+	}
+,
+	{
+		"id":"cute_seed_00",
+		"type":"TOOL",
+		"copy-from":"Cute_P_seed_base",
+		"name":{"str":"きらめく種"},
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_REPAIR" ],
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_Cute_P_Baby_00", "difficulty": 0, "moves": 200,"friendly_msg": "種子が急激に成長しました。","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"cute_seed_01",
+		"type":"TOOL",
+		"copy-from":"Cute_P_seed_base",
+		"name":{"str":"きらめく種"},
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_REPAIR" ],
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_Cute_P_Baby_01", "difficulty": 0, "moves": 200,"friendly_msg": "種子が急激に成長しました。","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"cute_seed_02",
+		"type":"TOOL",
+		"copy-from":"Cute_P_seed_base",
+		"name":{"str":"きらめく種"},
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_REPAIR" ],
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_Cute_P_Baby_02", "difficulty": 0, "moves": 200,"friendly_msg": "種子が急激に成長しました。","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"cute_seed_03",
+		"type":"TOOL",
+		"copy-from":"Cute_P_seed_base",
+		"name":{"str":"きらめく種"},
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_REPAIR" ],
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_Cute_P_Baby_03", "difficulty": 0, "moves": 200,"friendly_msg": "種子が急激に成長しました。","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"cute_seed_04",
+		"type":"TOOL",
+		"copy-from":"Cute_P_seed_base",
+		"name":{"str":"きらめく種"},
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_REPAIR" ],
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_Cute_P_Baby_04", "difficulty": 0, "moves": 200,"friendly_msg": "種子が急激に成長しました。","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+		{
+		"id":"cute_seed_05",
+		"type":"TOOL",
+		"copy-from":"Cute_P_seed_base",
+		"name":{"str":"きらめく種"},
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_REPAIR" ],
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_Cute_P_Baby_05", "difficulty": 0, "moves": 200,"friendly_msg": "種子が急激に成長しました。","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+		{
+		"id":"cute_seed_06",
+		"type":"TOOL",
+		"copy-from":"Cute_P_seed_base",
+		"name":{"str":"きらめく種"},
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_REPAIR" ],
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_Cute_P_Baby_06", "difficulty": 0, "moves": 200,"friendly_msg": "種子が急激に成長しました。","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+		{
+		"id":"cute_seed_07",
+		"type":"TOOL",
+		"copy-from":"Cute_P_seed_base",
+		"name":{"str":"きらめく種"},
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_REPAIR" ],
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_Cute_P_Baby_07", "difficulty": 0, "moves": 200,"friendly_msg": "種子が急激に成長しました。","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+		{
+		"id":"cute_seed_08",
+		"type":"TOOL",
+		"copy-from":"Cute_P_seed_base",
+		"name":{"str":"きらめく種"},
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_REPAIR" ],
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_Cute_P_Baby_08", "difficulty": 0, "moves": 200,"friendly_msg": "種子が急激に成長しました。","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+		{
+		"id":"cute_seed_09",
+		"type":"TOOL",
+		"copy-from":"Cute_P_seed_base",
+		"name":{"str":"きらめく種"},
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_REPAIR" ],
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_Cute_P_Baby_09", "difficulty": 0, "moves": 200,"friendly_msg": "種子が急激に成長しました。","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+		{
+		"id":"cute_seed_silphium",
+		"type":"TOOL",
+		"copy-from":"Cute_P_seed_base",
+		"name":{"str":"どよめく種"},
+		"description":"どよめく種、今にも発芽しそうです",
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_REPAIR" ],
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_Cute_P_silphium_00", "difficulty": 0, "moves": 200,"friendly_msg": "種子が急激に成長しました。","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+]

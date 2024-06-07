@@ -1,0 +1,15 @@
+[
+
+	{
+		"id":"mood_cpa",
+		"type":"effect_type",
+		"name":[ "マッサージ(CPA)" ],
+		"desc":[ "執拗なマッサージのお陰でいい気分です。" ],
+		"apply_message":"血液の流れを促進させるんですよねぇ…ふふ………",
+		"remove_message":"マッサージの効果が消えました",
+		"rating":"good",
+		"max_duration":"20 h",
+		"base_mods":{ "bash_mod": [ 0.3 ],"stamina_amount": [10] },
+		"show_in_info":true
+	}
+]

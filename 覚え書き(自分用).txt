@@ -1,0 +1,62 @@
+　mod復旧に時間が空いたとき用
+
+ステータス系統は記述の変化がされやすく更新時にエラーが出やすい
+
+きらめく種等の召喚系アイテムとクラフトレシピも要注意
+
+copy-fromを使用する場合なるべく削除の影響を受けづらい対象を選ぶ(ジョーク系や近未来的なものを避ける)
+
+メンテナンス性を維持するため複雑なもの(大規模なspell,会話イベント,変異)は避ける
+
+
+2924 6/4
+
+	-アイテム
+	
+アイテムグループの拡張は"extend"(subtypeが指定されている場合宣言する必要がある)　モンスターグループは追記する必要なし？
+  {
+    "type": "item_group",
+    "id": "grave",
+    "copy-from": "grave",
+    "extend": {
+    "items": [ [ "cute_seed_silphium", 40 ] ]
+     }
+     
+ "collection"のグループに"count"を付与すると複数抽選
+
+       "id": "cpa_rat",
+    "type": "item_group",
+    "subtype": "collection",
+    "items": [{ "prob": 10, "group": "cheese_hard_wrapper_8" },{ "prob": 8, "group": "pizza_cheese_box_small_4"},{ "item": "cheeseburger", "prob": 30 },{ "prob": 100, "group": "cpa_ratdoller"} ]
+	},
+	
+	モンスター相手にアイテムを売る場合"u_consume_item"を使用する
+	
+	{ "u_consume_item": "Cute_P_Ratdoller", "count": 2}
+	
+	液体を容器付きで受け取る場合"container"を宣言、容量が同値の容器を選択するとこぼれる？
+	
+	{ "u_spawn_item": "tea_sweetened", "container": "bottle_plastic"},
+
+	消費アイテムには"SINGLE_USE"フラグを付与
+	
+	"flags":[ "SINGLE_USE"]
+	
+	-モンスターステータス
+
+	"default_faction":"player",
+	モンスターの攻撃対象は"default_faction"(NPCのものとモンスターは別)で決まっており派閥を"player"にすると友好的になる（モンスターとの会話は友好的な場合のみ）
+
+		"aggression":0,
+		"aggression"は攻撃されると上昇し一定以上で敵対？
+		
+		"morale":0,
+		"morale"攻撃されると減り一定以下で逃走？
+		
+		
+		"anger_triggers":[ "HURT", "FRIEND_ATTACKED", "FRIEND_DIED" ],
+		"anger_triggers":はモンスターの敵対条件　FRIEND系のやつは中立的な群れを作るのに便利
+		
+		HURT 体力一定以下で敵対？
+		FRIEND_ATTACKED 同派閥が攻撃されると敵対？
+		FRIEND_DIED　同派閥が倒さされると敵対？

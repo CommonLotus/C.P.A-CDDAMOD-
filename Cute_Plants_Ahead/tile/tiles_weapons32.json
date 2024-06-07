@@ -1,0 +1,23 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "MSX++DEAD_PEOPLE", "UNDEAD_PEOPLE", "UNDEAD_PEOPLE_BASE", "UltimateCataclysm", "UltimateCataclysmDemo", "Chibi_Ultica" ],
+    "tiles-new": [
+      {
+        "file": "tile/tiles_weapons_32.png",
+        "sprite_width": 32,
+        "sprite_height": 32,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": 0,
+        "tiles": [
+          { "id": "Cute_P_Suit", "fg": 1, "rotates": false },
+          { "id": "Cute_P_Knife", "fg": 2, "rotates": false },
+          { "id": "Cute_P_Throwing_Knife", "fg": 3, "rotates": false },
+          { "id": "overlay_worn_Cute_P_Suit", "fg": 1, "rotates": false },
+          { "id": "overlay_wielded_Cute_P_Knife", "fg": 2, "rotates": false },
+          { "id": "overlay_wielded_Cute_P_Throwing_Knife", "fg": 3, "rotates": false }
+        ]
+      }
+    ]
+  }
+]

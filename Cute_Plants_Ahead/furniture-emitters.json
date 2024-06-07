@@ -1,0 +1,25 @@
+[
+ {
+    "type": "furniture",
+    "id": "tree_cpa_00",
+    "name": "爽やかな木",
+    "description": "この奇妙な木は周囲の熱を取り込み続けているようです、冬場はあまり近づかない方が良いかもしれません。",
+    "copy-from": "f_vent_cold_air2_stream",
+    "symbol": "~",
+    "color": "blue",
+    "emissions": [ "emit_cold_air2_stream" ],
+    "deconstruct": { "items": [ { "item": "Cute_P_Furn_00", "count": 1 } ] }
+   }
+ ,
+   {
+      "type": "furniture",
+      "id": "tree_cpa_01",
+      "name": "せんぷうき",
+      "description": "この奇妙な木は周囲の熱を取り込み続けているようです、冬場はあまり近づかない方が良いかもしれません。",
+      "copy-from": "f_vent_cold_air2_stream",
+      "symbol": "~",
+      "color": "blue",
+      "emissions": [ "emit_cold_air2_stream" ],
+      "deconstruct": { "items": [ { "item": "Cute_P_Furn_01", "count": 1 } ] }
+     }
+]

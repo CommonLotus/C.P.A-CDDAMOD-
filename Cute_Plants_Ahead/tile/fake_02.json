@@ -1,0 +1,31 @@
+[
+			  {
+				"type": "mod_tileset","compatibility": [
+				"Custom Tileset",
+				"MshockXottoplus",
+				"MSX++DEAD_PEOPLE",
+				"UNDEAD_PEOPLE",
+				"ChestHole32",
+				"UNDEAD_PEOPLE_BASE",
+				"UltimateCataclysm",
+				"UltimateCataclysmDemo",
+				"Chibi_Ultica",
+				"MshockXottoplus",
+				"Chibi_Ultica",
+				"MshockXottoplus"
+				],
+				"tiles-new": [
+				{
+				"file": "fake_02.png",
+				"tiles": [
+					{ "id": "Fake_Furn_23", "fg":0, "rotates": false },
+					{ "id": "Fake_Furn_24", "fg":1, "rotates": false }
+			],
+				"sprite_width": 96,
+				"sprite_height": 96,
+				"sprite_offset_x": -32,
+				"sprite_offset_y": -64
+					  }
+					]
+				  }
+			]
