@@ -1,0 +1,61 @@
+[
+  {
+    "id": "cpa_ratdoller",
+    "type": "item_group",
+    "items": [{ "item": "Cute_P_Ratdoller", "prob": 30, "count": 2 },{ "item": "Cute_P_Ratdoller", "prob": 80 },{ "item": "Cute_P_Ratdoller", "prob": 30 },{ "item": "Cute_P_Ratdoller", "prob": 10, "count": 3 } ]
+  } ,
+  {
+    "id": "cpa_rat",
+    "type": "item_group",
+    "subtype": "collection",
+    "items": [{ "prob": 10, "item": "cheese_hard" },{ "prob": 8, "item": "pizza_cheese"},{ "item": "cheeseburger", "prob": 5 },{ "prob": 100, "group": "cpa_ratdoller"},
+     { "prob": 5, "item": "Cute_P_Knife" },{ "prob": 5, "item": "Cute_P_Suit" },{ "prob": 10, "item": "Cute_P_Throwing_Knife" },{ "prob": 4, "item": "Cute_P_Picklock" },
+     { "prob": 4, "item": "Cute_P_Ratcontract_01_Ev", "event": "halloween"  },{ "prob": 4, "item": "Cute_P_Ratcontract_02_Ev", "event": "christmas"  }
+     ,{ "prob": 5, "group": "cpa_rat_epicitem"}]
+  },
+
+  {
+    "id": "cpa_rat_epicitem",
+    "type": "item_group",
+    "items": [{ "item": "Cute_P_Crossbow", "prob": 100},{ "item": "Cute_P_Box_Medium_Metal", "prob": 100},{ "item": "Cute_P_Primitive_Shovel", "prob": 100},
+    { "item": "Cute_P_Fishing_Rod_Basic", "prob": 100},{ "item": "Cute_P_Swag_Bag", "prob": 100}]
+  } ,
+  
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "digging_soil_loam_50L",
+    "copy-from": "digging_soil_loam_50L",
+    "extend": {
+       "items": [{ "item": "cute_seed_00", "prob": 2, "count": [ 0, 2 ] },
+      { "item": "cute_seed_01", "prob": 2, "count": [ 0, 2 ] },
+      { "item": "cute_seed_02", "prob": 2, "count": [ 0, 2 ] },
+      { "item": "cute_seed_03", "prob": 2, "count": [ 0, 2 ] },
+      { "item": "cute_seed_04", "prob": 2, "count": [ 0, 2 ] },
+      { "item": "cute_seed_05", "prob": 1, "count": [ 0, 1 ] },
+      { "item": "cute_seed_06", "prob": 2, "count": [ 0, 2 ] },
+      { "item": "cute_seed_07", "prob": 2, "count": [ 0, 2 ] },
+      { "item": "cute_seed_08", "prob": 2, "count": [ 0, 2 ] },
+      { "item": "cute_seed_09", "prob": 1, "count": [ 0, 2 ] }]
+     }
+  },
+
+  {
+    "type": "item_group",
+    "id": "grave",
+    "copy-from": "grave",
+    "extend": {
+    "items": [ [ "cute_seed_silphium", 40 ] ]
+     }
+  },
+  
+  {
+    "type": "item_group",
+    "id": "forest",
+    "copy-from": "forest",
+    "extend": {
+    "items": [ [ "Cute_P_Ratdoller", 3 ] ]
+     }
+  }
+
+ ]

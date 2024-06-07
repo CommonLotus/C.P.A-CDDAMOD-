@@ -1,0 +1,59 @@
+[
+		
+		
+		{
+		"type": "mod_tileset","compatibility": [
+		"Custom Tileset",
+		"MshockXottoplus",
+		"MSX++DEAD_PEOPLE",
+		"UNDEAD_PEOPLE",
+		"ChestHole32",
+		"UNDEAD_PEOPLE_BASE",
+		"UltimateCataclysm",
+		"UltimateCataclysmDemo",
+		"Chibi_Ultica",
+		"MshockXottoplus",
+		"Chibi_Ultica",
+		"MshockXottoplus"
+		],
+		"tiles-new": [
+		{
+		"file": "fake_01.png",
+		"tiles": [
+		{ "id": "Fake_Furn_00", "fg":0, "rotates": false },
+		{ "id": "Fake_Furn_01", "fg":1, "rotates": false },
+		{ "id": "Fake_Furn_02", "fg":2, "rotates": false },
+		{ "id": "Fake_Furn_03", "fg":3, "rotates": false },
+		{ "id": "Fake_Furn_05", "fg":5, "rotates": false },
+		{ "id": "Fake_Furn_06", "fg":6, "rotates": false },
+		{ "id": "Fake_Furn_07", "fg":7, "rotates": false },
+		{ "id": "Fake_Furn_08", "fg":8, "rotates": false },
+		{ "id": "Fake_Furn_09", "fg":9, "rotates": false },
+		{ "id": "Fake_Furn_10", "fg":10, "rotates": false },
+		{ "id": "Fake_Furn_11", "fg":11, "rotates": false },
+		{ "id": "Fake_Furn_12", "fg":12, "rotates": false },
+		{ "id": "Fake_Furn_13", "fg":13, "rotates": false },
+		{ "id": "Fake_Furn_14", "fg":14, "rotates": false },
+		{ "id": "Fake_Furn_15", "fg":15, "rotates": false },
+		{ "id": "Fake_Furn_16", "fg":16, "rotates": false },
+		{ "id": "Fake_Furn_17", "fg":17, "rotates": false },
+		{ "id": "Fake_Furn_18", "fg":18, "rotates": false },
+		{ "id": "Fake_Furn_19", "fg":19, "rotates": false },
+		{ "id": "Fake_Furn_20", "fg":20, "rotates": false },
+		{ "id": "Fake_Furn_21", "fg":21, "rotates": false },
+		{ "id": "Fake_Furn_22", "fg":22, "rotates": false },
+		{ "id": "Fake_Furn_23", "fg":23, "rotates": false },
+		{ "id": "Fake_Furn_24", "fg":24, "rotates": false },
+		{ "id": "Fake_Furn_25", "fg":25, "rotates": false },
+		{ "id": "Fake_Furn_26", "fg":26, "rotates": false },
+		{ "id": "Fake_Furn_27", "fg":27, "rotates": false },
+		{ "id": "Fake_Furn_28", "fg":28, "rotates": false }
+	],
+		"sprite_width": 64,
+		"sprite_height": 64,
+		"sprite_offset_x": -16,
+		"sprite_offset_y": -32
+		      }
+		    ]
+		  }
+]

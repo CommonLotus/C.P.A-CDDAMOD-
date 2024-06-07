@@ -1,0 +1,50 @@
+[
+ {
+    "type": "furniture",
+    "id": "Fake_Furn_Carpet_00",
+    "name": "偽カーペット(赤)",
+    "description": "はりぼてのカーペットです、拠点を飾りましょう。",
+    "symbol": "D",
+    "color": "red",
+    "move_cost_mod": 0,
+    "required_str": 3,
+    "flags": [ "TRANSPARENT", "SHORT", "EASY_DECONSTRUCT", "CAN_SIT" ],
+    "deconstruct": { "items": [ { "item": "Fake_Carpet_00", "count": 1 } ] }
+   },
+   {
+      "type": "furniture",
+      "id": "Fake_Furn_Carpet_01",
+      "name": "偽カーペット(白)",
+      "description": "はりぼてのカーペットです、拠点を飾りましょう。",
+      "symbol": "D",
+      "color": "red",
+      "move_cost_mod": 0,
+      "required_str": 3,
+      "flags": [ "TRANSPARENT", "SHORT", "EASY_DECONSTRUCT", "CAN_SIT" ],
+      "deconstruct": { "items": [ { "item": "Fake_Carpet_01", "count": 1 } ] }
+      },
+      {
+         "type": "furniture",
+         "id": "Fake_Furn_Carpet_02",
+         "name": "偽カーペット(金網)",
+         "description": "はりぼてのカーペットです、拠点を飾りましょう。",
+         "symbol": "D",
+         "color": "red",
+         "move_cost_mod": 0,
+         "required_str": 3,
+         "flags": [ "TRANSPARENT", "SHORT", "EASY_DECONSTRUCT", "CAN_SIT" ],
+         "deconstruct": { "items": [ { "item": "Fake_Carpet_02", "count": 1 } ] }
+        },
+        {
+         "type": "furniture",
+         "id": "Fake_Furn_Carpet_03",
+         "name": "偽カーペット(畳)",
+         "description": "はりぼてのカーペットです、拠点を飾りましょう。",
+         "symbol": "D",
+         "color": "red",
+         "move_cost_mod": 0,
+         "required_str": 3,
+         "flags": [ "TRANSPARENT", "SHORT", "EASY_DECONSTRUCT", "CAN_SIT" ],
+         "deconstruct": { "items": [ { "item": "Fake_Carpet_03", "count": 1 } ] }
+        }
+      ]

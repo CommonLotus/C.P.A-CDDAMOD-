@@ -1,0 +1,172 @@
+[
+		
+		
+		{
+		"type": "mod_tileset","compatibility": [
+		"Custom Tileset",
+		"MshockXottoplus",
+		"MSX++DEAD_PEOPLE",
+		"UNDEAD_PEOPLE",
+		"ChestHole32",
+		"UNDEAD_PEOPLE_BASE",
+		"UltimateCataclysm",
+		"UltimateCataclysmDemo",
+		"Chibi_Ultica",
+		"MshockXottoplus",
+		"Chibi_Ultica",
+		"MshockXottoplus"
+		],
+		"tiles-new": [
+		{
+		"file": "fake_ani_01.png",
+		"tiles": [
+			{ "id": "Fake_Furn_Ani_00","rotates": false,"animated": true,
+			"fg":[
+				{"weight": 8,   "sprite":1},
+				{"weight": 8,     "sprite":2},
+				{"weight": 8,     "sprite":3},
+				{"weight": 8,   "sprite":4}
+			]
+			}
+,
+			{ "id": "Fake_Furn_Ani_01","rotates": false,"animated": true,
+			"fg":[
+				{"weight": 8,   "sprite":6},
+				{"weight": 8,     "sprite":7},
+				{"weight": 8,     "sprite":8},
+				{"weight": 8,   "sprite":9}
+			]
+			}
+,
+			{ "id": "Fake_Furn_Ani_02","rotates": false,"animated": true,
+			"fg":[
+				{"weight": 8,   "sprite":11},
+				{"weight": 8,     "sprite":12},
+				{"weight": 8,     "sprite":13},
+				{"weight": 8,   "sprite":14}
+			]
+			}
+,
+			{ "id": "Fake_Furn_Ani_03","rotates": false,"animated": true,
+			"fg":[
+				{"weight": 8,   "sprite":16},
+				{"weight": 8,     "sprite":17},
+				{"weight": 8,     "sprite":18},
+				{"weight": 8,   "sprite":19}
+			]
+		}
+,
+		{ "id": "Fake_Furn_Ani_04","rotates": false,"animated": true,
+			"fg":[
+				{"weight": 8,   "sprite":21},
+				{"weight": 8,     "sprite":22},
+				{"weight": 8,     "sprite":23},
+				{"weight": 8,   "sprite":24}
+			]
+			}
+,
+			{ "id": "Fake_Furn_Ani_05","rotates": false,"animated": true,
+			"fg":[
+				{"weight": 8,   "sprite":26},
+				{"weight": 8,     "sprite":27},
+				{"weight": 8,     "sprite":28},
+				{"weight": 8,   "sprite":29}
+			]
+			}
+,
+		{ "id": "Fake_Furn_Ani_06","rotates": false,"animated": true,
+			"fg":[
+				{"weight": 8,   "sprite":31},
+				{"weight": 8,     "sprite":32},
+				{"weight": 8,     "sprite":33},
+				{"weight": 8,   "sprite":34}
+			]
+			}
+,
+			{ "id": "Fake_Furn_Ani_07","rotates": false,"animated": true,
+			"fg":[
+				{"weight": 8,   "sprite":36},
+				{"weight": 8,     "sprite":37},
+				{"weight": 8,     "sprite":38},
+				{"weight": 8,   "sprite":39}
+			]
+			}
+,
+			{ "id": "Fake_Furn_Ani_08","rotates": false,"animated": true,
+				"fg":[
+					{"weight": 8,   "sprite":41},
+					{"weight": 8,     "sprite":42},
+					{"weight": 8,     "sprite":43},
+					{"weight": 8,   "sprite":44}
+				]
+				}
+,
+				{ "id": "Fake_Furn_Ani_09","rotates": false,"animated": true,
+				"fg":[
+					{"weight": 8,   "sprite":46},
+					{"weight": 8,     "sprite":47},
+					{"weight": 8,     "sprite":48},
+					{"weight": 8,   "sprite":49}
+				]
+				}
+,
+				{ "id": "Fake_Furn_Ani_10","rotates": false,"animated": true,
+					"fg":[
+						{"weight": 8,   "sprite":51},
+						{"weight": 8,     "sprite":52},
+						{"weight": 8,     "sprite":53},
+						{"weight": 8,   "sprite":54}
+					]
+					}
+,
+					{ "id": "Fake_Furn_Ani_11","rotates": false,"animated": true,
+					"fg":[
+						{"weight": 8,   "sprite":56},
+						{"weight": 8,     "sprite":57},
+						{"weight": 8,     "sprite":58},
+						{"weight": 8,   "sprite":59}
+					]
+					}
+					,
+					{ "id": "Fake_Furn_Ani_12","rotates": false,"animated": true,
+						"fg":[
+							{"weight": 8,   "sprite":61},
+							{"weight": 8,     "sprite":62},
+							{"weight": 8,     "sprite":63},
+							{"weight": 8,   "sprite":64}
+						]
+						}
+,
+						{ "id": "Fake_Furn_Ani_13","rotates": false,"animated": true,
+						"fg":[
+							{"weight": 8,   "sprite":66},
+							{"weight": 8,     "sprite":67},
+							{"weight": 8,     "sprite":68},
+							{"weight": 8,   "sprite":69}
+						]
+						}
+,
+{ "id": "Fake_Furn_Off_00", "fg":0, "rotates": false },
+{ "id": "Fake_Furn_Off_01", "fg":5, "rotates": false },
+{ "id": "Fake_Furn_Off_02", "fg":10, "rotates": false },
+{ "id": "Fake_Furn_Off_03", "fg":15, "rotates": false },
+{ "id": "Fake_Furn_Off_04", "fg":20, "rotates": false },
+{ "id": "Fake_Furn_Off_05", "fg":25, "rotates": false },
+{ "id": "Fake_Furn_Off_06", "fg":30, "rotates": false },
+{ "id": "Fake_Furn_Off_07", "fg":35, "rotates": false },
+{ "id": "Fake_Furn_Off_08", "fg":40, "rotates": false },
+{ "id": "Fake_Furn_Off_09", "fg":45, "rotates": false },
+{ "id": "Fake_Furn_Off_10", "fg":50, "rotates": false },
+{ "id": "Fake_Furn_Off_11", "fg":55, "rotates": false },
+{ "id": "Fake_Furn_Off_12", "fg":60, "rotates": false },
+{ "id": "Fake_Furn_Off_13", "fg":65, "rotates": false }
+
+],
+		"sprite_width": 64,
+		"sprite_height": 64,
+		"sprite_offset_x": -16,
+		"sprite_offset_y": -32
+	}
+]
+}
+]
