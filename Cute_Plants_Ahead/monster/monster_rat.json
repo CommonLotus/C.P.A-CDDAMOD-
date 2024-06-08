@@ -2,8 +2,8 @@
 	{
 		"id":"mon_Cute_P_Rat_01",
 		"type":"MONSTER",
-		"name":{"str": "ラットワーカー"},
-		"description":"仲間意識と縄張り意識が強く、戦闘中に貴方が見つかるとすりつけ行為をしたと疑われるかもしれません。敵対していなければ会話ができるでしょう",
+		"name":{"str": "rat worker"},
+		"description":"They have a strong sense of camaraderie and territoriality, and if you are spotted during battle, they may suspect you of having been a nuisance If you're not hostile, you'll be able to have a conversation",
 		"symbol":"r",
 		"color":"yellow",
 		"hp":50,
@@ -47,8 +47,8 @@
 	{
 		"id":"mon_Cute_P_Rat_02",
 		"type":"MONSTER",
-		"name":{"str": "ハイラットワーカー"},
-		"description":"普段は大人しいですが仲間思いであり、戦闘の際は手のつけようがありません…",
+		"name":{"str": "Hirat worker"},
+		"description":"He's usually quiet, but he cares about his friends, and there's nothing he can do in battle",
 		"copy-from": "mon_Cute_P_Rat_01",
 		"aggression":0,
 		"morale":70,
@@ -69,8 +69,8 @@
 		{
 		"id":"mon_Cute_P_Rat_03",
 		"type":"MONSTER",
-		"name":{"str": "ラットトレーダー"},
-		"description":"とても逃げ足の速いﾈｽﾞﾐ、取引が可能です。",
+		"name":{"str": "rat trader"},
+		"description":"They are very fast-moving rats and can be traded",
 		"copy-from": "mon_Cute_P_Rat_01",
 		"regenerates": 3,
 		"hp":100,
@@ -82,8 +82,8 @@
 		{
 		"id":"mon_Cute_P_Rat_04",
 		"type":"MONSTER",
-		"name":{"str": "ラットドクター"},
-		"description":"マッサージ専門の医者ﾈｽﾞﾐ、取引が可能です。",
+		"name":{"str": "rat doctor"},
+		"description":"Nesumi, a doctor specializing in massage, is available for trade",
 		"copy-from": "mon_Cute_P_Rat_01",
 		"regenerates": 2,
 		"hp":60,
@@ -95,8 +95,8 @@
 		{
 		"id":"mon_Cute_P_Rat_05",
 		"type":"MONSTER",
-		"name":{"str": "ラットメイド"},
-		"description":"こんな世紀末にメイドなﾈｽﾞﾐ、取引が可能です。",
+		"name":{"str": "rat maid"},
+		"description":"At the end of the century, it is possible to trade in maid rats",
 		"copy-from": "mon_Cute_P_Rat_01",
 		"regenerates": 2,
 		"hp":60,
@@ -106,8 +106,8 @@
 	},		{
 		"id":"mon_Cute_P_Rat_06",
 		"type":"MONSTER",
-		"name":{"str": "ラットキング"},
-		"description":"権能を失ったが、スピードを入手したﾈｽﾞﾐ界の王。かつて存在を抹消されたらしい",
+		"name":{"str": "rat king"},
+		"description":"The king of the rat world who lost his authority but gained speed It seems that it was once erased from existence",
 		"copy-from": "mon_Cute_P_Rat_02",
 		"hp":220,
 		"regenerates": 3,
@@ -118,8 +118,8 @@
 	},	{
 		"id":"mon_Cute_P_Rat_07",
 		"type":"MONSTER",
-		"name":{"str": "感電ラット"},
-		"description":"電気を纏ったﾋﾞﾘﾋﾞﾘﾈｽﾞﾐ、あまり近寄らないほうが良さそう…",
+		"name":{"str": "electric shock rat"},
+		"description":"It's probably best not to get too close to the electrically-charged rattlers",
 		"copy-from": "mon_Cute_P_Rat_02",
 		"melee_damage": [
  		 {
@@ -134,8 +134,8 @@
 		{
 		"id":"mon_Cute_P_Rat_08",
 		"type":"MONSTER",
-		"name":{"str": "銃士ラット"},
-		"description":"王に仕えるﾈｽﾞﾐ界の貴族、正々堂々戦う",
+		"name":{"str": "musketeer rat"},
+		"description":"Nobles of the Nezumi world who serve the king, fight fair and square",
 		"copy-from": "mon_Cute_P_Rat_02",
 				"melee_damage": [
  		 {
@@ -147,8 +147,8 @@
 		{
 		"id":"mon_Cute_P_Rat_09",
 		"type":"MONSTER",
-		"name":{"str": "巨大ハダカデバネズミ"},
-		"description":"穴掘りをやめ、スピードを入手したﾃﾞﾊﾞﾈｽﾞﾐ。かつて存在を抹消されたらしい",
+		"name":{"str": "giant naked mole rat"},
+		"description":"Devanesumi stopped digging and gained speed It seems that it was once erased from existence",
 		"copy-from": "mon_Cute_P_Rat_02",
 		"regenerates": 6,
 		"grab_strength": 35,
@@ -166,15 +166,15 @@
 	},{
 		"id":"mon_Cute_P_Rat_01_Ev",
 		"type":"MONSTER",
-		"name":{"str": "ハロウィンワーカー"},
-		"description":"ハッピーハロウィン！！、いたずら大好きﾈｽﾞﾐ",
+		"name":{"str": "halloween worker"},
+		"description":"Happy Halloween! ! , Nesumi who loves mischief",
 		"copy-from": "mon_Cute_P_Rat_01",
 		"death_drops":{"subtype": "collection","items":[{ "prob": 100, "group": "cpa_rat", "count": 2}]}
 	},{
 		"id":"mon_Cute_P_Rat_02_Ev",
 		"type":"MONSTER",
-		"name":{"str": "クリスマスワーカー"},
-		"description":"メリークリスマス！！、世紀末でも分け与えるﾈｽﾞﾐ",
+		"name":{"str": "christmas worker"},
+		"description":"Merry Christmas! ! , Even at the end of the century, we will share the nest",
 		"copy-from": "mon_Cute_P_Rat_02",
 		"death_drops":{"subtype": "collection","items":[{ "prob": 100, "group": "cpa_rat", "count": 2}]}
 	}

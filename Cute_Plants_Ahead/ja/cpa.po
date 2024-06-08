@@ -1,0 +1,851 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cpa_ja_v1\n"
+"POT-Creation-Date: 1970-01-01 00:00+0000\n"
+"PO-Revision-Date: 2024-06-08 15:39+0900\n"
+"Last-Translator: None\n"
+"Language-Team: ンジャna\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.4.4\n"
+
+msgid "endless loyalty"
+msgstr "果てぬ忠誠"
+
+msgid "I can feel the warmth and traces of their decayed remains"
+msgstr "朽ちた彼女達の痕跡、温もりを感じる。"
+
+msgid "Black Lotus"
+msgstr "Black Lotus"
+
+msgid "Adds 3 mana of any single color of your choice to your mana pool then is discarded Tapping this artifact can be played as an interrupt"
+msgstr "Adds 3 mana of any single color of your choice to your mana pool then is discarded Tapping this artifact can be played as an interrupt"
+
+msgid "fire protection"
+msgstr "防火の加護"
+
+msgid "They can equip fireproof armor made from rotten fragments"
+msgstr "朽ちた破片から形成された防火鎧、彼女たちが装備できる"
+
+msgid "Armor formed from rotten fragments, which they can equip"
+msgstr "朽ちた破片から形成された装甲、彼女たちが装備できる"
+
+msgid "Artificial leaf pattern"
+msgstr "偶植式葉文"
+
+msgid "What looks like letters are written all over the combined piecesThe content seems to change every time I look at it, but I don't know exactly what's written on it"
+msgstr "結合した破片に文字の様な物がびっしりと書かれています、見るたびに内容が変わっている様ですが何が書かれているかはさっぱりです。"
+
+msgid "blue-smelling mush"
+msgstr "青臭いドロドロ"
+
+msgid "It has a strong odor and is definitely a weed, so you should eat it if you need it to survive"
+msgstr "強烈な匂いを放っています紛れもなく雑草のアレです、生存する為に必要ならば食べるべきでしょう。"
+
+msgid "conservation pot"
+msgstr "保全鉢"
+
+msgid "They can escape from enemy attacks by assimilating and mimicking this bowl"
+msgstr "彼女たちはこの鉢と同化し擬態することによって敵の攻撃から逃れることができます。"
+
+msgid "extravasated fluid"
+msgstr "溢泌液"
+
+msgid "Normally, excess water in plants transpires through the leaf surface, but plants in special circumstances secrete it as a liquid It's mostly water but with bioconcentration and weed flavor"
+msgstr "通常植物の余分な水分は葉の表面から蒸散しますが、特殊な状況に置かれた植物は液体としてそれを分泌します。ほぼ水ですが生物濃縮と雑草のフレーバーです。"
+
+msgid "refreshing tree"
+msgstr "爽やかな木"
+
+msgid "The trees continue to absorb heat, and I can feel their gaze on me"
+msgstr "熱を吸収し続けている木、視線を感じる……"
+
+msgid "Senpuuki"
+msgstr "せんぷうき"
+
+msgid "A tree that absorbs heat and rotates, I can feel your gaze"
+msgstr "熱を吸収し回転する木、視線を感じる……"
+
+msgid "Nesmidollar"
+msgstr "ﾈｽﾞﾐﾄﾞﾙ"
+
+msgid "It is a unique currency issued by Rat Trader and has no value in other markets"
+msgstr "ラットトレーダーが発行する独自通貨です、他の市場での価値は皆無。"
+
+msgid "Kutsuha armor"
+msgstr "朽葉装甲"
+
+msgid "This is a very important questionI want to know what all the words are"
+msgstr "けいやくしょ、これはたいとうなけいやくですすべてのろうどうにたいかをもとめます"
+
+msgid "Mouse contract (worker)"
+msgstr "ネズミの契約書(ワーカー)"
+
+msgid "Mouse Contract (High Worker)"
+msgstr "ネズミの契約書(ハイワーカー)"
+
+msgid "Rat Contract (Trader)"
+msgstr "ネズミの契約書(トレーダー)"
+
+msgid "Rat Contract (Doctor)"
+msgstr "ネズミの契約書(ドクター)"
+
+msgid "Mouse contract (maid)"
+msgstr "ネズミの契約書(メイド)"
+
+msgid "Mouse Contract (King)"
+msgstr "ネズミの契約書(キング)"
+
+msgid "Mouse contract (electric shock)"
+msgstr "ネズミの契約書(感電)"
+
+msgid "Mouse contract (musketeer)"
+msgstr "ネズミの契約書(銃士)"
+
+msgid "Mouse contract (Devanesumi)"
+msgstr "ネズミの契約書(ﾃﾞﾊﾞﾈｽﾞﾐ)"
+
+msgid "Mouse Contract (Halloween)"
+msgstr "ネズミの契約書(ハロウィン)"
+
+msgid "Mouse Contract (Christmas)"
+msgstr "ネズミの契約書(クリスマス)"
+
+msgid "Rat's secret tool"
+msgstr "ネズミの秘密道具"
+
+msgid "Courage is also a tool for burglarizing a house without making a sound, and the decision not to fight"
+msgstr "音を立てずに空き巣をする為の道具、戦わない決断も勇気である"
+
+msgid "shinobi knife"
+msgstr "シノビナイフ"
+
+msgid "A stabbing knife used by rat workers, also used to cut cheese into equal pieces"
+msgstr "ラットワーカーが使う刺突用ナイフ、チーズを平等に切り分けるのにも使う"
+
+msgid "Thief bag (nesumi)"
+msgstr "泥棒袋(ﾈｽﾞﾐ)"
+
+msgid "A bag for burglars who want to carry a weapon with one hand, suitable for collecting small crops"
+msgstr "片手で武器も持ちたい空き巣向けの袋、小さい収穫物を集めるのに適している"
+
+msgid "rat rod"
+msgstr "ラットロッド"
+
+msgid "A small fishing rod for rodents, it can't be called professional level, but it's easy to handle"
+msgstr "ﾈｽﾞﾐ向けの小さな釣り竿、プロレベルとは言えないが取り回しが良い"
+
+msgid "rat shovel"
+msgstr "ラットシャベル"
+
+msgid "A small shovel for rats, light and sharp for digging holes and mowing grass"
+msgstr "ﾈｽﾞﾐ向けの小さなシャベル、軽く鋭いため穴掘りと草刈りが可能"
+
+msgid "rat box"
+msgstr "ラットボックス"
+
+msgid "Sturdy storage box for rats, can also be used for burglary"
+msgstr "ﾈｽﾞﾐ向けの頑丈な収納箱、空き巣にも使える。"
+
+msgid "rat crossbow"
+msgstr "ラットクロスボウ"
+
+msgid "An emergency crossbow modified by an evil mouse Its effective range is short, but it is highly powerful and easy to handle"
+msgstr "悪いネズミに改造された非常用クロスボウ、有効射程が短いが威力が高く取り回しが良い"
+
+msgid "rat kunai"
+msgstr "ラットクナイ"
+
+msgid "The throwing knife used by Ratworkers is difficult to make noise, but difficult to produce power"
+msgstr "ラットワーカーが使う投擲用ナイフ、音を立てづらいが威力を出すのは難しい"
+
+msgid "worker suit"
+msgstr "ワーカースーツ"
+
+msgid "Jumpsuit dyed black and reinforced with leather, with hood to protect the head"
+msgstr "黒く染色され革で補強されたジャンプスーツ、フード付きで頭部も保護する"
+
+msgid "sparkling seeds"
+msgstr "きらめく種"
+
+msgid "The sparkling seeds look like they're about to germinate"
+msgstr "きらめく種、今にも発芽しそうです"
+
+msgid "roaring seeds"
+msgstr "どよめく種"
+
+msgid "The roaring seeds seem like they are about to germinate"
+msgstr "どよめく種、今にも発芽しそうです"
+
+msgid "If you can buy it, buy it"
+msgstr "買えるのなら買ってみなされ"
+
+msgid "[2 Nesmidollars]*1 scrap wood sausage*"
+msgstr "[2ﾈｽﾞﾐﾄﾞﾙ]*廃材ソーセージ1個*"
+
+msgid "[7 Nesmidollars]*2 disinfectant cotton*"
+msgstr "[7ﾈｽﾞﾐﾄﾞﾙ]*消毒綿2個*"
+
+msgid "[10 Nesmidol]*2 iron rhombuses*"
+msgstr "[10ﾈｽﾞﾐﾄﾞﾙ]*鉄菱2個*"
+
+msgid "[20 Nest Midles] *3 Molotov Cocktails*"
+msgstr "[20ﾈｽﾞﾐﾄﾞﾙ]*火炎瓶3個*"
+
+msgid "[50 rats]*1 mouse contract*"
+msgstr "[50ﾈｽﾞﾐﾄﾞﾙ]*ネズミ契約書1個*"
+
+msgid "[How can I get Nesmidol? ]"
+msgstr "[どうやればﾈｽﾞﾐﾄﾞﾙは手に入る？]"
+
+msgid "[enough]"
+msgstr "[もういい]"
+
+msgid "Maid, bastard"
+msgstr "まいど、ろくでなし"
+
+msgid "Let's take a look at others"
+msgstr "他にも見てみよう"
+
+msgid "Are you just making fun of me?"
+msgstr "冷やかしかね？"
+
+msgid "There are many people in the same industry who have made their home in forests and other habitats that once belonged to humans, and you know what else?"
+msgstr "森や人間のものだった住処を根城にしている同業者がたくさん居るさね、あとは分かるだろう？"
+
+msgid "Bye bye"
+msgstr "バイバーイ"
+
+msgid "The person who gives you money is your master"
+msgstr "お金をくれる人がご主人様です"
+
+msgid "[3 Nest Midle] *Hungry*"
+msgstr "[3ﾈｽﾞﾐﾄﾞﾙ]*お腹空いた*"
+
+msgid "[3 Nest Midle] *My throat is dry*"
+msgstr "[3ﾈｽﾞﾐﾄﾞﾙ]*喉が乾いた*"
+
+msgid "[30 nests] *Introduce a friend*"
+msgstr "[30ﾈｽﾞﾐﾄﾞﾙ]*友達を紹介してもらう*"
+
+msgid "[Why maid? ]"
+msgstr "[なんでメイド？]"
+
+msgid "Boo, I demand payment"
+msgstr "ぶー、対価を要求します"
+
+msgid "Rails laid, execution of orders! ! If you're looking for peace in this day and age, isn't a maid the only option?"
+msgstr "敷かれたレール、命令の遂行！！このご時世安息を求めるならばメイドしかないのでは？"
+
+msgid "Hihi is a doctor specializing in massage (Double Peace)"
+msgstr "マッサージ専門の医者で～す、ひひ(ダブルピース)"
+
+msgid "[2-midollar]*Massage*"
+msgstr "[2ﾈｽﾞﾐﾄﾞﾙ]*マッサージ*"
+
+msgid "[What are you kidding? ]"
+msgstr "[何の冗談だ？]"
+
+msgid "Well, let's take it easy, because a depressed mood will lead to poor health"
+msgstr "じゃあ手軽に済ませよう、気分の落ち込みは不調につながるからねぇ"
+
+msgid "Close ~ eyes…"
+msgstr "目を閉じる…"
+
+msgid "[3 Nesmidollar] Be more serious"
+msgstr "[3ﾈｽﾞﾐﾄﾞﾙ]もっと本気を出して"
+
+msgid "Don't make a weird sound, right?"
+msgstr "…へんな声出すんじゃないよ？"
+
+msgid "Isn't there a lack of sincerity?"
+msgstr "誠意が足りないんじゃない？"
+
+msgid "Chilling?"
+msgstr "冷やかし～？"
+
+msgid "I'm not very good with woundseven if it's a small wound, it will heal the next day"
+msgstr "傷口とかちょっと苦手だし…多少の傷なら次の日には治るし…"
+
+msgid "HumanI'm leaving because it's confusing"
+msgstr "ニンゲン…紛らわしいから離れるんだよー…"
+
+msgid "What do you usually do? "
+msgstr "普段は何をしてる？"
+
+msgid "What are the tips for living a long life? "
+msgstr "長生きのコツは？"
+
+msgid "Any tips for burglary? "
+msgstr "空き巣のコツは？"
+
+msgid "What if you really need to fight? "
+msgstr "どうしても戦う必要がある場合？"
+
+msgid "Who are you guys? "
+msgstr "お前達は何者だ？"
+
+msgid "What has changed recently? "
+msgstr "最近変わったことは…？"
+
+msgid "Burglary at Human's former residence! Also, looking for nuts in the forestdo you have any complaints?"
+msgstr "ニンゲンの元住処で空き巣！あと森で木の実探し…文句ある？"
+
+msgid "Throw away your pride, run away and win! There's no end to it if you deal with those guys one by one"
+msgstr "プライドを捨てるんだよ、逃げるが勝ち！あんな奴ら一匹ずつ相手してたらキリがないよー"
+
+msgid "When it's bright, bend down to avoid looking out the window, be careful underground, and if you don't have a bag, use a bag or box"
+msgstr "明るいときは屈んで窓からの視界を避ける、地下には警戒する、カバンがなければ袋とか箱を使うんだよー"
+
+msgid "If you have a spear, you can just climb a tree, and for those who are weak, you can even make them step on fire"
+msgstr "槍が有るなら木に登ればいいんだよー、おつむが弱い奴には火でも踏ませればいい。"
+
+msgid "An elder who hates humans hates humans? He said he's the type who doesn't care about his origins"
+msgstr "人間嫌いの長老がヒトへんいやく？があーだこーだ言ってたよ出自は気にしないタイプなんだよねー"
+
+msgid "When I was digging a hole for storage after a bad storm, I found strange seeds buried in the soil That's scary"
+msgstr "やばい嵐の後に貯蔵用の穴を掘ってたら、土の中にヘンな種が埋められてることがあったよ怖いねぇ"
+
+msgid "I'll arrange my pawns, so give me Nesmidollar!"
+msgstr "わしの手駒を手配してやるから、ﾈｽﾞﾐﾄﾞﾙをよこすのじゃ！"
+
+msgid "[30 Nesmidollar] *Hire worker*"
+msgstr "[30ﾈｽﾞﾐﾄﾞﾙ]*ワーカーを雇う*"
+
+msgid "[30 Nesmidollar] *Hire a high worker*"
+msgstr "[30ﾈｽﾞﾐﾄﾞﾙ]*ハイワーカーを雇う*"
+
+msgid "[50 Nesmidollar] *Hire a trader*"
+msgstr "[50ﾈｽﾞﾐﾄﾞﾙ]*トレーダーを雇う*"
+
+msgid "[30 Nesmidollar] *Hire a Doctor*"
+msgstr "[30ﾈｽﾞﾐﾄﾞﾙ]*ドクターを雇う*"
+
+msgid "[30 Nesmidollar] *Hire a maid*"
+msgstr "[30ﾈｽﾞﾐﾄﾞﾙ]*メイドを雇う*"
+
+msgid "[50 Nesmidollar] *Hire a ripped Nesmi*"
+msgstr "[50ﾈｽﾞﾐﾄﾞﾙ]*ﾋﾞﾘﾋﾞﾘしたﾈｽﾞﾐを雇う*"
+
+msgid "[50 Nesmidollar] *Hire a Musketeer*"
+msgstr "[50ﾈｽﾞﾐﾄﾞﾙ]*銃士を雇う*"
+
+msgid "[80 Nesmidollar] *Hire Devanesmi*"
+msgstr "[80ﾈｽﾞﾐﾄﾞﾙ]*ﾃﾞﾊﾞﾈｽﾞﾐを雇う*"
+
+msgid "[100 Nesmidollar] *Hire the King*"
+msgstr "[100ﾈｽﾞﾐﾄﾞﾙ]*王を雇う*"
+
+msgid "[king? Is it true? ]"
+msgstr "[王？それは本当か？]"
+
+msgid "[Talk about old times]"
+msgstr "[昔話をして]"
+
+msgid "I don't lie! In the past, I used to play around with mutating intruders, but perhaps due to the influence of the Stars, I lost my authority and my tail has long come undone"
+msgstr "わしは嘘つかん！昔は侵入者を変異させて遊んでおったのじゃが…星辰の影響か権能を無くしてしまっての…尻尾もとうにほどけたわい。"
+
+msgid "can not forgive…"
+msgstr "許せない…"
+
+msgid ""
+"That's right In the past, it rained almost every day, and there were no strange storms\n"
+"Also, people who drank sewage mutated? , dangerous machines roamed the streets\n"
+"In the past, humans were quite careless, like stuffing spears in their bags and not knowing how to bend down\n"
+"The only thing that hasn't changed is my cuteness ~"
+msgstr ""
+"そうじゃのう…昔はほぼ毎日雨でな、変な嵐もなかったのぉ…\n"
+"それから、下水を飲んだ人間が変異したりな？、街をやばい機械達が徘徊しておった\n"
+"昔の人間はけっこーいい加減じゃった、鞄に槍を詰め込んだり屈むことを知らなかったり…\n"
+"唯一不変なのはわしのかわいさ位じゃの～。"
+
+msgid "It seems like something like that happened? "
+msgstr "そんな事もあった様な…？"
+
+msgid "We are Sozoshu-sama What does it look like?"
+msgstr "われらが、そうぞうしゅさま。なにようで？"
+
+msgid "Stroke"
+msgstr "撫でる"
+
+msgid "What are you doing? "
+msgstr "何をしている？"
+
+msgid "It's dangeroushehe"
+msgstr "あぶないですってぇ…えへへ…"
+
+msgid "Okay, okay"
+msgstr "よしよし"
+
+msgid ""
+"I play a lot every day, and when I get tired, I go to bed\n"
+"But for now, I'm going to sleep, and I'm going to get excited, so please leave it there and watch it"
+msgstr ""
+"まいにちたくさんあそぶ、つかれたらねる\n"
+"でもいまはそうぞうしゅさままもる、びりびりするからとおくでみててね"
+
+msgid "Great! "
+msgstr "えらい！"
+
+msgid "HumanIsn't it kind of small?"
+msgstr "にんげんか…なんかちいさくない？"
+
+msgid "You're huge"
+msgstr "君がでかい"
+
+msgid "Ah that's certainly true you're so smart"
+msgstr "あぁ…たしかにそうだ…にんげんかしこい"
+
+msgid "Ahem"
+msgstr "えっへん"
+
+msgid ""
+"I crushed all the hot and bothersome people every day, so I got a star! ! \n"
+"I lost my respect for once But I can see the light! !"
+msgstr ""
+"おれはまいにちあなほてじゃまなやつみんなつぶした、だからほしがおこた！！\n"
+"おれはいちどしんだ、あなほれなくなた。だがひかりがみえるようなた！！"
+
+msgid "Good luck…"
+msgstr "よかたぁ…"
+
+msgid "They have a strong sense of camaraderie and territoriality, and if you are spotted during battle, they may suspect you of having been a nuisance If you're not hostile, you'll be able to have a conversation"
+msgstr "仲間意識と縄張り意識が強く、戦闘中に貴方が見つかるとすりつけ行為をしたと疑われるかもしれません。敵対していなければ会話ができるでしょう"
+
+msgid "ラットワーカー"
+msgstr "rat worker"
+
+msgid "Hirat worker"
+msgstr "ハイラットワーカー"
+
+msgid "He's usually quiet, but he cares about his friends, and there's nothing he can do in battle"
+msgstr "普段は大人しいですが仲間思いであり、戦闘の際は手のつけようがありません…"
+
+msgid "rat trader"
+msgstr "ラットトレーダー"
+
+msgid "They are very fast-moving rats and can be traded"
+msgstr "とても逃げ足の速いﾈｽﾞﾐ、取引が可能です。"
+
+msgid "rat doctor"
+msgstr "ラットドクター"
+
+msgid "Nesumi, a doctor specializing in massage, is available for trade"
+msgstr "マッサージ専門の医者ﾈｽﾞﾐ、取引が可能です。"
+
+msgid "rat maid"
+msgstr "ラットメイド"
+
+msgid "At the end of the century, it is possible to trade in maid rats"
+msgstr "こんな世紀末にメイドなﾈｽﾞﾐ、取引が可能です。"
+
+msgid "rat king"
+msgstr "ラットキング"
+
+msgid "The king of the rat world who lost his authority but gained speed It seems that it was once erased from existence"
+msgstr "権能を失ったが、スピードを入手したﾈｽﾞﾐ界の王。かつて存在を抹消されたらしい"
+
+msgid "electric shock rat"
+msgstr "感電ラット"
+
+msgid "It's probably best not to get too close to the electrically-charged rattlers"
+msgstr "電気を纏ったﾋﾞﾘﾋﾞﾘﾈｽﾞﾐ、あまり近寄らないほうが良さそう…"
+
+msgid "musketeer rat"
+msgstr "銃士ラット"
+
+msgid "Nobles of the Nezumi world who serve the king, fight fair and square"
+msgstr "王に仕えるﾈｽﾞﾐ界の貴族、正々堂々戦う"
+
+msgid "giant naked mole rat"
+msgstr "巨大ハダカデバネズミ"
+
+msgid "Devanesumi stopped digging and gained speed It seems that it was once erased from existence"
+msgstr "穴掘りをやめ、スピードを入手したﾃﾞﾊﾞﾈｽﾞﾐ。かつて存在を抹消されたらしい"
+
+msgid "halloween worker"
+msgstr "ハロウィンワーカー"
+
+msgid "Happy Halloween! ! , Nesumi who loves mischief"
+msgstr "ハッピーハロウィン！！、いたずら大好きﾈｽﾞﾐ"
+
+msgid "christmas worker"
+msgstr "クリスマスワーカー"
+
+msgid "Merry Christmas! ! , Even at the end of the century, we will share the nest"
+msgstr "メリークリスマス！！、世紀末でも分け与えるﾈｽﾞﾐ"
+
+msgid "Tsubomi"
+msgstr "ツボミ"
+
+msgid "It's a monster shaped like a bud, and it will follow you"
+msgstr "ツボミのような形をした化け物です、あなたについてきます。"
+
+msgid "%s ate all the bird food in the blink of an eye, and it looked like he was incredibly happy"
+msgstr "%sは鳥の餌を瞬く間に完食してしまいました、心なしか嬉しそうな表情をしているように見えます"
+
+msgid "%s is attracted to you and approaches you"
+msgstr "%sはあなたに好意を寄せて近づいてきます。"
+
+msgid "morning glory"
+msgstr "アサガオ"
+
+msgid "This is an active purple morning glory that will follow you"
+msgstr "紫色の活発なアサガオです、あなたについてきます。"
+
+msgid "thank you"
+msgstr "「ありがとう」 "
+
+msgid "Japanese poppy"
+msgstr "ヒナゲシ"
+
+msgid "I'm a small poppy, and I'm following you"
+msgstr "小さなナガミヒナゲシです、あなたについてきます。"
+
+msgid "I love you"
+msgstr "「だいすき」 "
+
+msgid "Goldenrod"
+msgstr "アワダチソウ"
+
+msgid "It's a giant goldenrod, and it's following you"
+msgstr "巨大なセイタカアワダチソウです、あなたについてきます。"
+
+msgid "I was fired"
+msgstr "「やくめをはたした」 "
+
+msgid "mint"
+msgstr "ミント"
+
+msgid "I'm a gentle Mint, and I'll follow you"
+msgstr "大人しいミントです、あなたについてきます。"
+
+msgid "This is fine"
+msgstr "「これでいいのさ」 "
+
+msgid "cactus"
+msgstr "サボテン"
+
+msgid "It's a prickly pear cactus with soft thorns that will follow you"
+msgstr "柔いとげを持つウチワサボテンです、あなたについてきます。"
+
+msgid "Run"
+msgstr "「にげて」 "
+
+msgid "This is a rare black lotus, and it will follow you"
+msgstr "希少な黒蓮です、あなたについてきます。"
+
+msgid "i love you"
+msgstr "「愛してる」 "
+
+msgid "Warunasubi"
+msgstr "ワルナスビ"
+
+msgid "I'm a moody Warunasubi, and I'm following you"
+msgstr "気分屋なワルナスビです、あなたについてきます。"
+
+msgid "fun"
+msgstr "「たのしい」 "
+
+msgid "Dokudami"
+msgstr "ドクダミ"
+
+msgid "I'm the curt Dokudami, and I'll follow you"
+msgstr "そっけないドクダミです、あなたについてきます。"
+
+msgid "Ahaha!"
+msgstr "「あはは！」 "
+
+msgid "Hypericum perforatum"
+msgstr "オトギリソウ"
+
+msgid "I'm a brave Hypericum, and I'll follow you"
+msgstr "気丈なオトギリソウです、あなたについてきます。"
+
+msgid "do not mind"
+msgstr "「きにしないで」 "
+
+msgid "Oats"
+msgstr "カラスムギ"
+
+msgid "I'm a gloomy oat and I'm following you"
+msgstr "陰気なカラスムギです、あなたについてきます。"
+
+msgid "sorry"
+msgstr "「ごめん」 "
+
+msgid "Backaku"
+msgstr "バッカク"
+
+msgid "It seems that oats have been infected with ergot and mutated, increasing their fighting ability"
+msgstr "カラスムギが麦角に侵され変異したようです、戦闘能力が上昇しています。"
+
+msgid "Bye"
+msgstr "「ばいばい」 "
+
+msgid "silphium"
+msgstr "シルフィウム"
+
+msgid "It's a creepy Silphium, and it's following you"
+msgstr "不気味なシルフィウムです、あなたについてきます。"
+
+msgid "Silphium has grown up a little, and I have no idea what she's thinking"
+msgstr "少し成長したシルフィウムです、何を考えてるのかまったくわかりません。"
+
+msgid "This is Silphium, now humanoid, and seems to be a little interested in you"
+msgstr "人型になったシルフィウムです、あなたに少し興味を持っているようです。"
+
+msgid "Ah"
+msgstr "「あっ」 "
+
+msgid "Silphium is in the midollar of its growth stage, and is still not good at combat"
+msgstr "成長中期に入ったシルフィウムです、まだ戦闘は苦手です。"
+
+msgid "no"
+msgstr "「いや」 "
+
+msgid "Silphium has grown to a certain extent, her body has been strengthened and she can now handle a certain amount of battle"
+msgstr "それなりに成長したシルフィウムです、肉体が強化されそれなりの戦闘をこなせるようになりました。"
+
+msgid "Huh?"
+msgstr "「へっ」 "
+
+msgid "Silphium has grown considerably and now has enough power to blow away anyone who attacks it"
+msgstr "かなり成長したシルフィウムです、攻撃した相手を吹き飛ばす程の力を持ってしまいました。"
+
+msgid "You did your best, didn’t you?"
+msgstr "「がんばったよな？」 "
+
+msgid "Silphium has grown to its limit, and thanks to you, I can crush zombies with one arm"
+msgstr "限界まで成長したシルフィウムです、貴方のお陰でゾンビを片腕で捻りつぶすことができます。"
+
+msgid "Fake desktop PC(ani)"
+msgstr "偽デスクトップPC(ani)"
+
+msgid "I turned off the power"
+msgstr "電源をオフにしました。"
+
+msgid "fake flat screen tv(ani)"
+msgstr "偽薄型テレビ(ani)"
+
+msgid "fake black cat(ani)"
+msgstr "偽黒猫(ani)"
+
+msgid "Nyan?"
+msgstr "「にゃん？」"
+
+msgid "fake torch(ani)"
+msgstr "偽松明(ani)"
+
+msgid "The fire was extinguished"
+msgstr "消火しました。"
+
+msgid "fake bonfire(ani)"
+msgstr "偽篝火(ani)"
+
+msgid "Fake flashing signboard (ani)"
+msgstr "偽点滅看板(ani)"
+
+msgid "Fake meat grill machine (ani)"
+msgstr "偽肉焼き機(ani)"
+
+msgid "Fake slot machine (ani)"
+msgstr "偽スロットマシーン(ani)"
+
+msgid "Fake bunny chan(ani)"
+msgstr "偽バニーちゃん(ani)"
+
+msgid "I can’t help it"
+msgstr "「しょうがないなー」"
+
+msgid "Fake bunny san (ani)"
+msgstr "偽バニーさん(ani)"
+
+msgid "Understood"
+msgstr "「分かりました」"
+
+msgid "fake jukebox(ani)"
+msgstr "偽ジュークボックス(ani)"
+
+msgid "fake record(ani)"
+msgstr "偽レコード(ani)"
+
+msgid "Steampunker-chan (ani)"
+msgstr "スチームパンカーちゃん(ani)"
+
+msgid "I got it"
+msgstr "「わかったわ」"
+
+msgid "fake dog(ani)"
+msgstr "偽犬(ani)"
+
+msgid "Dog?"
+msgstr "わん？"
+
+msgid "Fake desktop PC (Off)"
+msgstr "偽デスクトップPC(Off)"
+
+msgid "I turned on the power"
+msgstr "電源をオンにしました。"
+
+msgid "Fake flat screen TV (Off)"
+msgstr "偽薄型テレビ(Off)"
+
+msgid "Fake black cat (Off)"
+msgstr "偽黒猫(Off)"
+
+msgid "Nyan!!"
+msgstr "「にゃん！！」"
+
+msgid "False torch (Off)"
+msgstr "偽松明(Off)"
+
+msgid "Fake bonfire (Off)"
+msgstr "偽篝火(Off)"
+
+msgid "Fake flashing signboard (Off)"
+msgstr "偽点滅看板(Off)"
+
+msgid "Fake meat grill machine (Off)"
+msgstr "偽肉焼き機(Off)"
+
+msgid "I lit a fire"
+msgstr "火をつけました。"
+
+msgid "Fake slot machine (Off)"
+msgstr "偽スロットマシーン(Off)"
+
+msgid "Fake bunny chan(Off)"
+msgstr "偽バニーちゃん(Off)"
+
+msgid "Okay!!"
+msgstr "「よーし！！」"
+
+msgid "Fake Bunny san(Off)"
+msgstr "偽バニーさん(Off)"
+
+msgid "Umare you okay now?"
+msgstr "「えっと……もういいんですか？」"
+
+msgid "Fake jukebox (Off)"
+msgstr "偽ジュークボックス(Off)"
+
+msgid "Fake record (Off)"
+msgstr "偽レコード(Off)"
+
+msgid "Steampunker-chan (Off)"
+msgstr "スチームパンカーちゃん(Off)"
+
+msgid "I can finally move"
+msgstr "「やっと動ける……」"
+
+msgid "Fake dog (Off)"
+msgstr "偽犬(Off)"
+
+msgid "one! !"
+msgstr "ワン！！"
+
+msgid "This is Fake furniture Decorate your base"
+msgstr "はりぼての家具です。あなたの拠点を飾りましょう。"
+
+msgid "false sign"
+msgstr "偽標識"
+
+msgid "fake signboard"
+msgstr "偽看板"
+
+msgid "fake toilet"
+msgstr "偽トイレ"
+
+msgid "false altar"
+msgstr "偽祭壇"
+
+msgid "false cage"
+msgstr "偽檻"
+
+msgid "fake treasure chest"
+msgstr "偽宝箱"
+
+msgid "fake blackboard"
+msgstr "偽黒板"
+
+msgid "fake shoji"
+msgstr "偽障子"
+
+msgid "fake vase"
+msgstr "偽花瓶"
+
+msgid "fake kotatsu"
+msgstr "偽炬燵"
+
+msgid "fake lotle"
+msgstr "偽ロートル"
+
+msgid "fake cushion"
+msgstr "偽座布団"
+
+msgid "fake sword"
+msgstr "偽刀"
+
+msgid "fake graffiti"
+msgstr "偽落書き"
+
+msgid "fake bed"
+msgstr "偽ベッド"
+
+msgid "fake futon"
+msgstr "偽布団"
+
+msgid "fake cake"
+msgstr "偽ケーキ"
+
+msgid "Zombie-chan signboard"
+msgstr "ゾンビちゃん立て看板"
+
+msgid "Fake game machine A"
+msgstr "偽ゲーム機A"
+
+msgid "Fake game machine B"
+msgstr "偽ゲーム機B"
+
+msgid "fake controller"
+msgstr "偽コントローラー"
+
+msgid "fake hanging scroll"
+msgstr "偽掛け軸"
+
+msgid "fake paintings"
+msgstr "偽絵画"
+
+msgid "fake chandelier"
+msgstr "偽シャンデリア"
+
+msgid "fake japanese style lighting"
+msgstr "偽和風照明"
+
+msgid "Fake bran (right)"
+msgstr "偽ふすま(右)"
+
+msgid "Fake bran (left)"
+msgstr "偽ふすま(左)"
+
+msgid "Rail for false sliding door"
+msgstr "偽ふすま用レール"
+
+msgid "fake closet"
+msgstr "偽押入れ"
+
+msgid "fake red carpet"
+msgstr "偽赤カーペット"
+
+msgid "fake white tile carpet"
+msgstr "偽白タイルカーペット"
+
+msgid "fake wire mesh carpet"
+msgstr "偽金網カーペット"
+
+msgid "fake tatami carpet"
+msgstr "偽白タイルカーペット"

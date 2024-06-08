@@ -2,10 +2,10 @@
   {
     "id": "TALK_CPA_RATTRADER",
     "type": "talk_topic",
-    "dynamic_line": "買えるのなら買ってみなされ",
+    "dynamic_line": "If you can buy it, buy it",
     "responses": [
       {
-        "text": "[2ﾈｽﾞﾐﾄﾞﾙ]*廃材ソーセージ 1個*",
+        "text": "[2 Nesmidollars]*1 scrap wood sausage*",
         "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "Cute_P_Ratdoller", "count": 2} } },
         "success": {
 
@@ -17,7 +17,7 @@
         "failure": { "topic": "TALK_CPA_RATTRADER_NOCASH" }
       },
       {
-        "text": "[7ﾈｽﾞﾐﾄﾞﾙ]*消毒綿 2個*",
+        "text": "[7 Nesmidollars]*2 disinfectant cotton*",
         "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "Cute_P_Ratdoller", "count": 7} } },
         "success": {
 
@@ -29,7 +29,7 @@
         "failure": { "topic": "TALK_CPA_RATTRADER_NOCASH" }
       },
       {
-        "text": "[10ﾈｽﾞﾐﾄﾞﾙ]*鉄菱 2個*",
+        "text": "[10 Nesmidol]*2 iron rhombuses*",
         "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "Cute_P_Ratdoller", "count": 10} } },
         "success": {
 
@@ -41,7 +41,7 @@
         "failure": { "topic": "TALK_CPA_RATTRADER_NOCASH" }
       },
       {
-        "text": "[20ﾈｽﾞﾐﾄﾞﾙ]*火炎瓶 3個*",
+        "text": "[20 Nest Midles] *3 Molotov Cocktails*",
         "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "Cute_P_Ratdoller", "count": 20} } },
         "success": {
 
@@ -53,7 +53,7 @@
         "failure": { "topic": "TALK_CPA_RATTRADER_NOCASH" }
       },
       {
-        "text": "[50ﾈｽﾞﾐﾄﾞﾙ]*ネズミ契約書 1個*",
+        "text": "[50 rats]*1 mouse contract*",
         "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "Cute_P_Ratdoller", "count": 50} } },
         "success": {
 			"effect": [
@@ -64,43 +64,43 @@
         "failure": { "topic": "TALK_CPA_RATTRADER_NOCASH" }
       },
 
-      { "text": "[どうやればﾈｽﾞﾐﾄﾞﾙは手に入る？]", "topic": "TALK_CPA_HELP" },
+      { "text": "[How can I get Nesmidol? ]", "topic": "TALK_CPA_HELP" },
  
-      { "text": "[もういい]", "topic": "TALK_DONE" }
+      { "text": "[enough]", "topic": "TALK_DONE" }
 	]
 	},
   {
     "type": "talk_topic",
     "id": "TALK_CPA_RATTRADER_ANSWER",
-    "dynamic_line": "まいど、ろくでなし",
-    "responses": [ { "text": "他にも見てみよう", "topic": "TALK_CPA_RATTRADER" } ]
+    "dynamic_line": "Maid, bastard",
+    "responses": [ { "text": "Let's take a look at others", "topic": "TALK_CPA_RATTRADER" } ]
   },
   {
     "type": "talk_topic",
     "id": "TALK_CPA_RATTRADER_NOCASH",
-    "dynamic_line": "冷やかしかね？",
+    "dynamic_line": "Are you just making fun of me?",
     "responses": [ { "text": "…", "topic": "TALK_CPA_RATTRADER" } ]
   },
     {
     "type": "talk_topic",
     "id": "TALK_CPA_HELP",
-    "dynamic_line": "森や人間のものだった住処を根城にしている同業者がたくさん居るさね、あとは分かるだろう？",
+    "dynamic_line": "There are many people in the same industry who have made their home in forests and other habitats that once belonged to humans, and you know what else?",
     "responses": [ { "text": "…", "topic": "TALK_CPA_RATTRADER" } ]
   },
   {
     "id": "TALK_TRADER_GOODBYE",
     "type": "talk_topic",
-    "dynamic_line": "バイバーイ",
+    "dynamic_line": "Bye bye",
     "responses": [ { "text": "…", "topic": "TALK_DONE" } ]
   }
 ,
  {
     "id": "TALK_CPA_RATMAID",
     "type": "talk_topic",
-    "dynamic_line": "お金をくれる人がご主人様です",
+    "dynamic_line": "The person who gives you money is your master",
     "responses": [
       {
-        "text": "[3ﾈｽﾞﾐﾄﾞﾙ]*お腹空いた*",
+        "text": "[3 Nest Midle] *Hungry*",
         "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "Cute_P_Ratdoller", "count": 3} } },
         "success": {
 
@@ -112,7 +112,7 @@
         "failure": { "topic": "TALK_CPA_RATMAID_NOCASH" }
       },
       {
-        "text": "[3ﾈｽﾞﾐﾄﾞﾙ]*喉が乾いた*",
+        "text": "[3 Nest Midle] *My throat is dry*",
         "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "Cute_P_Ratdoller", "count": 3} } },
         "success": {
 
@@ -124,7 +124,7 @@
         "failure": { "topic": "TALK_CPA_RATMAID_NOCASH" }
       },
       {
-        "text": "[30ﾈｽﾞﾐﾄﾞﾙ]*友達を紹介してもらう*",
+        "text": "[30 nests] *Introduce a friend*",
         "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "Cute_P_Ratdoller", "count": 30} } },
         "success": {
 			"effect": [
@@ -135,43 +135,43 @@
         "failure": { "topic": "TALK_CPA_RATMAID_NOCASH" }
       },
 
-      { "text": "[なんでメイド？]", "topic": "TALK_CPA_RATMAID_HELP" },
+      { "text": "[Why maid? ]", "topic": "TALK_CPA_RATMAID_HELP" },
  
-      { "text": "[もういい]", "topic": "TALK_DONE" }
+      { "text": "[enough]", "topic": "TALK_DONE" }
 	]
 	},
   {
     "type": "talk_topic",
     "id": "TALK_CPA_RATMAID_ANSWER",
-    "dynamic_line": "まいど、ろくでなし",
-    "responses": [ { "text": "他にも見てみよう", "topic": "TALK_CPA_RATMAID" } ]
+    "dynamic_line": "Maid, bastard",
+    "responses": [ { "text": "Let's take a look at others", "topic": "TALK_CPA_RATMAID" } ]
   },
   {
     "type": "talk_topic",
     "id": "TALK_CPA_RATMAID_NOCASH",
-    "dynamic_line": "ぶー、対価を要求します",
+    "dynamic_line": "Boo, I demand payment",
     "responses": [ { "text": "…", "topic": "TALK_CPA_RATMAID" } ]
   },
     {
     "type": "talk_topic",
     "id": "TALK_CPA_RATMAID_HELP",
-    "dynamic_line": "敷かれたレール、命令の遂行！！このご時世安息を求めるならばメイドしかないのでは？",
+    "dynamic_line": "Rails laid, execution of orders! ! If you're looking for peace in this day and age, isn't a maid the only option?",
     "responses": [ { "text": "…", "topic": "TALK_CPA_RATMAID" } ]
   },
   {
     "id": "TALK_MAID_GOODBYE",
     "type": "talk_topic",
-    "dynamic_line": "バイバーイ",
+    "dynamic_line": "Bye bye",
     "responses": [ { "text": "…", "topic": "TALK_DONE" } ]
   }
 ,
   {
     "id": "TALK_CPA_RATDOC",
     "type": "talk_topic",
-    "dynamic_line": "マッサージ専門の医者で～す、ひひ（ダブルピース）",
+    "dynamic_line": "Hihi is a doctor specializing in massage (Double Peace)",
     "responses": [
       {
-        "text": "[2ﾈｽﾞﾐﾄﾞﾙ]*マッサージ*",
+        "text": "[2-midollar]*Massage*",
         "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "Cute_P_Ratdoller", "count": 2} } },
         "success": {
 			"topic": "TALK_CPA_RATDOC_ANSWER_01",
@@ -182,17 +182,17 @@
         "failure": { "topic": "TALK_CPA_RATDOC_NOCASH" }
       },
 
-      { "text": "[何の冗談だ？]", "topic": "TALK_CPA_RATDOC_HELP" },
+      { "text": "[What are you kidding? ]", "topic": "TALK_CPA_RATDOC_HELP" },
  
-      { "text": "[もういい]", "topic": "TALK_DONE" }
+      { "text": "[enough]", "topic": "TALK_DONE" }
 	]
 	},
   {
     "type": "talk_topic",
     "id": "TALK_CPA_RATDOC_ANSWER_01",
-    "dynamic_line": "じゃあ手軽に済ませよう、気分の落ち込みは不調につながるからねぇ",
-    "responses": [ { "text": "目を閉じる…", "topic": "TALK_DONE" },
-    { "text": "[3ﾈｽﾞﾐﾄﾞﾙ]もっと本気を出して", 
+    "dynamic_line": "Well, let's take it easy, because a depressed mood will lead to poor health",
+    "responses": [ { "text": "Close ~ eyes…", "topic": "TALK_DONE" },
+    { "text": "[3 Nesmidollar] Be more serious", 
             "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "Cute_P_Ratdoller", "count": 3} } },
         "success": {
 			"topic": "TALK_CPA_RATDOC_ANSWER_02",
@@ -206,7 +206,7 @@
   {
     "type": "talk_topic",
     "id": "TALK_CPA_RATDOC_ANSWER_02",
-    "dynamic_line": "…へんな声出すんじゃないよ？",
+    "dynamic_line": "Don't make a weird sound, right?",
     "responses": [ { "text": "……", "topic": "TALK_DONE" ,
            	   "effect": [
             { "u_add_effect": "mood_cpa", "duration": 20000 },
@@ -217,7 +217,7 @@
   {
     "type": "talk_topic",
     "id": "TALK_CPA_RATDOC_ANSWER_03",
-    "dynamic_line": "誠意が足りないんじゃない？",
+    "dynamic_line": "Isn't there a lack of sincerity?",
     "responses": [ { "text": "……", "topic": "TALK_DONE" ,
            	   "effect": [
             { "u_add_effect": "mood_cpa", "duration": 10000 }]
@@ -227,25 +227,25 @@
   {
     "type": "talk_topic",
     "id": "TALK_CPA_RATDOC_NOCASH",
-    "dynamic_line": "冷やかし～？",
+    "dynamic_line": "Chilling?",
     "responses": [ { "text": "…", "topic": "TALK_CPA_RATDOC" } ]
   },
     {
     "type": "talk_topic",
     "id": "TALK_CPA_RATDOC_HELP",
-    "dynamic_line": "傷口とかちょっと苦手だし…多少の傷なら次の日には治るし…",
+    "dynamic_line": "I'm not very good with woundseven if it's a small wound, it will heal the next day",
     "responses": [ { "text": "…", "topic": "TALK_CPA_RATDOC" } ]
   },
   {
     "id": "TALK_TRADER_GOODBYE",
     "type": "talk_topic",
-    "dynamic_line": "バイバーイ",
+    "dynamic_line": "Bye bye",
     "responses": [ { "text": "…", "topic": "TALK_DONE" } ]
   },
   {
     "type": "talk_topic",
     "id": "TALK_CPA_RATDOC_ANSWER_03",
-    "dynamic_line": "誠意が足りないんじゃない？",
+    "dynamic_line": "Isn't there a lack of sincerity?",
     "responses": [ { "text": "……", "topic": "TALK_DONE" ,
            	   "effect": [
             { "u_add_effect": "mood_cpa", "duration": 10000 }]
@@ -257,51 +257,51 @@
   {
     "type": "talk_topic",
     "id": "TALK_CPA_RATBASE",
-    "dynamic_line": "ニンゲン…紛らわしいから離れるんだよー…",
-    "responses": [ { "text": "普段は何をしてる？", "topic": "TALK_CPA_RATBASE_HELP_01" }, { "text": "長生きのコツは？", "topic": "TALK_CPA_RATBASE_HELP_02" }, { "text": "空き巣のコツは？", "topic": "TALK_CPA_RATBASE_HELP_03" }, 
-    { "text": "どうしても戦う必要がある場合？", "topic": "TALK_CPA_RATBASE_HELP_04" },{ "text": "お前達は何者だ？", "topic": "TALK_CPA_RATBASE_HELP_05" },{ "text": "最近変わったことは…？", "topic": "TALK_CPA_RATBASE_HELP_06" } ,{ "text": "…", "topic": "TALK_CPA_RATBASE_GOODBYE" }
+    "dynamic_line": "HumanI'm leaving because it's confusing",
+    "responses": [ { "text": "What do you usually do? ", "topic": "TALK_CPA_RATBASE_HELP_01" }, { "text": "What are the tips for living a long life? ", "topic": "TALK_CPA_RATBASE_HELP_02" }, { "text": "Any tips for burglary? ", "topic": "TALK_CPA_RATBASE_HELP_03" }, 
+    { "text": "What if you really need to fight? ", "topic": "TALK_CPA_RATBASE_HELP_04" },{ "text": "Who are you guys? ", "topic": "TALK_CPA_RATBASE_HELP_05" },{ "text": "What has changed recently? ", "topic": "TALK_CPA_RATBASE_HELP_06" } ,{ "text": "…", "topic": "TALK_CPA_RATBASE_GOODBYE" }
      ]
   },
     {
     "type": "talk_topic",
     "id": "TALK_CPA_RATBASE_HELP_01",
-    "dynamic_line": "ニンゲンの元住処で空き巣！あと森で木の実探し…文句ある？",
+    "dynamic_line": "Burglary at Human's former residence! Also, looking for nuts in the forestdo you have any complaints?",
     "responses": [ { "text": "…", "topic": "TALK_CPA_RATBASE" } ]
   },
     {
     "type": "talk_topic",
     "id": "TALK_CPA_RATBASE_HELP_02",
-    "dynamic_line": "プライドを捨てるんだよ、逃げるが勝ち！あんな奴ら一匹ずつ相手してたらキリがないよー",
+    "dynamic_line": "Throw away your pride, run away and win! There's no end to it if you deal with those guys one by one",
     "responses": [ { "text": "…", "topic": "TALK_CPA_RATBASE" } ]
   },
   {
     "type": "talk_topic",
     "id": "TALK_CPA_RATBASE_HELP_03",
-    "dynamic_line": "明るいときは屈んで窓からの視界を避ける、地下には警戒する、カバンがなければ袋とか箱を使うんだよー",
+    "dynamic_line": "When it's bright, bend down to avoid looking out the window, be careful underground, and if you don't have a bag, use a bag or box",
     "responses": [ { "text": "…", "topic": "TALK_CPA_RATBASE" } ]
   },
     {
     "type": "talk_topic",
     "id": "TALK_CPA_RATBASE_HELP_04",
-    "dynamic_line": "槍が有るなら木に登ればいいんだよー、おつむが弱い奴には火でも踏ませればいい。",
+    "dynamic_line": "If you have a spear, you can just climb a tree, and for those who are weak, you can even make them step on fire",
     "responses": [ { "text": "…", "topic": "TALK_CPA_RATBASE" } ]
   },
       {
     "type": "talk_topic",
     "id": "TALK_CPA_RATBASE_HELP_05",
-    "dynamic_line": "人間嫌いの長老がヒトへんいやく？があーだこーだ言ってたよ出自は気にしないタイプなんだよねー",
+    "dynamic_line": "An elder who hates humans hates humans? He said he's the type who doesn't care about his origins",
     "responses": [ { "text": "…", "topic": "TALK_CPA_RATBASE" } ]
   },
   {
     "type": "talk_topic",
     "id": "TALK_CPA_RATBASE_HELP_06",
-    "dynamic_line": "やばい嵐の後に貯蔵用の穴を掘ってたら、土の中にヘンな種が埋められてることがあったよ怖いねぇ",
+    "dynamic_line": "When I was digging a hole for storage after a bad storm, I found strange seeds buried in the soil That's scary",
     "responses": [ { "text": "…", "topic": "TALK_CPA_RATBASE" } ]
   },
   {
     "id": "TALK_CPA_RATBASE_GOODBYE",
     "type": "talk_topic",
-    "dynamic_line": "バイバーイ",
+    "dynamic_line": "Bye bye",
     "responses": [ { "text": "…", "topic": "TALK_DONE" } ]
   },
   
@@ -309,9 +309,9 @@
    {
     "id": "TALK_CPA_RATKING",
     "type": "talk_topic",
-    "dynamic_line": "わしの手駒を手配してやるから、ﾈｽﾞﾐﾄﾞﾙをよこすのじゃ！",
+    "dynamic_line": "I'll arrange my pawns, so give me Nesmidollar!",
     "responses": [
-      {"text": "[30ﾈｽﾞﾐﾄﾞﾙ]*ワーカーを雇う*",
+      {"text": "[30 Nesmidollar] *Hire worker*",
         "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "Cute_P_Ratdoller", "count": 30} } },
         "success": {
 			"effect": [
@@ -321,7 +321,7 @@
         },
         "failure": { "topic": "TALK_CPA_RATKING_NOCASH" }
       },
-     {"text": "[30ﾈｽﾞﾐﾄﾞﾙ]*ハイワーカーを雇う*",
+     {"text": "[30 Nesmidollar] *Hire a high worker*",
         "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "Cute_P_Ratdoller", "count": 30} } },
         "success": {
 			"effect": [
@@ -331,7 +331,7 @@
         },
         "failure": { "topic": "TALK_CPA_RATKING_NOCASH" }
       },
-      {"text": "[50ﾈｽﾞﾐﾄﾞﾙ]*トレーダーを雇う*",
+      {"text": "[50 Nesmidollar] *Hire a trader*",
         "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "Cute_P_Ratdoller", "count": 50} } },
         "success": {
 			"effect": [
@@ -341,7 +341,7 @@
         },
         "failure": { "topic": "TALK_CPA_RATKING_NOCASH" }
       },
-      {"text": "[30ﾈｽﾞﾐﾄﾞﾙ]*ドクターを雇う*",
+      {"text": "[30 Nesmidollar] *Hire a Doctor*",
         "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "Cute_P_Ratdoller", "count": 30} } },
         "success": {
 			"effect": [
@@ -351,7 +351,7 @@
         },
         "failure": { "topic": "TALK_CPA_RATKING_NOCASH" }
       },
-      {"text": "[30ﾈｽﾞﾐﾄﾞﾙ]*メイドを雇う*",
+      {"text": "[30 Nesmidollar] *Hire a maid*",
         "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "Cute_P_Ratdoller", "count": 30} } },
         "success": {
 			"effect": [
@@ -361,7 +361,7 @@
         },
         "failure": { "topic": "TALK_CPA_RATKING_NOCASH" }
       },
-      {"text": "[50ﾈｽﾞﾐﾄﾞﾙ]*ﾋﾞﾘﾋﾞﾘしたﾈｽﾞﾐを雇う*",
+      {"text": "[50 Nesmidollar] *Hire a ripped Nesmi*",
         "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "Cute_P_Ratdoller", "count": 50} } },
         "success": {
 			"effect": [
@@ -371,7 +371,7 @@
         },
         "failure": { "topic": "TALK_CPA_RATKING_NOCASH" }
       },
-            {"text": "[50ﾈｽﾞﾐﾄﾞﾙ]*銃士を雇う*",
+            {"text": "[50 Nesmidollar] *Hire a Musketeer*",
         "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "Cute_P_Ratdoller", "count": 50} } },
         "success": {
 			"effect": [
@@ -381,7 +381,7 @@
         },
         "failure": { "topic": "TALK_CPA_RATKING_NOCASH" }
       },
-            {"text": "[80ﾈｽﾞﾐﾄﾞﾙ]*ﾃﾞﾊﾞﾈｽﾞﾐを雇う*",
+            {"text": "[80 Nesmidollar] *Hire Devanesmi*",
         "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "Cute_P_Ratdoller", "count": 80} } },
         "success": {
 			"effect": [
@@ -391,7 +391,7 @@
         },
         "failure": { "topic": "TALK_CPA_RATKING_NOCASH" }
       },
-            {"text": "[100ﾈｽﾞﾐﾄﾞﾙ]*王を雇う*",
+            {"text": "[100 Nesmidollar] *Hire the King*",
         "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "Cute_P_Ratdoller", "count": 100} } },
         "success": {
 			"effect": [
@@ -401,63 +401,63 @@
         },
         "failure": { "topic": "TALK_CPA_RATKING_NOCASH" }
       },
-      { "text": "[王？それは本当か？]", "topic": "TALK_CPA_RATKING_HELP_01" },
-      { "text": "[昔話をして]", "topic": "TALK_CPA_RATKING_HELP_02" },
-      { "text": "[もういい]", "topic": "TALK_DONE" }
+      { "text": "[king? Is it true? ]", "topic": "TALK_CPA_RATKING_HELP_01" },
+      { "text": "[Talk about old times]", "topic": "TALK_CPA_RATKING_HELP_02" },
+      { "text": "[enough]", "topic": "TALK_DONE" }
 	]
 	},
 	  {
     "type": "talk_topic",
     "id": "TALK_CPA_RATKING_NOCASH",
-    "dynamic_line": "冷やかし～？",
+    "dynamic_line": "Chilling?",
     "responses": [ { "text": "…", "topic": "TALK_CPA_RATKING" } ]
   },
   	  {
     "type": "talk_topic",
     "id": "TALK_CPA_RATKING_HELP_01",
-    "dynamic_line": "わしは嘘つかん！昔は侵入者を変異させて遊んでおったのじゃが…星辰の影響か権能を無くしてしまっての…尻尾もとうにほどけたわい。",
-    "responses": [ { "text": "許せない…", "topic": "TALK_CPA_RATKING" } ]
+    "dynamic_line": "I don't lie! In the past, I used to play around with mutating intruders, but perhaps due to the influence of the Stars, I lost my authority and my tail has long come undone",
+    "responses": [ { "text": "can not forgive…", "topic": "TALK_CPA_RATKING" } ]
   },
   	  {
     "type": "talk_topic",
     "id": "TALK_CPA_RATKING_HELP_02",
-    "dynamic_line": "そうじゃのう…昔はほぼ毎日雨でな、変な嵐もなかったのぉ…\nそれから、下水を飲んだ人間が変異したりな？、街をやばい機械達が徘徊しておった\n昔の人間はけっこーいい加減じゃった、鞄に槍を詰め込んだり屈むことを知らなかったり…\n唯一不変なのはわしのかわいさ位じゃの～。",
-    "responses": [ { "text": "そんな事もあった様な…？", "topic": "TALK_CPA_RATKING" } ]
+    "dynamic_line": "That's right In the past, it rained almost every day, and there were no strange storms\nAlso, people who drank sewage mutated? , dangerous machines roamed the streets\nIn the past, humans were quite careless, like stuffing spears in their bags and not knowing how to bend down\nThe only thing that hasn't changed is my cuteness ~",
+    "responses": [ { "text": "It seems like something like that happened? ", "topic": "TALK_CPA_RATKING" } ]
   },
      {
     "id": "TALK_CPA_BASE_07",
     "type": "talk_topic",
-    "dynamic_line": "われらが、そうぞうしゅさま。なにようで？",
-    "responses":[ { "text": "撫でる", "topic": "TALK_CPA_07_HELP_01" },{ "text": "何をしている？", "topic": "TALK_CPA_07_HELP_02" },{ "text": "…", "topic": "TALK_DONE" } ]
+    "dynamic_line": "We are Sozoshu-sama What does it look like?",
+    "responses":[ { "text": "Stroke", "topic": "TALK_CPA_07_HELP_01" },{ "text": "What are you doing? ", "topic": "TALK_CPA_07_HELP_02" },{ "text": "…", "topic": "TALK_DONE" } ]
     },
     {
     "type": "talk_topic",
     "id": "TALK_CPA_07_HELP_01",
-    "dynamic_line": "あぶないですってぇ…えへへ…",
-    "responses": [ { "text": "よしよし", "topic": "TALK_CPA_BASE_07" } ]
+    "dynamic_line": "It's dangeroushehe",
+    "responses": [ { "text": "Okay, okay", "topic": "TALK_CPA_BASE_07" } ]
   },
     {
     "type": "talk_topic",
     "id": "TALK_CPA_07_HELP_02",
-    "dynamic_line": "まいにちたくさんあそぶ、つかれたらねる\nでもいまはそうぞうしゅさままもる、びりびりするからとおくでみててね",
-    "responses": [ { "text": "えらい！", "topic": "TALK_CPA_BASE_07" } ]
+    "dynamic_line": "I play a lot every day, and when I get tired, I go to bed\nBut for now, I'm going to sleep, and I'm going to get excited, so please leave it there and watch it",
+    "responses": [ { "text": "Great! ", "topic": "TALK_CPA_BASE_07" } ]
   },
      {
     "id": "TALK_CPA_BASE_09",
     "type": "talk_topic",
-    "dynamic_line": "にんげんか…なんかちいさくない？",
-    "responses":[ { "text": "君がでかい", "topic": "TALK_CPA_07_HELP_09" },{ "text": "何をしている？", "topic": "TALK_CPA_09_HELP_02" },{ "text": "…", "topic": "TALK_DONE" } ]
+    "dynamic_line": "HumanIsn't it kind of small?",
+    "responses":[ { "text": "You're huge", "topic": "TALK_CPA_07_HELP_09" },{ "text": "What are you doing? ", "topic": "TALK_CPA_09_HELP_02" },{ "text": "…", "topic": "TALK_DONE" } ]
     },
     {
     "type": "talk_topic",
     "id": "TALK_CPA_07_HELP_09",
-    "dynamic_line": "あぁ…たしかにそうだ…にんげんかしこい",
-    "responses": [ { "text": "えっへん", "topic": "TALK_CPA_BASE_09" } ]
+    "dynamic_line": "Ah that's certainly true you're so smart",
+    "responses": [ { "text": "Ahem", "topic": "TALK_CPA_BASE_09" } ]
   },
     {
     "type": "talk_topic",
     "id": "TALK_CPA_07_HELP_09",
-    "dynamic_line": "おれはまいにちあなほてじゃまなやつみんなつぶした、だからほしがおこた！！\nおれはいちどしんだ、あなほれなくなた。だがひかりがみえるようなた！！",
-    "responses": [ { "text": "よかたぁ…", "topic": "TALK_CPA_BASE_07" } ]
+    "dynamic_line": "I crushed all the hot and bothersome people every day, so I got a star! ! \nI lost my respect for once But I can see the light! !",
+    "responses": [ { "text": "Good luck…", "topic": "TALK_CPA_BASE_07" } ]
   }
 ]

@@ -3,7 +3,7 @@
 		"id":"Fake_Furn_base",
 		"type":"GENERIC",
 		"name":"Base_Fake_Furn",
-		"description":"はりぼての家具です。あなたの拠点を飾りましょう。",
+		"description":"This is Fake furniture Decorate your base",
 		"weight":"1 g",
 		"volume":"1 ml",
 		"material":[ "veggy" ],
@@ -18,197 +18,197 @@
 		"id":"Fake_Furn_00",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽標識"
+		"name":"false sign"
 	}
 ,
 	{
 		"id":"Fake_Furn_01",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽看板"
+		"name":"fake signboard"
 	}
 ,
 	{
 		"id":"Fake_Furn_02",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽トイレ"
+		"name":"fake toilet"
 	}
 ,
 	{
 		"id":"Fake_Furn_03",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽祭壇"
+		"name":"false altar"
 	}
 ,
 	{
 		"id":"Fake_Furn_04",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽檻"
+		"name":"false cage"
 	}
 ,
 	{
 		"id":"Fake_Furn_05",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽宝箱"
+		"name":"fake treasure chest"
 	}
 ,
 	{
 		"id":"Fake_Furn_06",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽黒板"
+		"name":"fake blackboard"
 	}
 ,
 	{
 		"id":"Fake_Furn_07",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽障子"
+		"name":"fake shoji"
 	}
 ,
 	{
 		"id":"Fake_Furn_08",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽花瓶"
+		"name":"fake vase"
 	}
 ,
 	{
 		"id":"Fake_Furn_09",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽炬燵"
+		"name":"fake kotatsu"
 	}
 ,
 	{
 		"id":"Fake_Furn_10",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽ロートル"
+		"name":"fake lotle"
 	}
 ,
 	{
 		"id":"Fake_Furn_11",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽座布団"
+		"name":"fake cushion"
 	}
 ,
 	{
 		"id":"Fake_Furn_12",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽刀"
+		"name":"fake sword"
 	}
 ,
 	{
 		"id":"Fake_Furn_13",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽落書き"
+		"name":"fake graffiti"
 	}
 	,
 	{
 		"id":"Fake_Furn_14",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽ベッド"
+		"name":"fake bed"
 	}
 	,
 	{
 		"id":"Fake_Furn_15",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽布団"
+		"name":"fake futon"
 	},
 	{
 		"id":"Fake_Furn_16",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽ケーキ"
+		"name":"fake cake"
 	},
 	{
 		"id":"Fake_Furn_17",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"ゾンビちゃん立て看板"
+		"name":"Zombie-chan signboard"
 	},
 	{
 		"id":"Fake_Furn_18",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽ゲーム機A"
+		"name":"Fake game machine A"
 	},
 	{
 		"id":"Fake_Furn_19",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽ゲーム機B"
+		"name":"Fake game machine B"
 	},
 	{
 		"id":"Fake_Furn_20",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽コントローラー"
+		"name":"fake controller"
 	},
 	{
 		"id":"Fake_Furn_21",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽掛け軸"
+		"name":"fake hanging scroll"
 	},
 	{
 		"id":"Fake_Furn_22",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽絵画"
+		"name":"fake paintings"
 	},
 	{
 		"id":"Fake_Furn_23",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽シャンデリア"
+		"name":"fake chandelier"
 	},
 	{
 		"id":"Fake_Furn_24",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽和風照明"
+		"name":"fake japanese style lighting"
 	},
 	{
 		"id":"Fake_Furn_25",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽ふすま（右）"
+		"name":"Fake bran (right)"
 	},
 	{
 		"id":"Fake_Furn_26",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽ふすま（左）"
+		"name":"Fake bran (left)"
 	},
 	{
 		"id":"Fake_Furn_27",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽ふすま用レール"
+		"name":"Rail for false sliding door"
 	},
 	{
 		"id":"Fake_Furn_28",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽押入れ"
+		"name":"fake closet"
 	},
 
 	{
 		"id":"Fake_Carpet_00",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽赤カーペット",
+		"name":"fake red carpet",
 		"use_action": { "type": "deploy_furn", "furn_type": "Fake_Furn_Carpet_00" }
 	}
 ,
@@ -216,7 +216,7 @@
 		"id":"Fake_Carpet_01",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽白タイルカーペット",
+		"name":"fake white tile carpet",
 		"use_action": { "type": "deploy_furn", "furn_type": "Fake_Furn_Carpet_01" }
 	}
 ,
@@ -224,7 +224,7 @@
 		"id":"Fake_Carpet_02",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽金網カーペット",
+		"name":"fake wire mesh carpet",
 		"use_action": { "type": "deploy_furn", "furn_type": "Fake_Furn_Carpet_02" }
 	}
 ,
@@ -232,7 +232,7 @@
 		"id":"Fake_Carpet_03",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽畳カーペット",
+		"name":"fake tatami carpet",
 		"use_action": { "type": "deploy_furn", "furn_type": "Fake_Furn_Carpet_03" }
 	}
 ]

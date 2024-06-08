@@ -2,7 +2,7 @@
  {
     "type": "furniture",
     "id": "tree_cpa_00",
-    "name": "爽やかな木",
+    "name": "refreshing tree",
     "description": "この奇妙な木は周囲の熱を取り込み続けているようです、冬場はあまり近づかない方が良いかもしれません。",
     "copy-from": "f_vent_cold_air2_stream",
     "symbol": "~",
@@ -14,7 +14,7 @@
    {
       "type": "furniture",
       "id": "tree_cpa_01",
-      "name": "せんぷうき",
+      "name": "Senpuuki",
       "description": "この奇妙な木は周囲の熱を取り込み続けているようです、冬場はあまり近づかない方が良いかもしれません。",
       "copy-from": "f_vent_cold_air2_stream",
       "symbol": "~",

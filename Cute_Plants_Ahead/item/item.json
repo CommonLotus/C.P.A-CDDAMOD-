@@ -3,8 +3,8 @@
 	"type":"TOOL",
 	"id":"Cute_P_Soul",
 	"copy-from":"withered",
-	"name": {"str": "果てぬ忠誠"},
-	"description":"朽ちた彼女達の痕跡、温もりを感じる。",
+	"name": {"str": "endless loyalty"},
+	"description":"I can feel the warmth and traces of their decayed remains",
 	"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_REPAIR" ],
 	"weight":"1 g",
 	"volume":"1 ml"
@@ -26,8 +26,8 @@
 		"id":"Cute_P_Pet_Armor_00",
 		"type":"PET_ARMOR",
 		"looks_like":"tacvest",
-		"name":{"str":"防火の加護"},
-		"description":"朽ちた破片から形成された防火鎧、彼女たちが装備できる",
+		"name":{"str":"fire protection"},
+		"description":"They can equip fireproof armor made from rotten fragments",
 		"weight":"3 g",
 		"volume":"200 ml",
 		"price":1,
@@ -46,8 +46,8 @@
 		"id":"Cute_P_Pet_Armor_01",
 		"type":"PET_ARMOR",
 		"copy-from":"Cute_P_Pet_Armor_00",
-		"name":{"str": "朽葉装甲"},
-		"description":"朽ちた破片から形成された装甲、彼女たちが装備できる",
+		"name":{"str": "Kutsuha armor"},
+		"description":"Armor formed from rotten fragments, which they can equip",
 		"material":[ "Cute_Plant_Block_Protect" ],
 		"environmental_protection":7
 	}
@@ -56,8 +56,8 @@
 		"id":"Cute_P_Book_00",
 		"type":"BOOK",
 		"copy-from":"holybook_pastafarian",
-		"name":{"str":"偶植式葉文"},
-		"description":"結合した破片に文字の様な物がびっしりと書かれています、見るたびに内容が変わっている様ですが何が書かれているかはさっぱりです。",
+		"name":{"str":"Artificial leaf pattern"},
+		"description":"What looks like letters are written all over the combined piecesThe content seems to change every time I look at it, but I don't know exactly what's written on it",
 		"material":[ "veggy" ],
 		"intelligence": 8,
 		"time": "15 m",
@@ -68,8 +68,8 @@
 	{
 		"id":"Cute_P_Food_00",
 		"type":"COMESTIBLE",
-		"name":{"str_sp": "青臭いドロドロ"},
-		"description":"強烈な匂いを放っています紛れもなく雑草のアレです、生存する為に必要ならば食べるべきでしょう。",
+		"name":{"str_sp": "blue-smelling mush"},
+		"description":"It has a strong odor and is definitely a weed, so you should eat it if you need it to survive",
 		"weight":"1 g",
 		"color":"white",
 		"comestible_type":"FOOD",
@@ -90,8 +90,8 @@
 		"id":"Cute_P_Pot",
 		"type":"TOOL",
 		"copy-from":"plastic_pot_flower",
-		"name":{"str": "保全鉢"},
-		"description":"彼女たちはこの鉢と同化し擬態することによって敵の攻撃から逃れることができます。",
+		"name":{"str": "conservation pot"},
+		"description":"They can escape from enemy attacks by assimilating and mimicking this bowl",
 		"material":[ "veggy" ],
 		"flags":[ "TRADER_AVOID","UNBREAKABLE_MELEE" ],
 		"use_action":[ "CAPTURE_MONSTER_ACT" ],
@@ -101,7 +101,7 @@
   {
 	"type": "COMESTIBLE",
 	"id": "Cute_P_Water_00",
-	"name": {"str_sp": "溢泌液"},
+	"name": {"str_sp": "extravasated fluid"},
 	"weight": "280 g",
 	"color": "green",
 	"container": "bottle_plastic",
@@ -110,7 +110,7 @@
 	"symbol": "~",
 	"quench": 10,
 	"healthy": 1,
-	"description": "通常植物の余分な水分は葉の表面から蒸散しますが、特殊な状況に置かれた植物は液体としてそれを分泌します。ほぼ水ですが生物濃縮と雑草のフレーバーです。",
+	"description": "Normally, excess water in plants transpires through the leaf surface, but plants in special circumstances secrete it as a liquid It's mostly water but with bioconcentration and weed flavor",
 	"volume": "250 ml",
 	"phase": "liquid",
 	"category": "chems",
@@ -122,8 +122,8 @@
 	"type":"TOOL",
 	"id":"Cute_P_Furn_00",
 	"copy-from":"withered",
-	"name": {"str": "爽やかな木"},
-	"description":"熱を吸収し続けている木、視線を感じる……",
+	"name": {"str": "refreshing tree"},
+	"description":"The trees continue to absorb heat, and I can feel their gaze on me",
 	"weight":"1 g",
 	"volume":"1 ml",
 	"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_REPAIR" ],
@@ -134,8 +134,8 @@
 		"type":"TOOL",
 		"id":"Cute_P_Furn_01",
 		"copy-from":"withered",
-		"name": {"str": "せんぷうき"},
-		"description":"熱を吸収し回転する木、視線を感じる……",
+		"name": {"str": "Senpuuki"},
+		"description":"A tree that absorbs heat and rotates, I can feel your gaze",
 		"weight":"1 g",
 		"volume":"1 ml",
 		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_REPAIR" ],
@@ -146,16 +146,16 @@
 		"type":"TOOL",
 		"id":"Cute_P_Ratdoller",
 		"copy-from":"money_one",
-		"name":{"str": "ﾈｽﾞﾐﾄﾞﾙ"},
+		"name":{"str": "Nesmidollar"},
 		"flags":[ "TRADER_AVOID","UNBREAKABLE_MELEE" ],
-		"description":"ラットトレーダーが発行する独自通貨です、他の市場での価値は皆無。"
+		"description":"It is a unique currency issued by Rat Trader and has no value in other markets"
 	},
 		{
 		"id":"Cute_P_Ratcontract_01",
 		"type":"TOOL",
 		"copy-from":"Cute_P_Ratdoller",
-		"name":{"str":"ネズミの契約書(ワーカー)"},
-		"description":"けいやくしょ、これはたいとうなけいやくですすべてのろうどうにたいかをもとめます",
+		"name":{"str":"Mouse contract (worker)"},
+		"description":"This is a very important questionI want to know what all the words are",
 		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_REPAIR" ],
 		"use_action":[{"type": "place_monster", "monster_id": "mon_Cute_P_Rat_01", "difficulty": 0, "moves": 200,"friendly_msg": "貴方は契約書を使用した！！","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true}]
 		},
@@ -163,7 +163,7 @@
 		"id":"Cute_P_Ratcontract",
 		"type":"TOOL",
 		"copy-from":"Cute_P_Ratcontract_01",
-		"name":{"str":"ネズミの契約書(ハイワーカー)"},
+		"name":{"str":"Mouse Contract (High Worker)"},
 		"use_action":[{"type": "place_monster", "monster_id": "mon_Cute_P_Rat_02", "difficulty": 0, "moves": 200,"friendly_msg": "貴方は契約書を使用した！！","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true}]
 	},
 		
@@ -171,14 +171,14 @@
 		"id":"Cute_P_Ratcontract_03",
 		"type":"TOOL",
 		"copy-from":"Cute_P_Ratcontract_01",
-		"name":{"str":"ネズミの契約書(トレーダー)"},
+		"name":{"str":"Rat Contract (Trader)"},
 		"use_action":[{"type": "place_monster", "monster_id": "mon_Cute_P_Rat_03", "difficulty": 0, "moves": 200,"friendly_msg": "貴方は契約書を使用した！！","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true}]
 	},
 			{
 		"id":"Cute_P_Ratcontract_04",
 		"type":"TOOL",
 		"copy-from":"Cute_P_Ratcontract_01",
-		"name":{"str":"ネズミの契約書(ドクター)"},
+		"name":{"str":"Rat Contract (Doctor)"},
 		"use_action":[{"type": "place_monster", "monster_id": "mon_Cute_P_Rat_04", "difficulty": 0, "moves": 200,"friendly_msg": "貴方は契約書を使用した！！","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true}]
 	},
 
@@ -186,7 +186,7 @@
 		"id":"Cute_P_Ratcontract_05",
 		"type":"TOOL",
 		"copy-from":"Cute_P_Ratcontract_01",
-		"name":{"str":"ネズミの契約書(メイド)"},
+		"name":{"str":"Mouse contract (maid)"},
 		"use_action":[{"type": "place_monster", "monster_id": "mon_Cute_P_Rat_05", "difficulty": 0, "moves": 200,"friendly_msg": "貴方は契約書を使用した！！","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true}]
 	},
 
@@ -194,14 +194,14 @@
 		"id":"Cute_P_Ratcontract_06",
 		"type":"TOOL",
 		"copy-from":"Cute_P_Ratcontract_01",
-		"name":"ネズミの契約書(キング)",
+		"name":"Mouse Contract (King)",
 		"use_action":[{"type": "place_monster", "monster_id": "mon_Cute_P_Rat_06", "difficulty": 0, "moves": 200,"friendly_msg": "貴方は契約書を使用した！！","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true}]
 	},
 		{
 		"id":"Cute_P_Ratcontract_07",
 		"type":"TOOL",
 		"copy-from":"Cute_P_Ratcontract_01",
-		"name":{"str":"ネズミの契約書(感電)"},
+		"name":{"str":"Mouse contract (electric shock)"},
 		"use_action":[{"type": "place_monster", "monster_id": "mon_Cute_P_Rat_07", "difficulty": 0, "moves": 200,"friendly_msg": "貴方は契約書を使用した！！","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true}]
 	},
 
@@ -209,7 +209,7 @@
 		"id":"Cute_P_Ratcontract_08",
 		"type":"TOOL",
 		"copy-from":"Cute_P_Ratcontract_01",
-		"name":{"str":"ネズミの契約書(銃士)"},
+		"name":{"str":"Mouse contract (musketeer)"},
 		"use_action":[{"type": "place_monster", "monster_id": "mon_Cute_P_Rat_08", "difficulty": 0, "moves": 200,"friendly_msg": "貴方は契約書を使用した！！","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true}]
 	},
 
@@ -217,27 +217,27 @@
 		"id":"Cute_P_Ratcontract_09",
 		"type":"TOOL",
 		"copy-from":"Cute_P_Ratcontract_01",
-		"name":{"str":"ネズミの契約書(ﾃﾞﾊﾞﾈｽﾞﾐ)"},
+		"name":{"str":"Mouse contract (Devanesumi)"},
 		"use_action":[{"type": "place_monster", "monster_id": "mon_Cute_P_Rat_09", "difficulty": 0, "moves": 200,"friendly_msg": "貴方は契約書を使用した！！","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true}]
 	},		{
 		"id":"Cute_P_Ratcontract_01_Ev",
 		"type":"TOOL",
 		"copy-from":"Cute_P_Ratcontract_01",
-		"name":{"str":"ネズミの契約書(ハロウィン)"},
+		"name":{"str":"Mouse Contract (Halloween)"},
 		"use_action":[{"type": "place_monster", "monster_id": "mon_Cute_P_Rat_01_Ev", "difficulty": 0, "moves": 200,"friendly_msg": "貴方は契約書を使用した！！","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true}]
 	},		{
 		"id":"Cute_P_Ratcontract_02_Ev",
 		"type":"TOOL",
 		"copy-from":"Cute_P_Ratcontract_01",
-		"name":{"str":"ネズミの契約書(クリスマス)"},
+		"name":{"str":"Mouse Contract (Christmas)"},
 		"use_action":[{"type": "place_monster", "monster_id": "mon_Cute_P_Rat_02_Ev", "difficulty": 0, "moves": 200,"friendly_msg": "貴方は契約書を使用した！！","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true}]
 	},
 {
 		"id":"Cute_P_Picklock",
 		"type":"TOOL",
 		"copy-from":"crude_picklock",
-		"name":{"str":"ネズミの秘密道具"},
-		"description":"音を立てずに空き巣をする為の道具、戦わない決断も勇気である",
+		"name":{"str":"Rat's secret tool"},
+		"description":"Courage is also a tool for burglarizing a house without making a sound, and the decision not to fight",
 		"qualities": [ [ "LOCKPICK", 2 ] , [ "SCREW", 1 ]],
 		"price":1
 	},
@@ -246,8 +246,8 @@
 		"id":"Cute_P_Knife",
 		"type":"TOOL",
 		"copy-from":"knife_chef",
-		"name":{"str":"シノビナイフ"},
-		"description":"ラットワーカーが使う刺突用ナイフ、チーズを平等に切り分けるのにも使う",
+		"name":{"str":"shinobi knife"},
+		"description":"A stabbing knife used by rat workers, also used to cut cheese into equal pieces",
 		"use_action": [ "CROWBAR" ],
 		"qualities": [ [ "CUT", 2 ], [ "CUT_FINE", 1 ], [ "BUTCHER", 8 ], [ "PRY", 1 ] ],
 		"price":1
@@ -256,8 +256,8 @@
 		"id":"Cute_P_Swag_Bag",
 		"type":"ARMOR",
 		"copy-from":"swag_bag",
-		"name":{"str":"泥棒袋(ﾈｽﾞﾐ)"},
-		"description":"片手で武器も持ちたい空き巣向けの袋、小さい収穫物を集めるのに適している",
+		"name":{"str":"Thief bag (nesumi)"},
+		"description":"A bag for burglars who want to carry a weapon with one hand, suitable for collecting small crops",
 		"pocket_data": [
 		{
         "pocket_type": "CONTAINER",
@@ -273,8 +273,8 @@
 		"id":"Cute_P_Fishing_Rod_Basic",
 		"type":"TOOL",
 		"copy-from":"fishing_rod_basic",
-		"name":{"str":"ラットロッド"},
-		"description":"ﾈｽﾞﾐ向けの小さな釣り竿、プロレベルとは言えないが取り回しが良い",
+		"name":{"str":"rat rod"},
+		"description":"A small fishing rod for rodents, it can't be called professional level, but it's easy to handle",
 		"weight": "950 g",
 		"volume": "850 ml",
 		"longest_side": "75 cm",
@@ -284,8 +284,8 @@
 		"id":"Cute_P_Primitive_Shovel",
 		"type":"TOOL",
 		"copy-from":"primitive_shovel",
-		"name":{"str":"ラットシャベル"},
-		"description":"ﾈｽﾞﾐ向けの小さなシャベル、軽く鋭いため穴掘りと草刈りが可能",
+		"name":{"str":"rat shovel"},
+		"description":"A small shovel for rats, light and sharp for digging holes and mowing grass",
 		"weight": "1100 g",
 		"volume": "2050 ml",
 		"longest_side": "80 cm",
@@ -296,7 +296,7 @@
 		"id":"Cute_P_Box_Medium_Metal",
 		"type":"GENERIC",
 		"copy-from":"box_medium_metal",
-		"name":{"str":"ラットボックス"},
+		"name":{"str":"rat box"},
 		"weight": "2000 g",
 		"volume": "70750 ml",
 		"longest_side": "71 cm",
@@ -309,15 +309,15 @@
         "max_contains_weight": "160 kg",
         "max_item_length": "70 cm"
      }],
-		"description":"ﾈｽﾞﾐ向けの頑丈な収納箱、空き巣にも使える。", 
+		"description":"Sturdy storage box for rats, can also be used for burglary", 
 		"price":1
 	},
 			{
 		"id":"Cute_P_Crossbow",
 		"type":"GUN",
 		"copy-from":"crossbow",
-		"name":{"str":"ラットクロスボウ"},
-		"description":"悪いネズミに改造された非常用クロスボウ、有効射程が短いが威力が高く取り回しが良い",
+		"name":{"str":"rat crossbow"},
+		"description":"An emergency crossbow modified by an evil mouse Its effective range is short, but it is highly powerful and easy to handle",
     "ranged_damage": {"damage_type": "stab", "amount": 6},
     "range": 7,
     "min_strength": 5,
@@ -331,8 +331,8 @@
 		"id":"Cute_P_Throwing_Knife",
 		"type":"GENERIC",
 		"copy-from":"throwing_knife",
-		"name":{"str": "ラットクナイ"},
-		"description":"ラットワーカーが使う投擲用ナイフ、音を立てづらいが威力を出すのは難しい",
+		"name":{"str": "rat kunai"},
+		"description":"The throwing knife used by Ratworkers is difficult to make noise, but difficult to produce power",
 		"thrown_damage": [ {"damage_type": "stab", "amount": 12} ],
 		"price":1
 	},
@@ -340,8 +340,8 @@
   {
     "id": "Cute_P_Suit",
     "type": "ARMOR",
-    "name": {"str": "ワーカースーツ"},
-    "description":"黒く染色され革で補強されたジャンプスーツ、フード付きで頭部も保護する",
+    "name": {"str": "worker suit"},
+    "description":"Jumpsuit dyed black and reinforced with leather, with hood to protect the head",
 	"copy-from":"jumpsuit",
     "material": [ "cotton","leather" ],
     "symbol": "[",

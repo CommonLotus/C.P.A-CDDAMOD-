@@ -4,7 +4,7 @@
     "ident": "Cute_Plants",
     "name": "C.P.A",
     "authors": [ "njyana"],
-    "description": "植物の種を使用して下僕を生成します。",
+    "description": "Plant and mouse monster girl added +20over\nUnique currency and items associated with it\nAll additional character pets available\nAdd fake decorative furniture",
     "category": "SUPPLEMENTAL",
     "dependencies": [ "dda" ]
   }

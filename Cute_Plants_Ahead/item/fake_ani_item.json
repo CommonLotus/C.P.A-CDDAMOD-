@@ -4,218 +4,218 @@
 		"id":"Fake_Furn_Ani_00",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽デスクトップPC(ani)",
-		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Off_00", "msg": "電源をオフにしました。" }
+		"name":"Fake desktop PC(ani)",
+		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Off_00", "msg": "I turned off the power" }
 	}
 ,
 	{
 		"id":"Fake_Furn_Ani_01",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽薄型テレビ(ani)",
-		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Off_01", "msg": "電源をオフにしました。" }
+		"name":"fake flat screen tv(ani)",
+		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Off_01", "msg": "I turned off the power" }
 	}
 ,
 	{
 		"id":"Fake_Furn_Ani_02",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽黒猫(ani)",
-		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Off_02", "msg": "「にゃん？」" }
+		"name":"fake black cat(ani)",
+		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Off_02", "msg": "Nyan?" }
 	}
 ,
 	{
 		"id":"Fake_Furn_Ani_03",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽松明(ani)",
-		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Off_03", "msg": "消火しました。" }
+		"name":"fake torch(ani)",
+		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Off_03", "msg": "The fire was extinguished" }
 	}
 ,
 	{
 		"id":"Fake_Furn_Ani_04",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽篝火(ani)",
-		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Off_04", "msg": "消火しました。" }
+		"name":"fake bonfire(ani)",
+		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Off_04", "msg": "The fire was extinguished" }
 	}
 ,
 	{
 		"id":"Fake_Furn_Ani_05",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽点滅看板(ani)",
-		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Off_05", "msg": "電源をオフにしました。" }
+		"name":"Fake flashing signboard (ani)",
+		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Off_05", "msg": "I turned off the power" }
 	}
 ,
 	{
 		"id":"Fake_Furn_Ani_06",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽肉焼き機(ani)",
-		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Off_06", "msg": "消火しました。" }
+		"name":"Fake meat grill machine (ani)",
+		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Off_06", "msg": "The fire was extinguished" }
 	}
 ,
 	{
 		"id":"Fake_Furn_Ani_07",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽スロットマシーン(ani)",
-		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Off_07", "msg": "電源をオフにしました。" }
+		"name":"Fake slot machine (ani)",
+		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Off_07", "msg": "I turned off the power" }
 	}
 ,
 	{
 		"id":"Fake_Furn_Ani_08",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽バニーちゃん(ani)",
-		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Off_08", "msg": "「しょうがないなー」" }
+		"name":"Fake bunny chan(ani)",
+		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Off_08", "msg": "I can’t help it" }
 	}
 ,
 	{
 		"id":"Fake_Furn_Ani_09",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽バニーさん(ani)",
-		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Off_09", "msg": "「分かりました」。" }
+		"name":"Fake bunny san (ani)",
+		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Off_09", "msg": "Understood" }
 	}
 	,
 	{
 		"id":"Fake_Furn_Ani_10",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽ジュークボックス(ani)",
-		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Off_10", "msg": "電源をオフにしました。" }
+		"name":"fake jukebox(ani)",
+		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Off_10", "msg": "I turned off the power" }
 	},
 	{
 		"id":"Fake_Furn_Ani_11",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽レコード(ani)",
-		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Off_11", "msg": "電源をオフにしました。" }
+		"name":"fake record(ani)",
+		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Off_11", "msg": "I turned off the power" }
 	},
 	{
 		"id":"Fake_Furn_Ani_12",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"スチームパンカーちゃん(ani)",
-		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Off_12", "msg": "「わかったわ」" }
+		"name": "Steampunker-chan (ani)",
+		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Off_12", "msg": "I got it" }
 	},
 	{
 		"id":"Fake_Furn_Ani_13",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽犬(ani)",
-		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Off_13", "msg": "わん？" }
+		"name":"fake dog(ani)",
+		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Off_13", "msg": "Dog?" }
 	}
 ,
 	{
 		"id":"Fake_Furn_Off_00",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽デスクトップPC(Off)",
-		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Ani_00", "msg": "電源をオンにしました。" }
+		"name":"Fake desktop PC (Off)",
+		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Ani_00", "msg": "I turned on the power" }
 	}
 ,
 	{
 		"id":"Fake_Furn_Off_01",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽薄型テレビ(Off)",
-		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Ani_01", "msg": "電源をオンにしました。" }
+		"name":"Fake flat screen TV (Off)",
+		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Ani_01", "msg": "I turned on the power" }
 	}
 ,
 	{
 		"id":"Fake_Furn_Off_02",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽黒猫(Off)",
-		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Ani_02", "msg": "「にゃん！！」" }
+		"name":"Fake black cat (Off)",
+		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Ani_02", "msg": "Nyan!!" }
 	}
 ,
 	{
 		"id":"Fake_Furn_Off_03",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽松明(Off)",
-		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Ani_03", "msg": "火をつけました。" }
+		"name":"False torch (Off)",
+		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Ani_03", "msg": "I lit a fire" }
 	}
 ,
 	{
 		"id":"Fake_Furn_Off_04",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽篝火(Off)",
-		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Ani_04", "msg": "火をつけました。" }
+		"name":"Fake bonfire (Off)",
+		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Ani_04", "msg": "I lit a fire" }
 	}
 ,
 	{
 		"id":"Fake_Furn_Off_05",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽点滅看板(Off)",
-		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Ani_05", "msg": "電源をオンにしました。" }
+		"name":"Fake flashing signboard (Off)",
+		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Ani_05", "msg": "I turned on the power" }
 	}
 ,
 	{
 		"id":"Fake_Furn_Off_06",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽肉焼き機(Off)",
-		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Ani_06", "msg": "火をつけました。" }
+		"name":"Fake meat grill machine (Off)",
+		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Ani_06", "msg": "I lit a fire" }
 	}
 ,
 	{
 		"id":"Fake_Furn_Off_07",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽スロットマシーン(Off)",
-		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Ani_07", "msg": "電源をオンにしました。" }
+		"name":"Fake slot machine (Off)",
+		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Ani_07", "msg": "I turned on the power" }
 	}
 ,
 	{
 		"id":"Fake_Furn_Off_08",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽バニーちゃん(Off)",
-		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Ani_08", "msg": "「よーし！！」" }
+		"name":"Fake bunny chan(Off)",
+		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Ani_08", "msg": "Okay!!" }
 	}
 ,
 	{
 		"id":"Fake_Furn_Off_09",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽バニーさん(Off)",
-		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Ani_09", "msg": "「えっと……もういいんですか？」" }
+		"name":"Fake Bunny san(Off)",
+		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Ani_09", "msg": "Umare you okay now?" }
 	}
 	,
 	{
 		"id":"Fake_Furn_Off_10",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽ジュークボックス(Off)",
-		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Ani_10", "msg": "電源をオンにしました。" }
+		"name":"Fake jukebox (Off)",
+		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Ani_10", "msg": "I turned on the power" }
 	},
 	{
 		"id":"Fake_Furn_Off_11",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽レコード(Off)",
-		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Ani_11", "msg": "電源をオンにしました。" }
+		"name":"Fake record (Off)",
+		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Ani_11", "msg": "I turned on the power" }
 	},
 	{
 		"id":"Fake_Furn_Off_12",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"スチームパンカーちゃん(Off)",
-		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Ani_12", "msg": "「やっと動ける……」" }
+		"name":"Steampunker-chan (Off)",
+		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Ani_12", "msg": "I can finally move" }
 	},
 	{
 		"id":"Fake_Furn_Off_13",
 		"type":"TOOL",
 		"copy-from":"Fake_Furn_base",
-		"name":"偽犬(Off)",
-		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Ani_13", "msg": "ワン！！" }
+		"name":"Fake dog (Off)",
+		"use_action": { "menu_text": "Expand", "type": "transform", "target": "Fake_Furn_Ani_13", "msg": "one! !" }
 	}
 
 ]
