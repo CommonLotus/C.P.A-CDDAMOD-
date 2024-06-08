@@ -1,9 +1,7 @@
 Readings for cute plants ahead
 
-
-*When using the English translation with CDDA specifications,
-it seems necessary to reload the translation from the options.
-
+Mainly supported tileset
+"MSX++DEAD_PEOPLE", "UNDEAD_PEOPLE", "UNDEAD_PEOPLE_BASE", "Chibi_Ultica"
 
 1. Dig a hole with a shovel or something
 
@@ -35,6 +33,11 @@ They have almost no effect, but if you can place them well, it will definitely i
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 Update history
+
+2024 6/7ver4.3 (Tested on 2024-05-30-0626)
+
+Standard language of mod is English
+No reload required!
 
 2024 6/7ver4.2 (Tested on 2024-05-30-0626)
 
