@@ -459,5 +459,52 @@
     "id": "TALK_CPA_07_HELP_09",
     "dynamic_line": "I crushed all the hot and bothersome people every day, so I got a star! ! \nI lost my respect for once But I can see the light! !",
     "responses": [ { "text": "Good luck…", "topic": "TALK_CPA_BASE_07" } ]
+  },
+
+  {
+    "type": "talk_topic",
+    "id": "TALK_CPA_CAT_01",
+    "dynamic_line": "Human...if you don't want to be bitten, leave now nya!!.",
+    "responses": [ { "text": "what are you doing?", "topic": "TALK_CPA_CAT_01_HELP_01" }, { "text": "What about you guys? ", "topic": "TALK_CPA_CAT_01_HELP_02" }
+  ,{"text": "[7 Blood Magatama] *5 meat*",
+  "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "Cute_P_Magatama", "count": 7} } },
+  "success": {
+  "effect": [
+      { "u_spawn_item": "demihuman_cooked", "count": 5},
+      { "u_consume_item": "Cute_P_Magatama", "count": 7}
+    ]
+  },
+  "failure": { "topic": "TALK_CPA_CAT_01"}
+  },
+  {"text": "[7 Blood Magatama] *3 Nesmidollar*",
+  "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "Cute_P_Magatama", "count": 7} } },
+  "success": {
+  "effect": [
+      { "u_spawn_item": "Cute_P_Ratdoller", "count": 3},
+      { "u_consume_item": "Cute_P_Magatama", "count": 7}
+    ]
+  },
+  "failure": { "topic": "TALK_CPA_CAT_01"}
+  },
+  { "text": "…", "topic": "TALK_CPA_CAT_01_GOODBYE" }
+  ]
+  },
+    {
+    "type": "talk_topic",
+    "id": "TALK_CPA_CAT_01_HELP_01",
+    "dynamic_line": "It's rat hunting, because their meat is fatty and delicious nya!!.",
+    "responses": [ { "text": "…", "topic": "TALK_CPA_CAT_01" } ]
+  },
+    {
+    "type": "talk_topic",
+    "id": "TALK_CPA_CAT_01_HELP_02",
+    "dynamic_line": "TWe are mudcats, hunt mice every day, play and sleep, great nya!!",
+    "responses": [ { "text": "…", "topic": "TALK_CPA_CAT_01" } ]
+  },
+  {
+    "id": "TALK_CPA_CAT_01_GOODBYE",
+    "type": "talk_topic",
+    "dynamic_line": "Bye nya!!",
+    "responses": [ { "text": "…", "topic": "TALK_DONE" } ]
   }
 ]

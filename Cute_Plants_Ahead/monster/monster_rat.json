@@ -36,7 +36,7 @@
 		"vision_night":15,
 		"death_function":{ "corpse_type": "NO_CORPSE", "message": "The %s fades away." },
 		"special_attacks": [ [ "EAT_FOOD", 60 ], [ "BROWSE", 50 ], [ "EAT_CARRION", 60 ] ],
-		"anger_triggers":["FRIEND_ATTACKED"],
+		"anger_triggers":["FRIEND_ATTACKED","SOUND"],
 		"aggro_character": false,
 		"fear_triggers":[ "HURT", "FRIEND_DIED","HOSTILE_SEEN" ],
 		"death_drops":{"subtype": "collection","items":[{ "prob": 100, "group": "cpa_rat", "count": 2}]},
@@ -50,7 +50,7 @@
 		"name":{"str": "Hirat worker"},
 		"description":"He's usually quiet, but he cares about his friends, and there's nothing he can do in battle",
 		"copy-from": "mon_Cute_P_Rat_01",
-		"aggression":0,
+		"aggression":20,
 		"morale":70,
 		"hp":50,
 		"melee_skill":3,
@@ -58,7 +58,7 @@
 		"melee_dice_sides":2,
 		"speed":100,
 		"grab_strength": 25,
-		"anger_triggers":["HURT","FRIEND_ATTACKED"],
+		"anger_triggers":["HURT","FRIEND_ATTACKED","SOUND"],
 		"fear_triggers":[ "FRIEND_DIED"],
 		"special_attacks": [
 		{ "id": "grab", "cooldown": 21 },
@@ -137,7 +137,8 @@
 		"name":{"str": "musketeer rat"},
 		"description":"Nobles of the Nezumi world who serve the king, fight fair and square",
 		"copy-from": "mon_Cute_P_Rat_02",
-				"melee_damage": [
+		"aggression":20,
+		"melee_damage": [
  		 {
  	   "damage_type": "stab",
 		"amount": 7.0
@@ -177,5 +178,50 @@
 		"description":"Merry Christmas! ! , Even at the end of the century, we will share the nest",
 		"copy-from": "mon_Cute_P_Rat_02",
 		"death_drops":{"subtype": "collection","items":[{ "prob": 100, "group": "cpa_rat", "count": 2}]}
+	},
+	{
+		"id":"mon_Cute_P_Cat_01",
+		"type":"MONSTER",
+		"name":{"str": "mud cat"},
+		"description":"A furry tribe with a primitive lifestyle very bad tempered hey seem to understand human language, but if there are rats or zombies nearby, you may be attacked as well.",
+		"copy-from": "mon_Cute_P_Rat_01",
+		"regenerates": 1,
+		"symbol":"c",
+		"color":"red",
+		"hp":80,
+		"speed":95,
+		"aggression":5,
+		"morale":70,
+		"death_drops":{"subtype": "collection","items":[{ "prob": 100, "group": "cpa_cat"}]},
+		"chat_topics": [ "TALK_CPA_CAT_01" ],
+		"anger_triggers":["HURT","FRIEND_ATTACKED","SOUND"],
+		"fear_triggers":[ "FRIEND_DIED"],
+		"default_faction":"cpa_cat",
+		"attack_cost":80,
+		"armor": { "bash": 2, "cut": 1, "stab": 0, "acid": 0, "bullet": 0, "electric": 0 },
+		"melee_damage": [{"damage_type": "bash","amount": 2.0}],
+		"aggro_character": true
+	},
+	{
+		"id":"mon_Cute_P_Cat_02",
+		"type":"MONSTER",
+		"name":{"str": "mud cat brute"},
+		"melee_skill":3,
+		"melee_dice":2,
+		"melee_dice_sides":2,
+		"melee_damage": [{"damage_type": "stab","amount": 3.0}],
+		"description":"A furry tribe with a primitive lifestyle very bad tempered hey seem to understand human language, but if there are rats or zombies nearby, you may be attacked as well.",
+		"copy-from": "mon_Cute_P_Cat_01",
+		"aggression":20,
+		"aggro_character": false
+	},
+	{
+		"id":"mon_Cute_P_Cat_03",
+		"type":"MONSTER",
+		"name":{"str": "mud cat"},
+		"melee_damage": [{"damage_type": "stab","amount": 2.0}],
+		"description":"A furry tribe with a primitive lifestyle very bad tempered hey seem to understand human language, but if there are rats or zombies nearby, you may be attacked as well.",
+		"copy-from": "mon_Cute_P_Cat_01",
+		"aggro_character": false
 	}
 ]

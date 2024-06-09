@@ -4,6 +4,14 @@
     "type": "item_group",
     "items": [{ "item": "Cute_P_Ratdoller", "prob": 30, "count": 2 },{ "item": "Cute_P_Ratdoller", "prob": 80 },{ "item": "Cute_P_Ratdoller", "prob": 30 },{ "item": "Cute_P_Ratdoller", "prob": 10, "count": 3 } ]
   } ,
+
+{
+  "id": "cpa_cat",
+  "type": "item_group",
+  "items": [{ "item": "Cute_P_Magatama", "prob": 30},{"item": "Cute_P_Magatama", "prob": 80},
+  {"item": "Cute_P_Art_Wood_04" , "prob": 20},{"item": "demihuman_cooked" , "prob": 30}
+  ,{"item": "club_wooden" , "prob": 30}]
+} ,
   {
     "id": "cpa_rat",
     "type": "item_group",

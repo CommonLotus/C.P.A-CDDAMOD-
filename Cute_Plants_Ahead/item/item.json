@@ -150,6 +150,13 @@
 		"flags":[ "TRADER_AVOID","UNBREAKABLE_MELEE" ],
 		"description":"It is a unique currency issued by Rat Trader and has no value in other markets"
 	},
+	{
+		"type":"TOOL",
+		"id":"Cute_P_Magatama",
+		"copy-from":"money_one",
+		"name":{"str": "blood magatama"},
+		"description":"A stone that a mud cat wears around its neck It seems to be used as currency"
+	},
 		{
 		"id":"Cute_P_Ratcontract_01",
 		"type":"TOOL",

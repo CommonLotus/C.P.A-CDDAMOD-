@@ -6,5 +6,15 @@
     "neutral": [ "robofac_spy", "passive_machine" ],
     "friendly":[ "player", "human","rat" ],
     "by_mood": [ "ratkin" ]
+  },
+
+
+  {
+    "type": "MONSTER_FACTION",
+    "name": "cpa_cat",
+    "hate": [ "zombie", "fungus","rat" ],
+    "neutral": [ "robofac_spy", "passive_machine" ],
+    "friendly":[ "cat" ],
+    "by_mood": [ "player", "human" ,"big_cat"]
   }
- ]
+]

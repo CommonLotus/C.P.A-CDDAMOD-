@@ -1,25 +1,26 @@
 [
 	{
 		"type":"monstergroup",
-		"name":"GROUP_FOREST_CPA",
+		"name":"GROUP_RAT_CPA",
 		"monsters":[{ "monster": "mon_Cute_P_Rat_01", "weight": 130, "pack_size": [ 1, 3 ] },{ "monster": "mon_Cute_P_Rat_02", "weight": 50},{ "monster": "mon_Cute_P_Rat_03", "weight": 100},{ "monster": "mon_Cute_P_Rat_04", "weight": 30},{ "monster": "mon_Cute_P_Rat_05", "weight": 30},
 		{ "monster": "mon_Cute_P_Rat_06", "weight": 5},{ "monster": "mon_Cute_P_Rat_07", "weight": 2},{ "monster": "mon_Cute_P_Rat_08", "weight": 50},{ "monster": "mon_Cute_P_Rat_09", "weight": 10}]
 	},
- {
+  {
     "type": "monstergroup",
-     "name": "GROUP_ZOMBIE_CPA",
-	"monsters":[{ "monster": "mon_Cute_P_Rat_01", "weight": 130, "pack_size": [ 1, 3 ] },{ "monster": "mon_Cute_P_Rat_02", "weight": 50},{ "monster": "mon_Cute_P_Rat_03", "weight": 100},{ "monster": "mon_Cute_P_Rat_04", "weight": 30},{ "monster": "mon_Cute_P_Rat_05", "weight": 30},
-	{ "monster": "mon_Cute_P_Rat_06", "weight": 5},{ "monster": "mon_Cute_P_Rat_07", "weight": 2},{ "monster": "mon_Cute_P_Rat_08", "weight": 2},{ "monster": "mon_Cute_P_Rat_09", "weight": 10}]
+     "name": "GROUP_CAT_CPA",
+	"monsters":[{ "monster": "mon_Cute_P_Cat_01", "weight": 130, "pack_size": [ 1, 3 ] },{ "monster": "mon_Cute_P_Cat_02", "weight": 40},
+	{ "monster": "mon_Cute_P_Cat_03", "weight": 5}
+	]
   },
   	{
 		"type":"monstergroup",
 		"name":"GROUP_FOREST",
-		"monsters":[{ "group": "GROUP_FOREST_CPA", "weight": 150, "pack_size": [ 1, 3 ]}]
+		"monsters":[{ "group": "GROUP_RAT_CPA", "weight": 150, "pack_size": [ 1, 3 ]},{ "group": "GROUP_CAT_CPA", "weight": 80, "pack_size": [ 2, 3 ]}]
 	},
  {
     "type": "monstergroup",
     "name": "GROUP_ZOMBIE",
-	"monsters":[{ "group": "GROUP_ZOMBIE_CPA", "weight": 70, "pack_size": [ 2, 3 ]}]
+	"monsters":[{ "group": "GROUP_RAT_CPA", "weight": 70, "pack_size": [ 2, 3 ]},{ "group": "GROUP_CAT_CPA", "weight": 30, "pack_size": [ 1, 3 ]}]
   },
     	{
 		"type":"monstergroup",
