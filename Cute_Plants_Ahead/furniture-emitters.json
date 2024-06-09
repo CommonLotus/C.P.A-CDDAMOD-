@@ -21,5 +21,30 @@
       "color": "blue",
       "emissions": [ "emit_cold_air2_stream" ],
       "deconstruct": { "items": [ { "item": "Cute_P_Furn_01", "count": 1 } ] }
-     }
+     },
+     {
+      "type":"furniture",
+      "id":"cpa_art_furn_01",
+      "name":"unfinished work of art",
+      "description":"Just one more step. Destroy it with the hit command (s key) and complete it.",
+      "symbol":"?",
+      "color":"blue",
+      "move_cost_mod":2,
+      "required_str":0,
+      "flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE"],
+      "bash":{"str_min":0,"str_max":0,"items":[{"group":"cpa_art_woods"}]}
+    },
+    {
+      "type":"furniture",
+      "id":"cpa_art_furn_02",
+      "name":"unfinished work of art",
+      "description":"Just one more step. Destroy it with the hit command (s key) and complete it.",
+      "symbol":"?",
+      "color":"blue",
+      "move_cost_mod":2,
+      "required_str":0,
+      "flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE"],
+      "bash":{"str_min":0,"str_max":0,"items":[{"group":"cpa_art_fabs"}]}
+    }
+    
 ]

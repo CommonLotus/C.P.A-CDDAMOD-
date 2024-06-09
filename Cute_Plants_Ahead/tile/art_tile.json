@@ -1,0 +1,37 @@
+[
+
+	{
+	  "type": "mod_tileset", 
+	  "compatibility": [ "MSX++DEAD_PEOPLE", "UNDEAD_PEOPLE", "UNDEAD_PEOPLE_BASE", "UltimateCataclysm", "UltimateCataclysmDemo", "Chibi_Ultica" ],
+  "tiles-new": [
+	  {
+	  "file": "tile/Cpa_Art_01.png",
+	  "tiles": [
+	  { "id": "Cute_P_Art_Wood_01", "fg":0, "rotates": false },
+	  { "id": "Cute_P_Art_Wood_02", "fg":1, "rotates": false },
+	  { "id": "Cute_P_Art_Wood_03", "fg":2, "rotates": false },
+	  { "id": "Cute_P_Art_Wood_04", "fg":3, "rotates": false },
+	  { "id": "Cute_P_Art_Wood_05", "fg":4, "rotates": false },
+	  { "id": "Cute_P_Art_Wood_06", "fg":5, "rotates": false },
+	  { "id": "Cute_P_Art_Wood_07", "fg":6, "rotates": false },
+	  { "id": "Cute_P_Art_Fab_01", "fg":20, "rotates": false },
+	  { "id": "Cute_P_Art_Fab_02", "fg":21, "rotates": false },
+	  { "id": "Cute_P_Art_Fab_03", "fg":22, "rotates": false },
+	  { "id": "Cute_P_Art_Fab_04", "fg":23, "rotates": false },
+	  { "id": "Cute_P_Art_Fab_05", "fg":24, "rotates": false },
+	  { "id": "Cute_P_Art_Fab_06", "fg":25, "rotates": false },
+	  { "id": "Cute_P_Art_Fab_07", "fg":26, "rotates": false },
+	  { "id": "Cute_P_Art_01", "fg":40, "rotates": false },
+	  { "id": "Cute_P_Art_02", "fg":40, "rotates": false },
+	  { "id": "cpa_art_furn_01", "fg":40, "rotates": false },
+	  { "id": "cpa_art_furn_02", "fg":40, "rotates": false }
+
+  ],
+  "sprite_width": 48,
+  "sprite_height": 96,
+  "sprite_offset_x": -8,
+  "sprite_offset_y": -65
+			}
+		  ]
+		}
+			 ]

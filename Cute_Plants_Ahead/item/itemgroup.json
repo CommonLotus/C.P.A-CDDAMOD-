@@ -56,6 +56,18 @@
     "extend": {
     "items": [ [ "Cute_P_Ratdoller", 3 ] ]
      }
-  }
-
- ]
+  },
+  
+  {
+    "id": "cpa_art_woods",
+    "type": "item_group",
+    "items": [{ "item": "Cute_P_Art_Wood_01", "prob": 300}, { "item": "Cute_P_Art_Wood_02", "prob": 100},{ "item": "Cute_P_Art_Wood_03", "prob": 100}, { "item": "Cute_P_Art_Wood_04", "prob": 100},
+  { "item": "Cute_P_Art_Wood_05", "prob": 100},{ "item": "Cute_P_Art_Wood_06", "prob": 100}, { "item": "Cute_P_Art_Wood_07", "prob": 30}]
+  },
+ {
+    "id": "cpa_art_fabs",
+    "type": "item_group",
+    "items": [{ "item": "Cute_P_Art_Fab_01", "prob": 300}, { "item": "Cute_P_Art_Fab_02", "prob": 100},{ "item": "Cute_P_Art_Fab_03", "prob": 100}, { "item": "Cute_P_Art_Fab_04", "prob": 100},
+  { "item": "Cute_P_Art_Fab_05", "prob": 100},{ "item": "Cute_P_Art_Fab_06", "prob": 100}, { "item": "Cute_P_Art_Fab_07", "prob": 30}]
+ }
+]

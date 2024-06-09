@@ -6,7 +6,7 @@
 		"description":"They have a strong sense of camaraderie and territoriality, and if you are spotted during battle, they may suspect you of having been a nuisance If you're not hostile, you'll be able to have a conversation",
 		"symbol":"r",
 		"color":"yellow",
-		"hp":50,
+		"hp":40,
 		"volume":"24000 ml",
 		"weight":"30000 g",
 		"default_faction":"rattrader",
@@ -14,7 +14,7 @@
 		"species":[ "UNKNOWN" ],
 		"material":"flesh",
 		"diff":0,
-		"bleed_rate": 50,
+		"bleed_rate": 60,
 		"regenerates": 1,
 		"aggression":-30,
 		"morale":40,
@@ -24,13 +24,13 @@
 		"melee_damage": [
  		 {
  	   "damage_type": "stab",
-		"amount": 3.0
+		"amount": 1.0
 		}
 		],
-		"melee_skill":3,
+		"melee_skill":1,
 		"melee_dice":2,
-		"melee_dice_sides":2,
-		"dodge":5,
+		"melee_dice_sides":1,
+		"dodge":4,
 		"armor": { "bash": 2, "cut": 2, "stab": 2, "acid": 0, "bullet": 0, "electric": 0 },
 		"vision_day":45,
 		"vision_night":15,
@@ -52,10 +52,10 @@
 		"copy-from": "mon_Cute_P_Rat_01",
 		"aggression":0,
 		"morale":70,
-		"hp":70,
-		"melee_skill":4,
-		"melee_dice":3,
-		"melee_dice_sides":3,
+		"hp":50,
+		"melee_skill":3,
+		"melee_dice":2,
+		"melee_dice_sides":2,
 		"speed":100,
 		"grab_strength": 25,
 		"anger_triggers":["HURT","FRIEND_ATTACKED"],
@@ -64,7 +64,7 @@
 		{ "id": "grab", "cooldown": 21 },
 		{ "id": "bite_humanoid", "cooldown": 5 },
 		{ "id": "smash", "throw_strength": 30, "cooldown": 45 }],
-		"death_drops":{"subtype": "collection","items":[{ "prob": 100, "group": "cpa_rat", "count": 4},{ "prob": 10, "group": "cpa_rat_epicitem"}]}
+		"death_drops":{"subtype": "collection","items":[{ "prob": 100, "group": "cpa_rat", "count": 3},{ "prob": 10, "group": "cpa_rat_epicitem"}]}
 	},
 		{
 		"id":"mon_Cute_P_Rat_03",

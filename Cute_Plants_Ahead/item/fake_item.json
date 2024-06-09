@@ -234,5 +234,124 @@
 		"copy-from":"Fake_Furn_base",
 		"name":"fake tatami carpet",
 		"use_action": { "type": "deploy_furn", "furn_type": "Fake_Furn_Carpet_03" }
+	},
+	{	"type":"TOOL",
+		"id":"Cute_P_Art_01",
+		"copy-from":"Fake_Furn_base",
+		"name":"Wood carving at presentation stage",
+		"description": "Set up and start preparing to publish your work",
+		"use_action": { "type": "deploy_furn", "furn_type": "cpa_art_furn_01" }
+	},
+	{
+		"id":"Cute_P_Art_02",
+		"type":"TOOL",
+		"copy-from":"Fake_Furn_base",
+		"name":"sewing doll at presentation stage",
+		"description": "Set up and start preparing to publish your work",
+		"use_action": { "type": "deploy_furn", "furn_type": "cpa_art_furn_02" }
+	},
+	{
+		"id":"Cute_P_Art_Wood_01",
+		"type":"TOOL",
+		"copy-from":"Fake_Furn_base",
+		"weight":"350 g",
+		"volume":"200 ml",
+		"material":[ "wood" ],
+		"name":"Wood carving (amateur)",
+		"price_postapoc": "5 cent"
+	},
+	{
+		"id":"Cute_P_Art_Wood_02",
+		"type":"TOOL",
+		"copy-from":"Cute_P_Art_Wood_01",
+		"name":"Wood carving (ordinary)",
+		"price_postapoc": "30 cent"
+	},
+	{
+		"id":"Cute_P_Art_Wood_03",
+		"type":"TOOL",
+		"copy-from":"Cute_P_Art_Wood_01",
+		"name":"Wood carving (ordinary)",
+		"price_postapoc": "30 cent"
+	},
+	{
+		"id":"Cute_P_Art_Wood_04",
+		"type":"TOOL",
+		"copy-from":"Cute_P_Art_Wood_01",
+		"name":"Wood carving (ordinary)",
+		"price_postapoc": "30 cent"
+	},	
+	{
+		"id":"Cute_P_Art_Wood_05",
+		"type":"TOOL",
+		"copy-from":"Cute_P_Art_Wood_01",
+		"name":"Wood carving (ordinary)",
+		"price_postapoc": "30 cent"
+	},
+	{
+		"id":"Cute_P_Art_Wood_06",
+		"type":"TOOL",
+		"copy-from":"Cute_P_Art_Wood_01",
+		"name":"Wood carving (advanced)",
+		"price_postapoc": "3 USD"
+	},
+	{
+		"id":"Cute_P_Art_Wood_07",
+		"type":"TOOL",
+		"copy-from":"Cute_P_Art_Wood_01",
+		"name":"Wood carving (Tatsujin)",
+		"price_postapoc": "10 USD"
+	},
+	{
+		"id":"Cute_P_Art_Fab_01",
+		"type":"TOOL",
+		"copy-from":"Fake_Furn_base",
+		"weight":"100 g",
+		"volume":"100 ml",
+		"material":[ "cotton" ],
+		"name":"sewing doll (amateur)",
+		"price_postapoc": "5 cent"
+	},
+	{
+		"id":"Cute_P_Art_Fab_02",
+		"type":"TOOL",
+		"copy-from":"Cute_P_Art_Fab_01",
+		"name":"sewing doll (ordinary)",
+		"price_postapoc": "30 cent"
+	},
+	{
+		"id":"Cute_P_Art_Fab_03",
+		"type":"TOOL",
+		"copy-from":"Cute_P_Art_Fab_01",
+		"name":"sewing doll (ordinary)",
+		"price_postapoc": "30 cent"
+	},
+	{
+		"id":"Cute_P_Art_Fab_04",
+		"type":"TOOL",
+		"copy-from":"Cute_P_Art_Fab_01",
+		"name":"sewing doll (ordinary)",
+		"price_postapoc": "30 cent"
+	},
+	{
+		"id":"Cute_P_Art_Fab_05",
+		"type":"TOOL",
+		"copy-from":"Cute_P_Art_Fab_01",
+		"name":"sewing doll (ordinary)",
+		"price_postapoc": "30 cent"
+	},
+	{
+		"id":"Cute_P_Art_Fab_06",
+		"type":"TOOL",
+		"copy-from":"Cute_P_Art_Fab_01",
+		"name":"sewing doll (advanced)",
+		"price_postapoc": "3 USD"
+	},
+	{
+		"id":"Cute_P_Art_Fab_07",
+		"type":"TOOL",
+		"copy-from":"Cute_P_Art_Fab_01",
+		"name":"sewing doll (Tatsujin)",
+		"price_postapoc": "10 USD"
 	}
 ]
