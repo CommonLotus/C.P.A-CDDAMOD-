@@ -1,0 +1,555 @@
+[
+
+	{
+		"type": "mapgen",
+		"method": "json",
+		"om_terrain": "cpa_stripclub_01",
+		"weight": 100,
+		"object": {
+		  "fill_ter": "t_carpet_purple",
+		  "rows": [
+			"        SS              ",
+			"        SS||||||||||||| ",
+			"        SS|..o__|@C@C@| ",
+			"        SS+..oA_|A_A_A| ",
+			" ||||||||||..|__+_____| ",
+			" |H#H.H#H^|..h__|bb___| ",
+			" |........|dd||||||__|| ",
+			" |H.H#H........T|{___{| ",
+			" |#.............|{___{| ",
+			" |H.............|{___{|4",
+			" |..............|{___{| ",
+			" |^....HHHHHHH..||___|| ",
+			" |s..H----------|_____| ",
+			" |s..H-_________D__zzz| ",
+			" |s..H----------||+|||| ",
+			" |s....HHHHHHH..|É''''| ",
+			" |..............|'''|+| ",
+			" |.............^|&C&|t| ",
+			" |a.a.a.........||||||| ",
+			" |CCCCC|..sss#..+'''''| ",
+			" |'''''+........|'|+|+| ",
+			" |gg&gg|^.sss#.T|&|t|t| ",
+			" |||||||||||||||||||||| ",
+			"                        "
+		  ],
+		  "terrain": {
+			"o": "t_window_no_curtains_open",
+			"+": "t_door_c",
+			"-": "t_railing",
+			"S": "t_concrete",
+			" ": "t_region_groundcover_urban",
+			"_": "t_thconc_floor",
+			"A": "t_thconc_floor",
+			"{": "t_thconc_floor",
+			"z": "t_thconc_floor",
+			"b": "t_thconc_floor",
+			"'": "t_linoleum_gray",
+			"g": "t_linoleum_gray",
+			"&": "t_linoleum_gray",
+			"t": "t_linoleum_gray",
+			"C": "t_linoleum_gray",
+			"É": "t_linoleum_gray",
+			"h": "t_door_locked",
+			".": "t_carpet_purple",
+			"|": "t_wall_r",
+			"4": "t_gutter_downspout"
+		  },
+		  "furniture": {
+			"É": "f_locker",
+			"D": "f_beaded_door",
+			"d": "f_beaded_door",
+			"#": "f_table",
+			"&": "f_sink",
+			"@": "f_sink",
+			"C": "f_counter",
+			"H": "f_armchair",
+			"T": "f_trashcan",
+			"^": [ "f_indoor_plant_y", "f_indoor_plant" ],
+			"a": "f_barstool",
+			"A": "f_stool",
+			"b": "f_bigmirror",
+			"g": "f_glass_fridge",
+			"s": "f_sofa",
+			"z": "f_sofa",
+			"{": "f_locker"
+		  },
+		  "items": {
+			"É": { "item": "SUS_janitors_closet", "chance": 100 },
+			"{": [
+			  { "item": "female_underwear_bottom", "chance": 60, "repeat": [ 1, 3 ] },
+			  { "item": "female_underwear_top", "chance": 60, "repeat": [ 1, 3 ] },
+			  { "item": "dresser_female", "chance": 50, "repeat": [ 1, 2 ] },
+			  { "item": "sex_lair", "chance": 40, "repeat": [ 1, 2 ] }
+			],
+			"s": [{ "item": "stripclub_dirty", "chance": 40, "repeat": [ 1, 2 ] }],
+			"-": [ { "item": "female_underwear_bottom", "chance": 15 }, { "item": "female_underwear_top", "chance": 15 } ],
+			"T": [ { "item": "stripclub_dirty", "chance": 5 }, { "item": "alcohol", "chance": 40 } ],
+			"_": { "item": "sex_lair", "chance": 10 },
+			"g": { "item": "alcohol", "chance": 15, "repeat": [ 1, 2 ] },
+			"C": { "item": "alcohol", "chance": 8 },
+			"#": { "item": "alcohol", "chance": 5 },
+			"t": { "item": "stripclub_dirty", "chance": 35 }
+		  },
+		  "toilets": { "t": {  } },
+		  "item": {
+			".": [
+			  { "item": "bottle_glass", "chance": 2 }
+			]
+		  },
+		  "place_loot": [ { "group": "cash_register_random", "x": [ 2, 6 ], "y": 19 } ],
+		  "place_monsters": [ { "monster": "GROUP_RAT_CPA", "x": [ 2, 22 ], "y": [ 2, 22 ], "density": 0.2 ,"repeat": [ 2, 3 ]} 
+		  
+		]
+		}
+	  },
+	  {
+		"type": "mapgen",
+		"method": "json",
+		"om_terrain": "cpa_stripclub_01_roof",
+		"object": {
+		  "fill_ter": "t_flat_roof",
+		  "rows": [
+			"                        ",
+			"          ------------- ",
+			"          -...........- ",
+			"          -...:...&...- ",
+			" ----------...........- ",
+			" -....................- ",
+			" -....................- ",
+			" -....................- ",
+			" -....................- ",
+			" -....................5 ",
+			" -....................- ",
+			" -....................- ",
+			" -....................- ",
+			" -....................- ",
+			" -....................- ",
+			" -....................- ",
+			" -....................- ",
+			" -....................- ",
+			" -....................- ",
+			" -....................- ",
+			" -.................=..- ",
+			" -....................- ",
+			" ---------------------- ",
+			"                        "
+		  ],
+		  "palettes": [ "roof_palette" ],
+		  "place_nested": [
+			{
+			  "chunks": [
+				[ "null", 20 ],
+				[ "roof_2x2_utilities_b", 15 ],
+				[ "roof_2x2_utilities_c", 5 ],
+				[ "roof_2x2_utilities_d", 40 ],
+				[ "roof_2x2_utilities", 50 ]
+			  ],
+			  "x": [ 4, 17 ],
+			  "y": [ 5, 15 ]
+			}
+		  ]
+		}
+	  },
+	  {
+		"type": "overmap_terrain",
+		"id": [ "cpa_stripclub_01" ],
+		"copy-from": "generic_city_building",
+		"name": "occupied strip club",
+		"sym": "r",
+		"color": "i_red"
+	  },
+	  {
+		"type": "overmap_terrain",
+		"id": [ "cpa_stripclub_01_roof" ],
+		"copy-from": "generic_city_building",
+		"name": "occupied strip club roof",
+		"sym": "s",
+		"color": "i_red"
+	  },
+	  {
+		"type": "city_building",
+		"id": "cpa_stripclub_01",
+		"locations": [ "land" ],
+		"overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "cpa_stripclub_01_north" }, { "point": [ 0, 0, 1 ], "overmap": "cpa_stripclub_01_roof_north" } ]
+	  },
+	  {
+		"//": "Pred nests in forest_water same freq as dermatik nest",
+		"type": "region_overlay",
+		"regions": [ "all" ],
+		"city": { "houses": { "cpa_stripclub_01": 17 } }
+	},
+
+	{
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "cpa_sex_shop_01" ],
+    "//": "Sex shop selling illegal drugs under the counter, with cops and police car",
+    "weight": 1000,
+    "object": {
+      "fill_ter": "t_floor",
+      "rows": [
+        "..y''''yoooy''''y''''y..",
+        "..y''''yoooy''''y''''y..",
+        "..y''''yoooy''''y''''y..",
+        "..y''''yoooy''''y''''y..",
+        "..y''''yoooy''''y''''y..",
+        "..-------X------------..",
+        "..|bbbbb__,,,,,,,,,,,|..",
+        "..|,,,,Á__cccccccccc,|..",
+        "..|,,,,c__,,,,,,,,,,,|..",
+        "..|,cccc__cccccccccc,|..",
+        "..|,,,,,__,,,,,,,,,,,|..",
+        "..|b,_____cccccccccc,|..",
+        "..|b,_tt__,,,,,,,,,,,|..",
+        "..|b,_tt__cccccccccc,|..",
+        "..|b,_tt__________,,,|..",
+        "..|b,_________rr__bbb|..",
+        "..|b,,,,,,,,,_rr_____|..",
+        "..|bcccccccc,_____bbb|..",
+        "..|-------------x----|..",
+        "..|B,B,,BBB,|,,,,,D,T|..",
+        "..|BB,,,,,,,x,|------|..",
+        "..|BBB,,CCC,|,x,,,,,s|..",
+        "..-----------X|hLLB,s|..",
+        "....4ooooooooo--------.."
+      ],
+      "terrain": {
+        ".": "t_region_groundcover_urban",
+        ",": "t_floor",
+        "_": "t_carpet_green",
+        "t": "t_carpet_green",
+        "r": "t_carpet_green",
+        "|": "t_wall_r",
+        "-": "t_wall_r",
+        "X": "t_door_metal_pickable",
+        "x": "t_door_locked_interior",
+        "y": "t_pavement_y",
+        "'": "t_pavement",
+        "o": "t_sidewalk",
+        "4": "t_gutter_downspout",
+        "D": "t_door_c_peep"
+      },
+      "furniture": {
+        "C": "f_rack",
+        "Á": "f_counter",
+        "c": "f_displaycase",
+        "b": "f_bookcase",
+        "t": "f_mannequin",
+        "r": "f_mannequin",
+        "B": "f_cardboard_box",
+        "T": "f_toilet",
+        "s": "f_sofa",
+        "L": "f_locker",
+        "h": "f_armchair"
+      },
+      "toilets": { "T": {  } },
+      "items": {
+        "B": [
+          { "item": "stash_drugs", "chance": 30, "repeat": [ 1, 3 ] },
+          { "item": "ss_merch_2", "chance": 25, "repeat": [ 1, 3 ] },
+          { "item": "ss_merch_1", "chance": 45, "repeat": [ 1, 3 ] },
+          { "item": "ss_merch_3", "chance": 25, "repeat": [ 1, 3 ] }
+        ],
+        "C": [ { "item": "ss_merch_1", "chance": 25 }, { "item": "ss_merch_3", "chance": 15 } ],
+		"s": [{ "item": "stripclub_dirty", "chance": 40, "repeat": [ 1, 2 ] }],
+        "c": { "item": "ss_merch_1", "chance": 40, "repeat": [ 1, 3 ] },
+        "b": { "item": "ss_merch_2", "chance": 50, "repeat": [ 1, 3 ] },
+        "t": { "item": "ss_merch_3", "chance": 80 },
+        "Á": { "item": "cash_register_random", "chance": 100 },
+        "r": { "item": "ss_merch_1", "chance": 80, "repeat": [ 1, 3 ] },
+        "L": { "item": "cleaning", "chance": 30 }
+      },
+      "place_loot": [
+        { "item": "roadmap", "x": 3, "y": 6, "chance": 10 },
+        { "item": "roadmap", "x": 5, "y": 6, "chance": 10 },
+        { "item": "touristmap", "x": 4, "y": 6, "chance": 10 },
+        { "item": "touristmap", "x": 6, "y": 6, "chance": 10 },
+        { "item": "syringe", "x": 20, "y": 19, "chance": 5 },
+        { "item": "mop", "x": [ 4, 5 ], "y": [ 7, 8 ], "chance": 2 },
+        { "item": "extinguisher", "x": 3, "y": 7, "chance": 5 },
+        { "item": "television", "x": 6, "y": 13, "chance": 5 },
+        { "item": "television", "x": 7, "y": 13, "chance": 5 }
+      ],
+	  "place_monsters": [ { "monster": "GROUP_RAT_CPA", "x": [ 2, 22 ], "y": [ 2, 22 ], "density": 0.1,"repeat": [ 2, 3 ]}
+	  ,{ "monster": "GROUP_BAT_02_CPA", "x": 12, "y": 15} ]
+    
+	}
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": "cpa_sex_shop_01_roof",
+    "object": {
+      "fill_ter": "t_flat_roof",
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "  --------------------  ",
+        "  -..................-  ",
+        "  -...............X..-  ",
+        "  -..................-  ",
+        "  -..................-  ",
+        "  -..................-  ",
+        "  -..................-  ",
+        "  -..................-  ",
+        "  -..................-  ",
+        "  -..................-  ",
+        "  -..................-  ",
+        "  -..................-  ",
+        "  -..................-  ",
+        "  -..................-  ",
+        "  -................=.-  ",
+        "  -..................-  ",
+        "  -..............AA..-  ",
+        "  --5----------......-  ",
+        "              --------  "
+      ],
+      "palettes": [ "roof_palette" ],
+      "place_items": [ { "item": "roof_trash", "x": [ 4, 16 ], "y": [ 7, 20 ], "chance": 50, "repeat": [ 1, 3 ] } ],
+      "place_nested": [
+        {
+          "chunks": [
+            [ "null", 20 ],
+            [ "roof_2x2_utilities_b", 15 ],
+            [ "roof_2x2_utilities_c", 5 ],
+            [ "roof_2x2_utilities_d", 40 ],
+            [ "roof_4x4_utility", 40 ],
+            [ "roof_6x6_utility", 20 ]
+          ],
+          "x": [ 4, 13 ],
+          "y": [ 9, 12 ]
+        }
+      ]
+    }
+  },
+  {
+	"type": "overmap_terrain",
+	"id": [ "cpa_sex_shop_01" ],
+	"copy-from": "generic_city_building",
+	"name": "occupied sex shop",
+	"sym": "r",
+	"color": "i_red"
+  },
+  {
+	"type": "overmap_terrain",
+	"id": [ "cpa_sex_shop_01_roof" ],
+	"copy-from": "generic_city_building",
+	"name": "occupied sex shop roof",
+	"sym": "s",
+	"color": "i_red"
+  },
+  {
+	"type": "city_building",
+	"id": "cpa_sex_shop_01",
+	"locations": [ "land" ],
+	"overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "cpa_sex_shop_01_north" }, { "point": [ 0, 0, 1 ], "overmap": "cpa_sex_shop_01_roof_north" } ]
+  },
+  {
+	"//": "Pred nests in forest_water same freq as dermatik nest",
+	"type": "region_overlay",
+	"regions": [ "all" ],
+	"city": { "houses": { "cpa_sex_shop_01": 13 } }
+},
+{
+    "method": "json",
+    "om_terrain": "cpa_gambling_hall_01",
+    "type": "mapgen",
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_floor",
+      "rows": [
+        "        |||d|d|||       ",
+        " 999999 |.......|       ",
+        "|||||||||.......||||||||",
+        "|#.....^|||d|d|||#t##t#|",
+        "|..............v|#t##t#|",
+        "|#.pp..........v|......|",
+        "|..pp...66.....&|#t..#t|",
+        "|..pp...66......|#t..#t|",
+        "|....................#t|",
+        "|..####.####...........|",
+        "|..6666.6666........CCC|",
+        "|..6666.6666........C..|",
+        "|..####.####........C#.|",
+        "|...................C..|",
+        "|............^......r..|",
+        "|6#.......|%|||%|^..r..|",
+        "|6#..####.|''|''||d|||'|",
+        "|....6666^|SU|SU|''qq''|",
+        "|||a|||||||||||||''''''|",
+        "|^....tt.{{{|XX.d''''''|",
+        "|...............|SSoo(f|",
+        "|#..............||||||||",
+        "|tt#..THHH.^|<|.bccDD4cc",
+        "|||||||||||||||||ccccccc"
+      ],
+      "terrain": {
+        "&": "t_atm",
+        "+": "t_door_glass_c",
+        "-": "t_wall_glass",
+        ".": "t_floor",
+        "'": "t_linoleum_white",
+        "S": "t_linoleum_white",
+        "U": "t_linoleum_white",
+        "q": "t_linoleum_white",
+        "f": "t_linoleum_white",
+        "o": "t_linoleum_white",
+        "6": "t_slot_machine",
+        "D": "t_concrete",
+        "9": "t_region_shrub_decorative",
+        " ": "t_region_groundcover_urban",
+        "a": "t_door_metal_c",
+        "b": [ "t_door_metal_locked", "t_door_metal_elocked" ],
+        "c": "t_concrete",
+        "d": "t_door_c",
+        "4": "t_gutter_downspout",
+        "|": "t_wall_w",
+        "<": "t_ladder_up",
+        "%": "t_door_c"
+      },
+      "toilets": { "U": {  } },
+      "furniture": {
+        "#": "f_chair",
+        "C": "f_counter",
+        "q": "f_counter",
+        "D": "f_dumpster",
+        "H": "f_sofa",
+        "T": "f_trashcan",
+        "X": "f_cardboard_box",
+        "^": [ "f_indoor_plant", "f_indoor_plant_y" ],
+        "f": "f_heavy_duty_fridge",
+        "(": "f_heavy_duty_freezer",
+        "o": "f_oven",
+        "p": "f_pool_table",
+        "r": "f_rack",
+        "t": "f_table",
+        "v": "f_vending_c",
+        "{": "f_locker",
+        "S": "f_sink"
+      },	
+	   "items": {
+		"{": [
+		  { "item": "stripclub_dirty", "chance": 60, "repeat": [ 2, 3 ] },
+		  { "item": "dresser_female", "chance": 4, "repeat": [ 1, 2 ] },
+		  { "item": "sex_lair", "chance": 70, "repeat": [ 2, 4 ] }
+		],
+		"H": [{ "item": "stripclub_dirty", "chance": 40, "repeat": [ 1, 2 ] }],
+		".": { "item": "stripclub_dirty", "chance": 5 }
+	  },
+
+      "place_items": [
+        { "chance": 65, "item": "vending_drink_items", "x": 15, "y": 5 },
+        { "chance": 45, "item": "dining", "x": 22, "y": 7 },
+        { "chance": 45, "item": "dining", "x": 18, "y": 4 },
+        { "chance": 55, "item": "fridge", "x": [ 21, 22 ], "y": 20 },
+        { "chance": 55, "item": "misc_smoking", "x": 7, "y": 22 },
+        { "chance": 10, "item": "magazines", "x": 1, "y": 22 },
+        { "chance": 10, "item": "magazines", "x": 11, "y": 19 },
+        { "chance": 45, "item": "trash", "x": [ 19, 20 ], "y": 22 },
+        { "chance": 55, "item": "pool_table", "x": [ 3, 4 ], "y": [ 5, 7 ] },
+        { "chance": 45, "item": "snacks", "x": 20, "y": [ 14, 15 ] },
+        { "chance": 35, "item": "softdrugs", "x": 9, "y": 19 },
+        { "chance": 10, "item": "cannedfood", "x": 14, "y": 19 },
+        { "chance": 10, "item": "cannedfood", "x": 13, "y": 19 },
+        { "chance": 15, "item": "kitchen", "x": [ 19, 20 ], "y": 17 },
+        { "chance": 15, "item": "vending_food_items", "x": 15, "y": 4 },
+        { "chance": 25, "item": "trash_cart", "x": 1, "y": 17 },
+        { "chance": 25, "item": "trash_cart", "x": 8, "y": 15 },
+        { "chance": 25, "item": "trash_cart", "x": 13, "y": 13 },
+        { "chance": 25, "item": "trash_cart", "x": 1, "y": 11 },
+        { "chance": 25, "item": "trash_cart", "x": 10, "y": 7 },
+        { "chance": 25, "item": "trash_cart", "x": 5, "y": 3 },
+        { "chance": 45, "item": "cannedfood", "x": 18, "y": 20 },
+        { "item": "cash_register_random", "x": 20, "y": [ 5, 7 ], "chance": 80 }
+      ],
+	  "place_monsters": [ { "monster": "GROUP_RAT_CPA", "x": [ 2, 22 ], "y": [ 4, 22 ], "density": 0.2 ,"repeat": [ 2, 3 ]}
+	  ,{ "monster": "GROUP_BAT_03_CPA", "x": 22, "y": 12}]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": "cpa_gambling_hall_01_roof",
+    "object": {
+      "fill_ter": "t_flat_roof",
+      "rows": [
+        "        ---------       ",
+        "        -.......-       ",
+        "---------.......--------",
+        "-......................-",
+        "-......................-",
+        "-......................-",
+        "-......................-",
+        "-......................-",
+        "-......................-",
+        "-......................-",
+        "-......................-",
+        "-......................-",
+        "-......................-",
+        "-......................-",
+        "-......................-",
+        "-......####+#####......-",
+        "-......#*******C#......-",
+        "-......#C*******#......-",
+        "-......#C*******#......-",
+        "-..&...#C*******#......-",
+        "-......#*******C#......-",
+        "-......#*******C#----5--",
+        "-..=...#*C***v**#       ",
+        "-------##########       "
+      ],
+      "palettes": [ "roof_palette" ],
+      "terrain": { "#": "t_wall_w", "+": "t_door_locked_alarm", "*": "t_concrete", "C": "t_concrete" },
+      "place_nested": [
+        {
+          "chunks": [
+            [ "null", 20 ],
+            [ "roof_2x2_utilities_b", 15 ],
+            [ "roof_2x2_utilities_c", 5 ],
+            [ "roof_2x2_utilities_d", 20 ],
+            [ "roof_2x2_utilities", 30 ],
+            [ "roof_2x2_golf", 10 ],
+            [ "roof_3x3_wine", 10 ]
+          ],
+          "x": [ 3, 15 ],
+          "y": 11
+        },
+        { "chunks": [ [ "null", 50 ], [ "roof_6x6_survivor", 50 ] ], "x": 9, "y": 16 },
+        { "chunks": [ [ "roof_16x16_help", 20 ], [ "null", 80 ] ], "x": 2, "y": 4 }
+      ]
+    }
+  },
+{
+	"type": "overmap_terrain",
+	"id": [ "cpa_gambling_hall_01" ],
+	"copy-from": "generic_city_building",
+	"name": "occupied gambling hall",
+	"sym": "r",
+	"color": "i_red"
+  },
+  {
+	"type": "overmap_terrain",
+	"id": [ "cpa_gambling_hall_01_roof" ],
+	"copy-from": "generic_city_building",
+	"name": "occupied gambling hall roof",
+	"sym": "r",
+	"color": "i_red"
+  },
+  {
+	"type": "city_building",
+	"id": "cpa_gambling_hall_01",
+	"locations": [ "land" ],
+	"overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "cpa_gambling_hall_01_north" }, { "point": [ 0, 0, 1 ], "overmap": "cpa_gambling_hall_01_roof_north" } ]
+  },
+  {
+	"//": "Pred nests in forest_water same freq as dermatik nest",
+	"type": "region_overlay",
+	"regions": [ "all" ],
+	"city": { "houses": { "cpa_gambling_hall_01": 13 } }
+  
+}
+]  

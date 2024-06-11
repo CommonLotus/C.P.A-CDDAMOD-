@@ -223,5 +223,31 @@
 		"description":"A furry tribe with a primitive lifestyle very bad tempered hey seem to understand human language, but if there are rats or zombies nearby, you may be attacked as well.",
 		"copy-from": "mon_Cute_P_Cat_01",
 		"aggro_character": false
-	}
+	},
+	{
+		"id":"mon_Cute_P_Bat_02",
+		"type":"MONSTER",
+		"name":{"str": "white bat"},
+		"description":"giant white bat girl Since he originally lived in a cave, he gets along well with rats.",
+		"copy-from": "mon_Cute_P_Rat_02",
+		"aggression":20,
+		"hp":300,
+		"vision_night":30,
+		"chat_topics": [ "TALK_CPA_RATMAID" ],
+		"melee_damage": [
+ 		 {
+ 	   "damage_type": "bash",
+		"amount": 6.0
+	}]
+},
+{
+	"id":"mon_Cute_P_Bat_03",
+	"type":"MONSTER",
+	"name":{"str": "white bat"},
+	"description":"giant white bat girl Since he originally lived in a cave, he gets along well with rats.",
+	"copy-from": "mon_Cute_P_Bat_02",
+	"chat_topics": [ "TALK_CPA_RATDOC" ]
+
+}
+
 ]

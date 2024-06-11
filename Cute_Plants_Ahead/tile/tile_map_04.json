@@ -9,7 +9,9 @@
 		{ "id": "mon_Cute_P_Cat_01", "fg":1, "rotates": false },
 		{ "id": "mon_Cute_P_Cat_02", "fg":2, "rotates": false },
 		{ "id": "mon_Cute_P_Cat_03", "fg":3, "rotates": false },
-		{ "id": "Cute_P_Magatama", "fg":20, "rotates": false }
+		{ "id": "Cute_P_Magatama", "fg":20, "rotates": false },
+		{ "id": "mon_Cute_P_Bat_02", "fg":41, "rotates": false },
+		{ "id": "mon_Cute_P_Bat_03", "fg":42, "rotates": false }
 		],
 		"sprite_width": 48,
 		"sprite_height": 96,
