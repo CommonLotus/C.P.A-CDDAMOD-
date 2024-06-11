@@ -272,7 +272,7 @@
         { "item": "television", "x": 7, "y": 13, "chance": 5 }
       ],
 	  "place_monsters": [ { "monster": "GROUP_RAT_CPA", "x": [ 2, 22 ], "y": [ 2, 22 ], "density": 0.1,"repeat": [ 2, 3 ]}
-	  ,{ "monster": "GROUP_BAT_02_CPA", "x": 12, "y": 15} ]
+	  ,{ "monster": "GROUP_BAT_02_CPA", "x": 12, "y": 15, "density": 0.04} ]
     
 	}
   },
@@ -467,7 +467,7 @@
         { "item": "cash_register_random", "x": 20, "y": [ 5, 7 ], "chance": 80 }
       ],
 	  "place_monsters": [ { "monster": "GROUP_RAT_CPA", "x": [ 2, 22 ], "y": [ 4, 22 ], "density": 0.2 ,"repeat": [ 2, 3 ]}
-	  ,{ "monster": "GROUP_BAT_03_CPA", "x": 22, "y": 12}]
+	  ,{ "monster": "GROUP_BAT_03_CPA", "x": 22, "y": 12, "density": 0.04}]
     }
   },
   {
