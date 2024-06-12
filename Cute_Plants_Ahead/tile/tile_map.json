@@ -1,7 +1,7 @@
 [
 		{
 		"type": "mod_tileset",
-    "compatibility": [ "MSX++DEAD_PEOPLE", "UNDEAD_PEOPLE", "UNDEAD_PEOPLE_BASE", "UltimateCataclysm", "UltimateCataclysmDemo", "Chibi_Ultica" ],
+    "compatibility": [ "MSX++DEAD_PEOPLE", "UNDEAD_PEOPLE", "UNDEAD_PEOPLE_BASE", "UltimateCataclysm", "UltimateCataclysmDemo", "Chibi_Ultica"],
     "tiles-new": [
 		{
 		"file": "Cute_Plants_01.png",
@@ -70,7 +70,11 @@
 		{ "id": "Cute_P_Swag_Bag", "fg":73, "rotates": false },
 		{ "id": "Cute_P_Fishing_Rod_Basic", "fg":74, "rotates": false },
 		{ "id": "Cute_P_Primitive_Shovel", "fg":75, "rotates": false },
-		{ "id": "Cute_P_Crossbow", "fg":76, "rotates": false }
+		{ "id": "Cute_P_Crossbow", "fg":76, "rotates": false },
+		{ "id": "cpa_f_kingstatue", "fg":81, "rotates": false },
+		{ "id": "cpa_f_woodenhorse", "fg":82, "rotates": false },
+		{ "id": "cpa_f_crucifixrestraint", "fg":83, "rotates": false },
+		{ "id": "cpa_f_candlestick", "fg":84, "rotates": false }
 		],
 		"sprite_width": 48,
 		"sprite_height": 96,

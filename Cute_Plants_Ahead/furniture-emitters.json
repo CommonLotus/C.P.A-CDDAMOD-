@@ -45,6 +45,71 @@
       "required_str":0,
       "flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE"],
       "bash":{"str_min":0,"str_max":0,"items":[{"group":"cpa_art_fabs"}]}
+    },
+    {
+      "type": "furniture",
+      "id": "cpa_f_kingstatue",
+      "name": "kingstatue",
+      "description": "A stone statue of a very great king, very shining.",
+      "symbol": "@",
+      "color": "brown",
+      "move_cost_mod": 0,
+      "coverage": 40,
+      "required_str": 8,
+      "flags": [ "PLACE_ITEM", "TRANSPARENT", "FLAMMABLE", "EASY_DECONSTRUCT" ],
+      "bash": {
+        "str_min": 9,
+        "str_max": 40,
+        "sound": "smash!",
+        "sound_fail": "whump.",
+        "items": [ { "item": "gold_small", "count": [ 4, 8 ] } ]
+      }
     }
-    
+    ,
+    {
+      "type": "furniture",
+      "id": "cpa_f_woodenhorse",
+      "name": "wooden horse",
+      "description": "I don't have anything to mention...it's embarrassing! !",
+      "symbol": "^",
+      "color": "brown",
+      "copy-from": "cpa_f_kingstatue",
+      "bash": {
+        "str_min": 9,
+        "str_max": 40,
+        "sound": "smash!",
+        "sound_fail": "whump.",
+      "items": [ { "item": "2x4", "count": [ 2, 4 ] } ]}
+      },
+      {
+        "type": "furniture",
+        "id": "cpa_f_crucifixrestraint",
+        "name": "crucifix restraint",
+        "description": "I don't have anything to mention...it's embarrassing! !",
+        "symbol": "+",
+        "color": "brown",
+        "copy-from": "cpa_f_kingstatue",
+        "bash": {
+          "str_min": 9,
+          "str_max": 40,
+          "sound": "smash!",
+          "sound_fail": "whump.",
+        "items": [ { "item": "2x4", "count": [ 2, 4 ] } ]}
+        },
+        {
+          "type": "furniture",
+          "id": "cpa_f_candlestick",
+          "name": "candlestick",
+          "description": "A candlestick being tended by mice",
+          "symbol": "|",
+          "color": "brown",
+          "light_emitted": 30,
+          "copy-from": "cpa_f_kingstatue",
+          "bash": {
+            "str_min": 9,
+            "str_max": 40,
+            "sound": "smash!",
+            "sound_fail": "whump.",
+          "items": [ { "item": "gold_small", "count": [ 2, 4 ] } ]}
+          }
 ]

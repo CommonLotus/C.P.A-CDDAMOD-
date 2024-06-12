@@ -247,7 +247,21 @@
 	"description":"giant white bat girl Since he originally lived in a cave, he gets along well with rats.",
 	"copy-from": "mon_Cute_P_Bat_02",
 	"chat_topics": [ "TALK_CPA_RATDOC" ]
-
+},
+{
+	"id":"mon_Cute_P_Cow_01",
+	"type":"MONSTER",
+	"name":{"str": "Cheese Cow"},
+	"description":"A very blessed cow who likes making cheese and playing",
+	"copy-from": "mon_Cute_P_Bat_02",
+	"chat_topics": [ "TALK_CPA_COW_01" ]
+},
+{
+	"id":"mon_Cute_P_Cow_02",
+	"type":"MONSTER",
+	"name":{"str": "Cheese Cow"},
+	"description":"A very blessed cow who likes making cheese and playing",
+	"copy-from": "mon_Cute_P_Cow_01",
+	"chat_topics": [ "TALK_CPA_COW_01" ]
 }
-
 ]

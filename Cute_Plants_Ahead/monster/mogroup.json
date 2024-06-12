@@ -14,6 +14,10 @@
 	"type":"monstergroup",
 	"name":"GROUP_BAT_03_CPA",
 	"monsters":[{ "monster": "mon_Cute_P_Bat_03", "weight": 100},{ "monster": "mon_Cute_P_Bat_03", "weight": 1}]
+},{
+	"type":"monstergroup",
+	"name":"GROUP_COW_CPA",
+	"monsters":[{ "monster": "mon_Cute_P_Cow_02", "weight": 100},{ "monster": "mon_Cute_P_Cow_01", "weight": 5}]
 },
   {
     "type": "monstergroup",

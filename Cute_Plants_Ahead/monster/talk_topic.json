@@ -506,5 +506,42 @@
     "type": "talk_topic",
     "dynamic_line": "Bye nya!!",
     "responses": [ { "text": "…", "topic": "TALK_DONE" } ]
+  },
+
+  {
+    "type": "talk_topic",
+    "id": "TALK_CPA_COW_01",
+    "dynamic_line": "Welcome, human. Would you like a drink?",
+    "responses": [ { "text": "what are you doing?", "topic": "TALK_CPA_COW_01_HELP_01" }, { "text": "What about you guys? ", "topic": "TALK_CPA_COW_01_HELP_02" }
+  ,{"text": "[3 Nesmidollar] *1 drink*",
+  "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "Cute_P_Ratdoller", "count": 3} } },
+  "success": {
+  "effect": [
+    { "u_spawn_item": "milk", "container": "bottle_plastic"},
+      { "u_consume_item": "Cute_P_Ratdoller", "count": 3}
+    ]
+  },
+  "failure": { "topic": "TALK_CPA_COW_01"}
+  },
+  { "text": "…", "topic": "TALK_CPA_COW_01_GOODBYE" }
+  ]
+  },
+    {
+    "type": "talk_topic",
+    "id": "TALK_CPA_COW_01_HELP_01",
+    "dynamic_line": "We provide fresh drinks every day. On my days off, hehe... that's a secret",
+    "responses": [ { "text": "…", "topic": "TALK_CPA_COW_01" } ]
+  },
+    {
+    "type": "talk_topic",
+    "id": "TALK_CPA_COW_01_HELP_02",
+    "dynamic_line": "With the help of the mice, they make cheese together, and it seems to be a big hit. They have even made some to present to the king",
+    "responses": [ { "text": "…", "topic": "TALK_CPA_COW_01" } ]
+  },
+  {
+    "id": "TALK_CPA_COW_01_GOODBYE",
+    "type": "talk_topic",
+    "dynamic_line": "Bye~!!",
+    "responses": [ { "text": "…", "topic": "TALK_DONE" } ]
   }
 ]
