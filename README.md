@@ -34,8 +34,21 @@ They have almost no effect, but if you can place them well, it will definitely i
 
 Update history
 
-2024　6/11
+2024　6/12
+v4.7 New buildings +3  (Tested on 2024-05-30-0626)
+New buildings +1
+love motel
 
+Monster +2
+cheese cow
+
+furniture+4
+
+king statue
+candlestick
+wooden horse
+crucifix restraint
+2024　6/11
 v4.6 New buildings +3  (Tested on 2024-05-30-0626)
 
 
