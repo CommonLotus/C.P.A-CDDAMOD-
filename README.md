@@ -34,6 +34,16 @@ They have almost no effect, but if you can place them well, it will definitely i
 
 Update history
 
+2024 6/13
+v4.8 (Tested on 2024-05-30-0626)
+New building +1
+love ryokan (spawn in the forest)
+New monster +2
+elegant fox
+shinobi tanuki
+New furniture +6
+I will omit the details, but they are all used for love ryokan.
+
 2024　6/12
 v4.7 (Tested on 2024-05-30-0626)
 New buildings +1
