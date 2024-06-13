@@ -46,13 +46,27 @@
 				  { "id": "unconnected", "fg": [ 31, 31 ] }
 				]
 			  },
+			  {
+				"id": "cpa_f_futon",
+				"multitile": true,
+				"fg": 48,
+				"additional_tiles": [
+				  { "id": "center", "fg": 48 },
+				  { "id": "corner", "fg": [ 50, 52, 51, 49 ] },
+				  { "id": "t_connection", "fg": [ 60, 62, 61, 59 ] },
+				  { "id": "edge", "fg": [ 54, 53 ] },
+				  { "id": "end_piece", "fg": [ 56, 58, 57, 55 ] },
+				  { "id": "unconnected", "fg": [ 63, 63 ] }
+				]
+			  },
 			  { "id": "Fake_Furn_Carpet_01", "fg":32, "rotates": false },
 			  { "id": "Fake_Furn_Carpet_02", "fg":33, "rotates": false },
 
 			  { "id": "Fake_Carpet_00", "fg":15, "rotates": false },
 			  { "id": "Fake_Carpet_01", "fg":32, "rotates": false },
 			  { "id": "Fake_Carpet_02", "fg":33, "rotates": false },
-			  { "id": "Fake_Carpet_03", "fg":16, "rotates": false }
+			  { "id": "Fake_Carpet_03", "fg":16, "rotates": false },
+			  { "id": "cpa_t_tatami", "fg":34, "rotates": false }
 			],
 		"sprite_width": 32,
 		"sprite_height": 32,

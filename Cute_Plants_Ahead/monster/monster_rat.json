@@ -36,7 +36,7 @@
 		"vision_night":15,
 		"death_function":{ "corpse_type": "NO_CORPSE", "message": "The %s fades away." },
 		"special_attacks": [ [ "EAT_FOOD", 60 ], [ "BROWSE", 50 ], [ "EAT_CARRION", 60 ] ],
-		"anger_triggers":["FRIEND_ATTACKED","SOUND"],
+		"anger_triggers":["FRIEND_ATTACKED"],
 		"aggro_character": false,
 		"fear_triggers":[ "HURT", "FRIEND_DIED","HOSTILE_SEEN" ],
 		"death_drops":{"subtype": "collection","items":[{ "prob": 100, "group": "cpa_rat", "count": 2}]},
@@ -58,7 +58,7 @@
 		"melee_dice_sides":2,
 		"speed":100,
 		"grab_strength": 25,
-		"anger_triggers":["HURT","FRIEND_ATTACKED","SOUND"],
+		"anger_triggers":["HURT","FRIEND_ATTACKED"],
 		"fear_triggers":[ "FRIEND_DIED"],
 		"special_attacks": [
 		{ "id": "grab", "cooldown": 21 },
@@ -129,7 +129,8 @@
 		],
 		"special_attacks": [ [ "SHOCKSTORM", 25 ] ],
 		"special_when_hit": [ "ZAPBACK", 100 ],
-    	"extend": { "flags": [ "ELECTRIC", "RANGED_ATTACKER" ] }
+    	"extend": { "flags": [ "ELECTRIC", "RANGED_ATTACKER" ] },
+		"chat_topics": [ "TALK_CPA_BASE_07" ]
 	},
 		{
 		"id":"mon_Cute_P_Rat_08",
@@ -163,7 +164,8 @@
 		}
 		],
 		"melee_skill":7,
-		"death_drops":{"subtype": "collection","items":[{ "prob": 100, "group": "cpa_rat", "count": 3},{ "prob": 100, "group": "cpa_rat_epicitem"}]}
+		"death_drops":{"subtype": "collection","items":[{ "prob": 100, "group": "cpa_rat", "count": 3},{ "prob": 100, "group": "cpa_rat_epicitem"}]},
+		"chat_topics": [ "TALK_CPA_BASE_09" ]
 	},{
 		"id":"mon_Cute_P_Rat_01_Ev",
 		"type":"MONSTER",
@@ -263,5 +265,21 @@
 	"description":"A very blessed cow who likes making cheese and playing",
 	"copy-from": "mon_Cute_P_Cow_01",
 	"chat_topics": [ "TALK_CPA_COW_01" ]
-}
+},
+{
+	"id":"mon_Cute_P_Kitune_01",
+	"type":"MONSTER",
+	"name":{"str": "elegant Kitune"},
+	"description":"A fox enjoying an inn Avoid rat meat",
+	"copy-from": "mon_Cute_P_Rat_02",
+	"aggression":20,
+	"vision_night":25},
+	{
+		"id":"mon_Cute_P_Tanuki_01",
+		"type":"MONSTER",
+		"name":{"str": "shinobi Tanuki"},
+		"description":"A ninja raccoon who has no intention of hiding anywhere",
+		"copy-from": "mon_Cute_P_Rat_02",
+		"aggression":20,
+		"vision_night":25}
 ]

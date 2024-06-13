@@ -74,7 +74,13 @@
 		{ "id": "cpa_f_kingstatue", "fg":81, "rotates": false },
 		{ "id": "cpa_f_woodenhorse", "fg":82, "rotates": false },
 		{ "id": "cpa_f_crucifixrestraint", "fg":83, "rotates": false },
-		{ "id": "cpa_f_candlestick", "fg":84, "rotates": false }
+		{ "id": "cpa_f_candlestick", "fg":84, "rotates": false },
+		{ "id": "cpa_f_andon", "fg":85, "rotates": false },
+		{ "id": "cpa_f_tourou", "fg":86, "rotates": false },
+		{ "id": "cpa_f_jizou", "fg":87, "rotates": false },
+		{ "id": "cpa_f_jpsine_01", "fg":88, "rotates": false },
+		{ "id": "cpa_f_noren", "fg":89, "rotates": false },
+		{ "id": "cpa_f_bonsai", "fg":90, "rotates": false }
 		],
 		"sprite_width": 48,
 		"sprite_height": 96,

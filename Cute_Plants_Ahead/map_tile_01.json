@@ -23,7 +23,8 @@
 		{ "id": "cpa_stripclub_01", "fg":0, "rotates": false },
 		{ "id": "cpa_sex_shop_01", "fg":0, "rotates": false },
 		{ "id": "cpa_gambling_hall_01", "fg":0, "rotates": false },
-		{ "id": "cpa_love_motel_01", "fg":0, "rotates": false }
+		{ "id": "cpa_love_motel_01", "fg":0, "rotates": false },
+		{ "id": "cpa_love_ryokan_01", "fg":0, "rotates": false }
 		
 		],
 		"sprite_width": 32,

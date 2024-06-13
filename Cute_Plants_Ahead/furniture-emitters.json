@@ -98,6 +98,18 @@
         },
         {
           "type": "furniture",
+          "id": "cpa_f_futon",
+          "name": "futon",
+          "description": "I don't have anything to mention...it's embarrassing! !",
+          "symbol": "b",
+          "color": "brown",
+          "copy-from": "f_bed",
+          "deconstruct": {
+            "items": [ { "item": "mattress", "count": 1 }]
+          }
+          },
+        {
+          "type": "furniture",
           "id": "cpa_f_candlestick",
           "name": "candlestick",
           "description": "A candlestick being tended by mice",
@@ -111,5 +123,107 @@
             "sound": "smash!",
             "sound_fail": "whump.",
           "items": [ { "item": "gold_small", "count": [ 2, 4 ] } ]}
-          }
+          },
+          {
+            "type": "furniture",
+            "id": "cpa_f_andon",
+            "name": "candlestick",
+            "description": "Lighting using paper that has been passed down since the Muromachi period",
+            "symbol": "|",
+            "color": "brown",
+            "light_emitted": 70,
+            "copy-from": "cpa_f_kingstatue",
+            "bash": {
+              "str_min": 9,
+              "str_max": 40,
+              "sound": "smash!",
+              "sound_fail": "whump.",
+            "items": [ { "item": "2x4", "count": [ 1, 2 ] } ]}
+            },
+            {
+              "type": "furniture",
+              "id": "cpa_f_tourou",
+              "name": "tourou",
+              "description": "Japanese stone lighting fixtures",
+              "symbol": "|",
+              "color": "brown",
+              "light_emitted": 30,
+              "copy-from": "cpa_f_kingstatue",
+              "bash": {
+                "str_min": 9,
+                "str_max": 40,
+                "sound": "smash!",
+                "sound_fail": "whump.",
+              "items": [ { "item": "rock", "count": [ 2, 4 ] } ]}
+              },
+              {
+                "type": "furniture",
+                "id": "cpa_f_jizou",
+                "name": "jizou",
+                "description": "Japanese religious stone statues Let's stop destroying it",
+                "symbol": "|",
+                "color": "brown",
+                "copy-from": "cpa_f_kingstatue",
+                "bash": {
+                  "str_min": 9,
+                  "str_max": 40,
+                  "sound": "smash!",
+                  "sound_fail": "whump.",
+                "items": [ { "item": "rock", "count": [ 2, 4 ] } ]}
+                },
+                {
+                  "type": "furniture",
+                  "id": "cpa_f_jpsine_01",
+                  "name": "electric signboard",
+                  "description": "Shining signboards like those in downtown Japan",
+                  "symbol": "|",
+                  "color": "brown",
+                  "light_emitted": 30,
+                  "copy-from": "cpa_f_kingstatue",
+                  "bash": {
+                    "str_min": 9,
+                    "str_max": 40,
+                    "sound": "smash!",
+                    "sound_fail": "whump.",
+                  "items": [ { "item": "scrap", "count": [ 2, 4 ] } ]}
+                  },
+          {
+            "type": "terrain",
+            "id": "cpa_t_tatami",
+            "name": "tatami",
+            "description": "A flooring material that is comfortable to sit on and represents the soul of Japan",
+            "symbol": "-",
+            "color": "brown",
+            "copy-from": "t_floor"
+            },
+            {
+              "type": "furniture",
+              "id": "cpa_f_noren",
+              "name": "noren",
+              "description": "Cloth used as a door since ancient times",
+              "symbol": "d",
+              "color": "brown",
+              "copy-from": "cpa_f_kingstatue",
+              "bash": {
+                "str_min": 9,
+                "str_max": 40,
+                "sound": "smash!",
+                "sound_fail": "whump.",
+              "items": [ { "item": "2x4", "count": [ 1, 2 ] } ]}
+              },
+              {
+                "type": "furniture",
+                "id": "cpa_f_bonsai",
+                "name": "bonsai",
+                "description": "The shape of Japanese ornamental plants, mainly pine trees",
+                "symbol": "m",
+                "color": "brown",
+                "copy-from": "cpa_f_kingstatue",
+                "bash": {
+                  "str_min": 9,
+                  "str_max": 40,
+                  "sound": "smash!",
+                  "sound_fail": "whump.",
+                "items": [ { "item": "2x4", "count": [ 1, 2 ] } ]}
+                }
 ]

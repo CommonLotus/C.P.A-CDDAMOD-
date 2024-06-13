@@ -446,19 +446,19 @@
     "id": "TALK_CPA_BASE_09",
     "type": "talk_topic",
     "dynamic_line": "HumanIsn't it kind of small?",
-    "responses":[ { "text": "You're huge", "topic": "TALK_CPA_07_HELP_09" },{ "text": "What are you doing? ", "topic": "TALK_CPA_09_HELP_02" },{ "text": "…", "topic": "TALK_DONE" } ]
+    "responses":[ { "text": "You're huge", "topic": "TALK_CPA_09_HELP_01" },{ "text": "What are you doing? ", "topic": "TALK_CPA_09_HELP_02" },{ "text": "…", "topic": "TALK_DONE" } ]
     },
     {
     "type": "talk_topic",
-    "id": "TALK_CPA_07_HELP_09",
+    "id": "TALK_CPA_09_HELP_01",
     "dynamic_line": "Ah that's certainly true you're so smart",
     "responses": [ { "text": "Ahem", "topic": "TALK_CPA_BASE_09" } ]
   },
     {
     "type": "talk_topic",
-    "id": "TALK_CPA_07_HELP_09",
+    "id": "TALK_CPA_09_HELP_02",
     "dynamic_line": "I crushed all the hot and bothersome people every day, so I got a star! ! \nI lost my respect for once But I can see the light! !",
-    "responses": [ { "text": "Good luck…", "topic": "TALK_CPA_BASE_07" } ]
+    "responses": [ { "text": "Good luck…", "topic": "TALK_CPA_BASE_09" } ]
   },
 
   {

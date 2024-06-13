@@ -13,8 +13,11 @@
 		{ "id": "mon_Cute_P_Bat_02", "fg":41, "rotates": false },
 		{ "id": "mon_Cute_P_Bat_03", "fg":42, "rotates": false },
 		{ "id": "mon_Cute_P_Cow_01", "fg":43, "rotates": false },
-		{ "id": "mon_Cute_P_Cow_02", "fg":44, "rotates": false }
-		],
+		{ "id": "mon_Cute_P_Cow_02", "fg":44, "rotates": false },
+
+		{ "id": "mon_Cute_P_Kitune_01", "fg":60, "rotates": false },
+		{ "id": "mon_Cute_P_Tanuki_01", "fg":61, "rotates": false }
+	],
 		"sprite_width": 48,
 		"sprite_height": 96,
 		"sprite_offset_x": -8,

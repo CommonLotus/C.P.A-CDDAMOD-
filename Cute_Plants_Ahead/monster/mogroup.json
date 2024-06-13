@@ -17,7 +17,16 @@
 },{
 	"type":"monstergroup",
 	"name":"GROUP_COW_CPA",
-	"monsters":[{ "monster": "mon_Cute_P_Cow_02", "weight": 100},{ "monster": "mon_Cute_P_Cow_01", "weight": 5}]
+	"monsters":[{ "monster": "mon_Cute_P_Cow_02", "weight": 100},{ "monster": "mon_Cute_P_Cow_02", "weight": 5}]
+},{
+	"type":"monstergroup",
+	"name":"GROUP_YOKAI_CPA",
+	"monsters":[{ "monster": "mon_Cute_P_Kitune_01", "weight": 100},{ "monster": "mon_Cute_P_Tanuki_01", "weight": 100}]
+},
+{
+	"type":"monstergroup",
+	"name":"GROUP_COW_01_CPA",
+	"monsters":[{ "monster": "mon_Cute_P_Cow_01", "weight": 100},{ "monster": "mon_Cute_P_Cow_01", "weight": 5}]
 },
   {
     "type": "monstergroup",
