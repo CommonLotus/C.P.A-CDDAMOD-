@@ -34,6 +34,12 @@ They have almost no effect, but if you can place them well, it will definitely i
 
 Update history
 
+New bu2024 6/14
+v5.0 (Tested on 2024-05-30-0626)
+buildings +2 (enemy monsters will appear, but you can get ninjutsu and swords)
+Japanese heritage items +5
+Added unreasonable boss oni
+
 2024 6/13
 v4.8 (Tested on 2024-05-30-0626)
 New building +1
