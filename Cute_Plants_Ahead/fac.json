@@ -2,19 +2,27 @@
   {
     "type": "MONSTER_FACTION",
     "name": "rattrader",
-    "hate": [ "zombie", "fungus","cat","big_cat" ],
+    "hate": [ "zombie", "fungus","cat","big_cat"],
     "neutral": [ "robofac_spy", "passive_machine" ],
     "friendly":[ "player", "human","rat" ],
-    "by_mood": [ "ratkin" ]
+    "by_mood": [ "ratkin","cpa_cat","cpa_oni" ]
   },
 
 
   {
     "type": "MONSTER_FACTION",
     "name": "cpa_cat",
-    "hate": [ "zombie", "fungus","rat" ],
+    "hate": [ "zombie", "fungus","rat", "rattrader","cpa_oni"],
     "neutral": [ "robofac_spy", "passive_machine" ],
     "friendly":[ "cat" ],
     "by_mood": [ "player", "human" ,"big_cat"]
+  },
+
+  {
+    "type": "MONSTER_FACTION",
+    "name": "cpa_oni",
+    "hate": [ "zombie", "fungus","rat","rattrader", "cpa_cat"],
+    "neutral": [ "robofac_spy", "passive_machine" ],
+    "by_mood": [ "player", "human" ]
   }
 ]

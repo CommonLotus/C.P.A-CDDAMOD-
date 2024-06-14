@@ -1,0 +1,22 @@
+[
+
+	{
+	  "type": "mod_tileset", 
+	  "compatibility": [ "MSX++DEAD_PEOPLE", "UNDEAD_PEOPLE", "UNDEAD_PEOPLE_BASE", "UltimateCataclysm", "UltimateCataclysmDemo", "Chibi_Ultica" ],
+  "tiles-new": [
+	  {
+	  "file": "tile/big_tile.png",
+	  "tiles": [
+	  { "id": "cpa_f_torii_01", "fg":0, "rotates": false },
+	  { "id": "cpa_f_torii_02", "fg":1, "rotates": false }
+
+
+  ],
+  "sprite_width": 128,
+  "sprite_height": 128,
+  "sprite_offset_x": 0,
+  "sprite_offset_y": 0
+			}
+		  ]
+		}
+			 ]

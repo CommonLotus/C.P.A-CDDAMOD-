@@ -543,5 +543,13 @@
     "type": "talk_topic",
     "dynamic_line": "Bye~!!",
     "responses": [ { "text": "…", "topic": "TALK_DONE" } ]
+  },
+  {
+    "id": "TALK_CPA_ONI_01",
+    "type": "talk_topic",
+    "dynamic_line": "The treasures of this land are mine! ! Anyone who gets in the way will be punished in the end! !",
+    "responses": [ { "text": "…", "topic": "TALK_DONE" } ]
   }
+  
+
 ]

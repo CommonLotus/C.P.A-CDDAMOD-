@@ -1,10 +1,44 @@
 [
   {
+    "id": "cpa_rice",
+    "type": "item_group",
+    "items": [
+      { "item": "dry_rice", "count": [ 100, 50], "prob": 5 },
+      { "item": "dry_rice", "prob": 100, "count": [30, 10] }
+    ]
+  },
+  {
+    "id": "cpa_jp_legacyitem",
+    "type": "item_group",
+    "items": [
+      { "item": "Cute_P_Haniwa", "prob": 100 },
+      { "item": "Cute_P_Doguu", "prob": 100},
+      { "item": "Cute_P_Jomonpottery", "prob": 100 },
+      { "item": "Cute_P_Bronzemirror", "prob": 100},
+      { "item": "Cute_P_Kofunbronzesword", "prob": 100}
+    ]
+  },
+  {
+    "id": "cpa_human_meat",
+    "type": "item_group",
+    "items": [
+      { "item": "bone_human", "count": [ 1, 2], "prob": 100 },
+      { "item": "human_flesh", "prob": 100 },
+      { "item": "hstomach", "prob": 30 }
+    ]
+  },
+  {
     "id": "cpa_ratdoller",
     "type": "item_group",
     "items": [{ "item": "Cute_P_Ratdoller", "prob": 30, "count": 2 },{ "item": "Cute_P_Ratdoller", "prob": 80 },{ "item": "Cute_P_Ratdoller", "prob": 30 },{ "item": "Cute_P_Ratdoller", "prob": 10, "count": 3 } ]
   } ,
-
+  {
+    "id": "cpa_jinjya",
+    "type": "item_group",
+    "subtype": "collection",
+    "items": [{ "item": "Cute_P_Magatama", "prob": 50},{ "item": "manual_ninjutsu", "prob": 2},{ "item": "katana", "prob": 2}
+    ,{ "item": "textbook_weapeast", "prob": 5},{ "item": "textbook_armeast", "prob": 5},{ "item": "helmet_kabuto", "prob": 2}]
+  },
 {
   "id": "cpa_cat",
   "type": "item_group",

@@ -353,5 +353,43 @@
 		"copy-from":"Cute_P_Art_Fab_01",
 		"name":"sewing doll (Tatsujin)",
 		"price_postapoc": "10 USD"
-	}
+	},
+	{
+		"id":"Cute_P_Haniwa",
+		"type":"TOOL",
+		"copy-from":"Fake_Furn_base",
+		"weight":"3500 g",
+		"volume":"2050 ml",
+		"material":[ "clay" ],
+		"name":"Haniwa",
+		"description": "These items have supported Japanese civilization since ancient times, and Japanese people remember these names when learning history for the first time.",
+		"price_postapoc": "3 USD"
+	},
+	{
+		"id":"Cute_P_Doguu",
+		"type":"TOOL",
+		"copy-from":"Cute_P_Haniwa",
+		"name":"Doguu"
+	},
+	{
+		"id":"Cute_P_Jomonpottery",
+		"type":"TOOL",
+		"copy-from":"Cute_P_Haniwa",
+		"name":"Jomon pottery"
+	},
+	{
+		"id":"Cute_P_Bronzemirror",
+		"type":"TOOL",
+		"copy-from":"Fake_Furn_base",
+		"weight":"5000 g",
+		"volume":"4050 ml",
+		"material":[ "bronze" ],
+		"name":"Bronze mirror",
+		"price_postapoc": "3 USD"
+	},
+	{
+		"id":"Cute_P_Kofunbronzesword",
+		"type":"TOOL",
+		"copy-from":"Cute_P_Haniwa",
+		"name":" Kofun period Bronze sword"}
 ]

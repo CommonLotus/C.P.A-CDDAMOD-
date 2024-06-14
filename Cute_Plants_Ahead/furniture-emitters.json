@@ -225,5 +225,35 @@
                   "sound": "smash!",
                   "sound_fail": "whump.",
                 "items": [ { "item": "2x4", "count": [ 1, 2 ] } ]}
-                }
+                },
+                {
+                  "type": "furniture",
+                  "id": "cpa_f_torii_01",
+                  "name": "bonsai",
+                  "description": "The shape of Japanese ornamental plants, mainly pine trees",
+                  "symbol": "m",
+                  "color": "brown",
+                  "copy-from": "cpa_f_kingstatue",
+                  "bash": {
+                    "str_min": 9,
+                    "str_max": 40,
+                    "sound": "smash!",
+                    "sound_fail": "whump.",
+                  "items": [ { "item": "2x4", "count": [ 1, 2 ] } ]}
+                  },
+                  {
+                    "type": "furniture",
+                    "id": "cpa_f_torii_02",
+                    "name": "bonsai",
+                    "description": "The shape of Japanese ornamental plants, mainly pine trees",
+                    "symbol": "m",
+                    "color": "brown",
+                    "copy-from": "cpa_f_kingstatue",
+                    "bash": {
+                      "str_min": 9,
+                      "str_max": 40,
+                      "sound": "smash!",
+                      "sound_fail": "whump.",
+                    "items": [ { "item": "2x4", "count": [ 1, 2 ] } ]}
+                    }
 ]

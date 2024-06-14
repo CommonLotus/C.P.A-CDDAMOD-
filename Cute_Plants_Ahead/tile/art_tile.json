@@ -24,7 +24,14 @@
 	  { "id": "Cute_P_Art_01", "fg":40, "rotates": false },
 	  { "id": "Cute_P_Art_02", "fg":40, "rotates": false },
 	  { "id": "cpa_art_furn_01", "fg":40, "rotates": false },
-	  { "id": "cpa_art_furn_02", "fg":40, "rotates": false }
+	  { "id": "cpa_art_furn_02", "fg":40, "rotates": false },
+	  { "id": "Cute_P_Haniwa", "fg":60, "rotates": false },
+	  { "id": "Cute_P_Doguu", "fg":61, "rotates": false },
+	  { "id": "Cute_P_Jomonpottery", "fg":62, "rotates": false },
+	  { "id": "Cute_P_Bronzemirror", "fg":63, "rotates": false },
+	  { "id": "Cute_P_Kofunbronzesword", "fg":64, "rotates": false }
+
+
 
   ],
   "sprite_width": 48,
